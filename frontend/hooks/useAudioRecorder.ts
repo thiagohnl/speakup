@@ -7,6 +7,7 @@ interface UseAudioRecorderReturn {
   duration: number;
   audioBlob: Blob | null;
   audioUrl: string | null;
+  error: string | null;
   startRecording: () => Promise<void>;
   stopRecording: () => void;
   reset: () => void;
@@ -18,6 +19,7 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
   const [duration, setDuration] = useState(0);
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
@@ -42,8 +44,15 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
   const startRecording = useCallback(async () => {
     chunksRef.current = [];
     setDuration(0);
+    setError(null);
 
-    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    let stream: MediaStream;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    } catch (err) {
+      setError('Microphone access denied. Please allow microphone permissions and try again.');
+      return;
+    }
     streamRef.current = stream;
 
     // Prefer webm opus, fallback to webm, then mp4
@@ -62,12 +71,17 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
 
     recorder.onstop = () => {
       const blob = new Blob(chunksRef.current, { type: mimeType });
+      if (blob.size === 0) {
+        setError('Recording captured no audio. Check your microphone is not muted.');
+        cleanup();
+        return;
+      }
       setAudioBlob(blob);
       setAudioUrl(URL.createObjectURL(blob));
       cleanup();
     };
 
-    recorder.start(100);
+    recorder.start();
     setIsRecording(true);
 
     timerRef.current = setInterval(() => {
@@ -89,6 +103,7 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
     setAudioBlob(null);
     if (audioUrl) URL.revokeObjectURL(audioUrl);
     setAudioUrl(null);
+    setError(null);
     chunksRef.current = [];
     mediaRecorderRef.current = null;
   }, [audioUrl, cleanup]);
@@ -104,6 +119,7 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
     duration,
     audioBlob,
     audioUrl,
+    error,
     startRecording,
     stopRecording,
     reset,

@@ -30,6 +30,7 @@ export default function ReviewPage() {
     duration,
     audioBlob,
     audioUrl,
+    error: recorderError,
     startRecording,
     stopRecording,
     reset: resetRecorder,
@@ -185,9 +186,9 @@ export default function ReviewPage() {
             </div>
           )}
 
-          {error && (
+          {(error || recorderError) && (
             <div className="rounded-xl border border-red-500/30 bg-red-500/10 p-4 text-sm text-red-400">
-              {error}
+              {error || recorderError}
               <button
                 onClick={handleAnalyse}
                 className="mt-2 block text-teal underline"

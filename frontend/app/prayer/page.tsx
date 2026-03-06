@@ -157,8 +157,8 @@ function ScenarioTab() {
           <audio src={recorder.audioUrl} controls className="w-full" />
         )}
 
-        {error && (
-          <p className="text-sm text-red-400">{error}</p>
+        {(error || recorder.error) && (
+          <p className="text-sm text-red-400">{error || recorder.error}</p>
         )}
 
         <button
@@ -303,7 +303,7 @@ function RecordingTab() {
           </div>
         )}
 
-        {error && <p className="text-sm text-red-400">{error}</p>}
+        {(error || recorder.error) && <p className="text-sm text-red-400">{error || recorder.error}</p>}
       </div>
     );
   }
