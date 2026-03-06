@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-navy: #0A0F1E;
+  --accent-teal: #00E5CC;
+  --accent-gold: #C9922A;
+  --warning-amber: #F59E0B;
+  --success-green: #22C55E;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-navy);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
