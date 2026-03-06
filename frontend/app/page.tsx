@@ -1,6 +1,6 @@
 'use client';
 
-import { Mic, Upload, BookOpen, HandMetal, ChevronDown } from 'lucide-react';
+import { Mic, Upload, BookOpen, HandHeart, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 import ModeCard from '@/components/ModeCard';
 
@@ -73,7 +73,7 @@ export default function Home() {
         <ModeCard
           title="Prayer Mode"
           description="Practice church speaking with confidence"
-          icon={HandMetal}
+          icon={HandHeart}
           color="#C9922A"
           href="/prayer"
         />

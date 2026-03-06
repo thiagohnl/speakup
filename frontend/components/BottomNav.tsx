@@ -2,13 +2,14 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Mic, Upload, BookOpen, HandMetal } from 'lucide-react';
+import { Home, Mic, Upload, BookOpen, HandHeart } from 'lucide-react';
 
 const NAV_ITEMS = [
+  { href: '/', icon: Home, label: 'Home', activeColor: '#00E5CC' },
   { href: '/live', icon: Mic, label: 'Live', activeColor: '#00E5CC' },
   { href: '/review', icon: Upload, label: 'Review', activeColor: '#00E5CC' },
   { href: '/tips', icon: BookOpen, label: 'Tips', activeColor: '#00E5CC' },
-  { href: '/prayer', icon: HandMetal, label: 'Prayer', activeColor: '#C9922A' },
+  { href: '/prayer', icon: HandHeart, label: 'Prayer', activeColor: '#C9922A' },
 ];
 
 export default function BottomNav() {
