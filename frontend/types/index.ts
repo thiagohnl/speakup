@@ -65,3 +65,97 @@ export interface MiniScore {
   tip: string;
   praise: string;
 }
+
+export interface KeyPhrase {
+  id: string;
+  phrase: string;
+  context: string;
+  topic: string;
+  when_to_use?: string;
+  video_id?: string;
+}
+
+export interface VocabularyItem {
+  id: string;
+  word: string;
+  meaning: string;
+  example_sentence: string;
+  topic: string;
+  video_id?: string;
+}
+
+export interface Framework {
+  name: string;
+  steps: string[];
+  topic: string;
+  video_id?: string;
+}
+
+export interface Principle {
+  title: string;
+  explanation: string;
+  topic: string;
+  video_id?: string;
+}
+
+export interface ExampleSentence {
+  situation: string;
+  sentence: string;
+  topic: string;
+  video_id?: string;
+}
+
+export interface SentenceVersion {
+  level: 'Simple' | 'Clear' | 'Confident' | 'Polished' | 'Powerful';
+  sentence: string;
+  note: string;
+}
+
+export interface VocabularyUpgrade {
+  theyUsed: string;
+  tryInstead: string;
+  source: string;
+}
+
+export interface ContextProgress {
+  phrasesLearned: number;
+  totalPhrases: number;
+  lastPracticed: string;
+}
+
+export interface TodayTask {
+  label: string;
+  target: string;
+  description: string;
+}
+
+export interface WeekDay {
+  day: string;
+  task: string;
+  target: string;
+}
+
+export interface CoachPlan {
+  todayTask: TodayTask;
+  weekPlan: WeekDay[];
+  generatedAt: string;
+}
+
+export interface RecentActivity {
+  action: string;
+  target: string;
+  timestamp: string;
+}
+
+export interface UserProgress {
+  streak: number;
+  lastActiveDate: string;
+  learnedPhrases: string[];
+  savedPhrases: string[];
+  learnedVocab: string[];
+  practiceSessionsCount: number;
+  prayerSessionsCount: number;
+  contextProgress: Record<string, ContextProgress>;
+  currentPlan: CoachPlan | null;
+  recentActivity: RecentActivity[];
+}

@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, useRef, useEffect } from 'react';
-import { Mic, Loader2, Upload, Search } from 'lucide-react';
+import { useState, useRef } from 'react';
+import { Mic, Loader2, Upload } from 'lucide-react';
 import { useAudioRecorder } from '@/hooks/useAudioRecorder';
 import PrayerScoreCard from '@/components/PrayerScoreCard';
 import PhraseBank from '@/components/PhraseBank';
-import TipCard from '@/components/TipCard';
 import { PRAYER_SCENARIOS } from '@/lib/prayerScenarios';
-import { PrayerMetrics, PrayerScenario, YouTubeVideo } from '@/types';
+import { incrementPrayerCount } from '@/lib/userProgress';
+import { PrayerMetrics, PrayerScenario } from '@/types';
 
 type Tab = 'scenario' | 'recording' | 'tips' | 'phrases';
 type ScenarioPhase = 'select' | 'practice' | 'analysing' | 'results';
@@ -16,11 +16,10 @@ type RecordingPhase = 'select' | 'record' | 'analysing' | 'results';
 const TABS: { id: Tab; label: string }[] = [
   { id: 'scenario', label: 'Scenario' },
   { id: 'recording', label: 'Recording' },
-  { id: 'tips', label: 'Tips' },
   { id: 'phrases', label: 'Phrase Bank' },
+  { id: 'tips', label: 'Tips' },
 ];
 
-const PRAYER_PILLS = ['Opening Prayer', 'Closing Prayer', 'Intercession', 'Announcements', 'Confidence'];
 
 function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60).toString().padStart(2, '0');
@@ -76,6 +75,7 @@ function ScenarioTab() {
 
       const result: PrayerMetrics = await res.json();
       setMetrics(result);
+      incrementPrayerCount();
       setPhase('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong');
@@ -220,6 +220,7 @@ function RecordingTab() {
 
       const result: PrayerMetrics = await analyseRes.json();
       setMetrics(result);
+      incrementPrayerCount();
       setPhase('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Something went wrong');
@@ -324,77 +325,37 @@ function RecordingTab() {
   return null;
 }
 
-// --- Tips Tab ---
+// --- Tips Tab (static — drawn from prayerScenarios tips) ---
 function TipsTab() {
-  const [videos, setVideos] = useState<YouTubeVideo[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState('');
-
-  const fetchVideos = async (query: string) => {
-    setLoading(true);
-    try {
-      const res = await fetch(`/api/youtube?query=${encodeURIComponent(query)}`);
-      if (res.ok) {
-        const data = await res.json();
-        setVideos(Array.isArray(data) ? data : []);
-      }
-    } catch { /* silent */ }
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    fetchVideos('how to pray in public church');
-  }, []);
+  const [selected, setSelected] = useState(PRAYER_SCENARIOS[0].id);
+  const scenario = PRAYER_SCENARIOS.find(s => s.id === selected) ?? PRAYER_SCENARIOS[0];
 
   return (
     <div className="space-y-4">
-      <form onSubmit={e => { e.preventDefault(); if (searchQuery.trim()) fetchVideos(searchQuery); }} className="flex gap-2">
-        <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-text-secondary" />
-          <input
-            type="text"
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-            placeholder="Search prayer tips..."
-            className="w-full min-h-[48px] rounded-xl border border-white/10 bg-white/5 pl-10 pr-4 text-text-primary placeholder:text-text-secondary focus:border-gold focus:outline-none"
-          />
-        </div>
-        <button type="submit" className="min-h-[48px] rounded-xl bg-gold px-5 font-semibold text-navy transition-transform active:scale-95">
-          Search
-        </button>
-      </form>
+      <select
+        value={selected}
+        onChange={e => setSelected(e.target.value)}
+        className="w-full min-h-[48px] rounded-xl border border-white/10 bg-white/5 px-4 text-text-primary focus:border-gold focus:outline-none"
+      >
+        {PRAYER_SCENARIOS.map(s => (
+          <option key={s.id} value={s.id}>{s.label}</option>
+        ))}
+      </select>
 
-      <div className="flex gap-2 overflow-x-auto pb-2">
-        {PRAYER_PILLS.map(pill => (
-          <button
-            key={pill}
-            onClick={() => { setSearchQuery(pill); fetchVideos(pill); }}
-            className="whitespace-nowrap rounded-full border border-gold/20 bg-gold/5 px-4 py-2 text-xs font-medium text-gold transition-transform active:scale-95"
-          >
-            {pill}
-          </button>
+      <div className="space-y-3">
+        {scenario.tips.map((tip, i) => (
+          <div key={i} className="flex gap-3 rounded-xl border border-gold/10 bg-gold/5 p-4">
+            <span className="flex-shrink-0 flex h-6 w-6 items-center justify-center rounded-full bg-gold/20 text-xs font-bold text-gold">
+              {i + 1}
+            </span>
+            <p className="text-sm text-text-primary">{tip}</p>
+          </div>
         ))}
       </div>
 
-      {loading ? (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {Array.from({ length: 6 }).map((_, i) => (
-            <div key={i} className="animate-pulse rounded-xl border border-white/10 bg-white/5">
-              <div className="aspect-video bg-white/10" />
-              <div className="space-y-2 p-3">
-                <div className="h-4 rounded bg-white/10" />
-                <div className="h-3 w-2/3 rounded bg-white/10" />
-              </div>
-            </div>
-          ))}
-        </div>
-      ) : videos.length > 0 ? (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-          {videos.map(v => <TipCard key={v.id} video={v} />)}
-        </div>
-      ) : (
-        <p className="text-center text-text-secondary">No videos found.</p>
-      )}
+      <p className="text-center text-xs text-text-secondary pt-2">
+        Based on Vinh Giang&apos;s public speaking principles
+      </p>
     </div>
   );
 }
@@ -429,8 +390,8 @@ export default function PrayerPage() {
       <div className="mt-6 pb-8">
         {tab === 'scenario' && <ScenarioTab />}
         {tab === 'recording' && <RecordingTab />}
+        {tab === 'phrases' && <PhraseBank mode="prayer" />}
         {tab === 'tips' && <TipsTab />}
-        {tab === 'phrases' && <PhraseBank />}
       </div>
     </div>
   );

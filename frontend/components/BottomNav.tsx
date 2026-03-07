@@ -2,13 +2,12 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Home, Mic, Upload, BookOpen, HandHeart } from 'lucide-react';
+import { Home, BookOpen, Mic, HandHeart } from 'lucide-react';
 
 const NAV_ITEMS = [
   { href: '/', icon: Home, label: 'Home', activeColor: '#00E5CC' },
-  { href: '/live', icon: Mic, label: 'Live', activeColor: '#00E5CC' },
-  { href: '/review', icon: Upload, label: 'Review', activeColor: '#00E5CC' },
-  { href: '/tips', icon: BookOpen, label: 'Tips', activeColor: '#00E5CC' },
+  { href: '/learn', icon: BookOpen, label: 'Learn', activeColor: '#00E5CC' },
+  { href: '/practice', icon: Mic, label: 'Practice', activeColor: '#00E5CC' },
   { href: '/prayer', icon: HandHeart, label: 'Prayer', activeColor: '#C9922A' },
 ];
 
@@ -19,7 +18,7 @@ export default function BottomNav() {
     <nav className="fixed bottom-0 left-0 right-0 z-50 border-t border-white/10 bg-navy/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-lg items-center justify-around py-2">
         {NAV_ITEMS.map(({ href, icon: Icon, label, activeColor }) => {
-          const isActive = pathname === href;
+          const isActive = href === '/' ? pathname === '/' : pathname.startsWith(href);
           const color = isActive ? activeColor : '#94A3B8';
           return (
             <Link

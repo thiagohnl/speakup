@@ -2,8 +2,10 @@
 
 import { useState } from 'react';
 import { ChevronDown, ChevronUp, Copy, Check } from 'lucide-react';
+import { getPhrasesByTopic, getVocabularyByTopic } from '@/lib/contentLibrary';
 
-const SECTIONS = [
+// Hardcoded fallback phrases for prayer mode (used when pipeline data is empty)
+const PRAYER_FALLBACK_SECTIONS = [
   {
     title: 'Opening Addresses',
     phrases: [
@@ -46,6 +48,14 @@ const SECTIONS = [
   },
 ];
 
+const GENERAL_TABS = [
+  { key: 'confidence', label: 'Confidence' },
+  { key: 'storytelling', label: 'Storytelling' },
+  { key: 'vocal_variety', label: 'Vocal Variety' },
+  { key: 'presence', label: 'Presence' },
+  { key: 'structure', label: 'Structure' },
+];
+
 function CopyButton({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
 
@@ -53,7 +63,6 @@ function CopyButton({ text }: { text: string }) {
     try {
       await navigator.clipboard.writeText(text);
     } catch {
-      // Fallback for older browsers
       const textarea = document.createElement('textarea');
       textarea.value = text;
       textarea.style.position = 'fixed';
@@ -78,13 +87,63 @@ function CopyButton({ text }: { text: string }) {
   );
 }
 
-export default function PhraseBank() {
-  const [openSections, setOpenSections] = useState<Record<string, boolean>>({});
+function PhraseList({ phrases }: { phrases: string[] }) {
+  return (
+    <>
+      {phrases.map((phrase, i) => (
+        <div key={i} className="flex items-center justify-between gap-2 py-2">
+          <p className="text-sm text-text-primary italic">&ldquo;{phrase}&rdquo;</p>
+          <CopyButton text={phrase} />
+        </div>
+      ))}
+    </>
+  );
+}
 
-  const toggle = (title: string) => {
-    setOpenSections(prev => ({ ...prev, [title]: !prev[title] }));
-  };
+function CollapsibleSection({ title, phrases }: { title: string; phrases: string[] }) {
+  const [isOpen, setIsOpen] = useState(false);
+  return (
+    <div className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
+      <button
+        onClick={() => setIsOpen(v => !v)}
+        className="flex w-full min-h-[48px] items-center justify-between px-4 py-3 text-left"
+      >
+        <span className="text-sm font-semibold text-text-primary">{title}</span>
+        {isOpen
+          ? <ChevronUp className="h-4 w-4 text-text-secondary" />
+          : <ChevronDown className="h-4 w-4 text-text-secondary" />}
+      </button>
+      {isOpen && (
+        <div className="border-t border-white/10 px-4 py-2">
+          <PhraseList phrases={phrases} />
+        </div>
+      )}
+    </div>
+  );
+}
 
+// Prayer tab: uses pipeline data if available, falls back to hardcoded
+function PrayerTab() {
+  const prayerPhrases = getPhrasesByTopic('prayer_speaking');
+
+  if (prayerPhrases.length > 0) {
+    return (
+      <div className="space-y-3">
+        <div className="rounded-xl border border-gold/20 bg-gold/5 px-4 py-3">
+          <p className="text-xs text-gold">
+            These are inspiration, not scripts. Let them spark your own words.
+          </p>
+        </div>
+        <div className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
+          <div className="px-4 py-2">
+            <PhraseList phrases={prayerPhrases.map(p => p.phrase)} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Fallback to hardcoded prayer phrases
   return (
     <div className="space-y-3">
       <div className="rounded-xl border border-gold/20 bg-gold/5 px-4 py-3">
@@ -92,38 +151,79 @@ export default function PhraseBank() {
           These are inspiration, not scripts. Let them spark your own words.
         </p>
       </div>
+      {PRAYER_FALLBACK_SECTIONS.map(section => (
+        <CollapsibleSection key={section.title} title={section.title} phrases={section.phrases} />
+      ))}
+    </div>
+  );
+}
 
-      {SECTIONS.map(section => {
-        const isOpen = openSections[section.title] ?? false;
-        return (
-          <div key={section.title} className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
-            <button
-              onClick={() => toggle(section.title)}
-              className="flex w-full min-h-[48px] items-center justify-between px-4 py-3 text-left"
-            >
-              <span className="text-sm font-semibold text-text-primary">{section.title}</span>
-              {isOpen ? (
-                <ChevronUp className="h-4 w-4 text-text-secondary" />
-              ) : (
-                <ChevronDown className="h-4 w-4 text-text-secondary" />
-              )}
-            </button>
-            {isOpen && (
-              <div className="border-t border-white/10 px-4 py-2">
-                {section.phrases.map((phrase, i) => (
-                  <div
-                    key={i}
-                    className="flex items-center justify-between gap-2 py-2"
-                  >
-                    <p className="text-sm text-text-primary italic">&ldquo;{phrase}&rdquo;</p>
-                    <CopyButton text={phrase} />
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        );
-      })}
+// General topic tab: phrases + vocabulary from pipeline data
+function TopicTab({ topic }: { topic: string }) {
+  const phrases = getPhrasesByTopic(topic);
+  const vocab = getVocabularyByTopic(topic);
+
+  if (phrases.length === 0 && vocab.length === 0) {
+    return (
+      <p className="py-8 text-center text-sm text-text-secondary">
+        No content yet for this topic — run the pipeline to populate it.
+      </p>
+    );
+  }
+
+  return (
+    <div className="space-y-3">
+      {phrases.length > 0 && (
+        <CollapsibleSection
+          title="Key Phrases"
+          phrases={phrases.map(p => p.phrase)}
+        />
+      )}
+      {vocab.length > 0 && (
+        <CollapsibleSection
+          title="Vocabulary"
+          phrases={vocab.map(v => `${v.word} — ${v.meaning}`)}
+        />
+      )}
+    </div>
+  );
+}
+
+interface PhraseBankProps {
+  mode?: 'prayer' | 'general';
+}
+
+export default function PhraseBank({ mode = 'general' }: PhraseBankProps) {
+  const [activeTab, setActiveTab] = useState(GENERAL_TABS[0].key);
+
+  if (mode === 'prayer') {
+    return <PrayerTab />;
+  }
+
+  return (
+    <div className="space-y-4">
+      {/* Topic tabs */}
+      <div className="flex gap-2 overflow-x-auto pb-1">
+        {GENERAL_TABS.map(tab => (
+          <button
+            key={tab.key}
+            onClick={() => setActiveTab(tab.key)}
+            className={`min-h-[40px] shrink-0 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
+              activeTab === tab.key
+                ? 'bg-teal text-navy'
+                : 'bg-white/5 text-text-secondary hover:text-text-primary'
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
+      <TopicTab topic={activeTab} />
+
+      <p className="text-center text-xs text-text-secondary">
+        Source: Vinh Giang (@askvinh)
+      </p>
     </div>
   );
 }
