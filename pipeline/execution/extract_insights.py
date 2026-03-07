@@ -102,6 +102,7 @@ def build_output(all_results: list[dict]) -> dict:
 
         for phrase in r.get('key_phrases', []):
             phrase['video_id'] = video_id
+            phrase['id'] = f"phrase-{len(all_phrases)}"
             all_phrases.append(phrase)
             for topic in topics:
                 if topic in topics_index:
@@ -112,6 +113,9 @@ def build_output(all_results: list[dict]) -> dict:
             if word and word not in seen_words:
                 seen_words.add(word)
                 vocab['video_id'] = video_id
+                vocab['id'] = f"vocab-{len(all_vocabulary)}"
+                if 'topic' not in vocab:
+                    vocab['topic'] = topics[0] if topics else 'general'
                 all_vocabulary.append(vocab)
 
         for fw in r.get('frameworks', []):

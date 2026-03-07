@@ -30,6 +30,15 @@ try {
   };
 }
 
+// Normalise data — pipeline may omit id/topic fields
+data.all_phrases.forEach((p, i) => {
+  if (!p.id) p.id = `phrase-${i}`;
+});
+data.all_vocabulary.forEach((v, i) => {
+  if (!v.id) v.id = `vocab-${i}`;
+  if (!v.topic) v.topic = 'general';
+});
+
 export function getPhrasesByTopic(topic: string): KeyPhrase[] {
   return data.all_phrases.filter(p => p.topic === topic);
 }
