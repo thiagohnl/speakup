@@ -7,6 +7,7 @@ interface UseAudioRecorderReturn {
   duration: number;
   audioBlob: Blob | null;
   audioUrl: string | null;
+  mimeType: string;
   error: string | null;
   startRecording: () => Promise<void>;
   stopRecording: () => void;
@@ -20,6 +21,7 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [mimeType, setMimeType] = useState('audio/webm');
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const chunksRef = useRef<Blob[]>([]);
@@ -56,13 +58,14 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
     streamRef.current = stream;
 
     // Prefer webm opus, fallback to webm, then mp4
-    const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+    const detectedMime = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
       ? 'audio/webm;codecs=opus'
       : MediaRecorder.isTypeSupported('audio/webm')
         ? 'audio/webm'
         : 'audio/mp4';
+    setMimeType(detectedMime);
 
-    const recorder = new MediaRecorder(stream, { mimeType });
+    const recorder = new MediaRecorder(stream, { mimeType: detectedMime });
     mediaRecorderRef.current = recorder;
 
     recorder.ondataavailable = (e) => {
@@ -70,7 +73,7 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
     };
 
     recorder.onstop = () => {
-      const blob = new Blob(chunksRef.current, { type: mimeType });
+      const blob = new Blob(chunksRef.current, { type: detectedMime });
       if (blob.size === 0) {
         setError('Recording captured no audio. Check your microphone is not muted.');
         cleanup();
@@ -119,6 +122,7 @@ export function useAudioRecorder(): UseAudioRecorderReturn {
     duration,
     audioBlob,
     audioUrl,
+    mimeType,
     error,
     startRecording,
     stopRecording,

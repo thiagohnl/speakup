@@ -48,7 +48,7 @@ function ScenarioTab() {
       // If recorded, transcribe first
       if (recorder.audioBlob && !text.trim()) {
         const formData = new FormData();
-        formData.append('audio', recorder.audioBlob, 'prayer.webm');
+        formData.append('audio', recorder.audioBlob, `prayer.${recorder.mimeType.includes('mp4') ? 'mp4' : 'webm'}`);
         const res = await fetch('/api/transcribe', { method: 'POST', body: formData });
         if (!res.ok) throw new Error('Transcription failed');
         const data = await res.json();
@@ -203,7 +203,7 @@ function RecordingTab() {
 
     try {
       const formData = new FormData();
-      formData.append('audio', recorder.audioBlob, 'prayer.webm');
+      formData.append('audio', recorder.audioBlob, `prayer.${recorder.mimeType.includes('mp4') ? 'mp4' : 'webm'}`);
       const transcribeRes = await fetch('/api/transcribe', { method: 'POST', body: formData });
       if (!transcribeRes.ok) throw new Error('Transcription failed');
       const { transcript } = await transcribeRes.json();

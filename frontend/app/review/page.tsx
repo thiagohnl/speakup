@@ -30,6 +30,7 @@ export default function ReviewPage() {
     duration,
     audioBlob,
     audioUrl,
+    mimeType,
     error: recorderError,
     startRecording,
     stopRecording,
@@ -56,7 +57,7 @@ export default function ReviewPage() {
     try {
       // Step 1: Transcribe
       const formData = new FormData();
-      formData.append('audio', audioBlob, 'recording.webm');
+      formData.append('audio', audioBlob, `recording.${mimeType.includes('mp4') ? 'mp4' : 'webm'}`);
 
       const transcribeRes = await fetch('/api/transcribe', {
         method: 'POST',

@@ -57,6 +57,7 @@ export default function PracticePage() {
     duration,
     audioBlob,
     audioUrl,
+    mimeType,
     error: recorderError,
     startRecording,
     stopRecording,
@@ -226,7 +227,7 @@ export default function PracticePage() {
     setError('');
     try {
       const formData = new FormData();
-      formData.append('audio', audioBlob, 'recording.webm');
+      formData.append('audio', audioBlob, `recording.${mimeType.includes('mp4') ? 'mp4' : 'webm'}`);
       const transcribeRes = await fetch('/api/transcribe', { method: 'POST', body: formData });
       if (!transcribeRes.ok) throw new Error((await transcribeRes.json()).error || 'Transcription failed');
       const { transcript: text, duration_seconds } = await transcribeRes.json();

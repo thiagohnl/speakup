@@ -5,10 +5,17 @@ import { useParams, useRouter } from 'next/navigation';
 import { ChevronLeft } from 'lucide-react';
 import PhraseCard from '@/components/PhraseCard';
 import VocabCard from '@/components/VocabCard';
+import CollapsibleSection from '@/components/CollapsibleSection';
 import SentenceBuilder from '@/components/SentenceBuilder';
-import { getPhrasesByContext, getVocabularyByContext } from '@/lib/contentLibrary';
+import {
+  getPhraseSections,
+  getContextVocabulary,
+  getPhrasesByContext,
+  getVocabularyByContext,
+  getPrinciplesByContext,
+} from '@/lib/contentLibrary';
 import { getUserProgress, markPhraselearned, markPhraseSaved, markVocabLearned } from '@/lib/userProgress';
-import type { KeyPhrase, VocabularyItem, UserProgress } from '@/types';
+import type { KeyPhrase, VocabularyItem, PhraseSection, Principle, UserProgress } from '@/types';
 
 const CONTEXT_LABELS: Record<string, string> = {
   'job-interviews': 'Job Interviews',
@@ -28,26 +35,34 @@ export default function TopicDetailPage() {
   const topic = params.topic as string;
 
   const [activeTab, setActiveTab] = useState<Tab>('Phrases');
-  const [phrases, setPhrases] = useState<KeyPhrase[]>([]);
+  const [sections, setSections] = useState<PhraseSection[]>([]);
+  const [fallbackPhrases, setFallbackPhrases] = useState<KeyPhrase[]>([]);
   const [vocab, setVocab] = useState<VocabularyItem[]>([]);
+  const [principles, setPrinciples] = useState<Principle[]>([]);
   const [progress, setProgress] = useState<UserProgress | null>(null);
 
   useEffect(() => {
-    const raw = getPhrasesByContext(topic);
-    // Ensure IDs exist (fallback to slug)
-    const withIds: KeyPhrase[] = raw.map((p, i) => ({
-      ...p,
-      id: p.id || `${topic}-phrase-${i}`,
-    }));
-    setPhrases(withIds);
+    // Prefer generated context-specific content
+    const contextSections = getPhraseSections(topic);
+    setSections(contextSections);
 
-    const rawVocab = getVocabularyByContext(topic);
-    const withVocabIds: VocabularyItem[] = rawVocab.map((v, i) => ({
-      ...v,
-      id: v.id || `${topic}-vocab-${i}`,
-    }));
-    setVocab(withVocabIds);
+    // Fallback to Vinh Giang extracted phrases if no generated content
+    if (contextSections.length === 0) {
+      const raw = getPhrasesByContext(topic);
+      setFallbackPhrases(raw.map((p, i) => ({ ...p, id: p.id || `${topic}-phrase-${i}` })));
+    }
 
+    // Prefer generated vocab, fall back to extracted
+    const contextVocab = getContextVocabulary(topic);
+    if (contextVocab.length > 0) {
+      setVocab(contextVocab.map((v, i) => ({ ...v, id: v.id || `${topic}-vocab-${i}` })));
+    } else {
+      const rawVocab = getVocabularyByContext(topic);
+      setVocab(rawVocab.map((v, i) => ({ ...v, id: v.id || `${topic}-vocab-${i}` })));
+    }
+
+    // Load Vinh Giang's principles for this context
+    setPrinciples(getPrinciplesByContext(topic));
     setProgress(getUserProgress());
   }, [topic]);
 
@@ -72,6 +87,8 @@ export default function TopicDetailPage() {
   const learnedPhrases = new Set(progress?.learnedPhrases ?? []);
   const savedPhrases = new Set(progress?.savedPhrases ?? []);
   const learnedVocab = new Set(progress?.learnedVocab ?? []);
+
+  const hasContent = sections.length > 0 || fallbackPhrases.length > 0;
 
   return (
     <div className="animate-fade-in mx-auto max-w-lg px-6 pt-10">
@@ -102,14 +119,48 @@ export default function TopicDetailPage() {
       </div>
 
       {/* Content */}
-      <div className="mt-6 pb-6">
+      <div className="mt-6 pb-24">
         {/* Phrases Tab */}
         {activeTab === 'Phrases' && (
           <div className="space-y-4">
-            {phrases.length === 0 ? (
-              <EmptyState message="Phrases will appear here once the pipeline finishes scraping Vinh Giang's content." />
+            {!hasContent ? (
+              <EmptyState message="Phrases will appear here once the content pipeline runs." />
+            ) : sections.length > 0 ? (
+              <>
+                {sections.map((section, si) => (
+                  <CollapsibleSection key={section.title} title={section.title} defaultOpen={si === 0}>
+                    <div className="space-y-3 py-1">
+                      {section.phrases.map(phrase => (
+                        <PhraseCard
+                          key={phrase.id}
+                          phrase={phrase}
+                          isLearned={learnedPhrases.has(phrase.id)}
+                          isSaved={savedPhrases.has(phrase.id)}
+                          onLearned={handleLearnedPhrase}
+                          onSaved={handleSavedPhrase}
+                        />
+                      ))}
+                    </div>
+                  </CollapsibleSection>
+                ))}
+
+                {/* Vinh Giang's Principles */}
+                {principles.length > 0 && (
+                  <CollapsibleSection title="Vinh Giang's Principles">
+                    <div className="space-y-3 py-1">
+                      {principles.map((p, i) => (
+                        <div key={i} className="rounded-lg bg-white/5 p-3">
+                          <p className="text-sm font-semibold text-teal">{p.title}</p>
+                          <p className="mt-1 text-xs text-text-secondary">{p.explanation}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </CollapsibleSection>
+                )}
+              </>
             ) : (
-              phrases.map(phrase => (
+              /* Fallback: flat list of Vinh Giang phrases */
+              fallbackPhrases.map(phrase => (
                 <PhraseCard
                   key={phrase.id}
                   phrase={phrase}
@@ -127,7 +178,7 @@ export default function TopicDetailPage() {
         {activeTab === 'Vocabulary' && (
           <div className="space-y-4">
             {vocab.length === 0 ? (
-              <EmptyState message="Vocabulary will appear here once the pipeline finishes." />
+              <EmptyState message="Vocabulary will appear here once the content pipeline runs." />
             ) : (
               vocab.map(item => (
                 <VocabCard
@@ -155,7 +206,6 @@ export default function TopicDetailPage() {
 function EmptyState({ message }: { message: string }) {
   return (
     <div className="rounded-2xl border border-white/10 bg-white/5 p-6 text-center">
-      <p className="text-2xl mb-3">⏳</p>
       <p className="text-sm text-text-secondary">{message}</p>
     </div>
   );

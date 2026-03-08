@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown, ChevronUp, Copy, Check } from 'lucide-react';
+import { Copy, Check } from 'lucide-react';
+import CollapsibleSection from '@/components/CollapsibleSection';
 import { getPhrasesByTopic, getVocabularyByTopic } from '@/lib/contentLibrary';
 
 // Hardcoded fallback phrases for prayer mode (used when pipeline data is empty)
@@ -100,28 +101,6 @@ function PhraseList({ phrases }: { phrases: string[] }) {
   );
 }
 
-function CollapsibleSection({ title, phrases }: { title: string; phrases: string[] }) {
-  const [isOpen, setIsOpen] = useState(false);
-  return (
-    <div className="rounded-xl border border-white/10 bg-white/5 overflow-hidden">
-      <button
-        onClick={() => setIsOpen(v => !v)}
-        className="flex w-full min-h-[48px] items-center justify-between px-4 py-3 text-left"
-      >
-        <span className="text-sm font-semibold text-text-primary">{title}</span>
-        {isOpen
-          ? <ChevronUp className="h-4 w-4 text-text-secondary" />
-          : <ChevronDown className="h-4 w-4 text-text-secondary" />}
-      </button>
-      {isOpen && (
-        <div className="border-t border-white/10 px-4 py-2">
-          <PhraseList phrases={phrases} />
-        </div>
-      )}
-    </div>
-  );
-}
-
 // Prayer tab: uses pipeline data if available, falls back to hardcoded
 function PrayerTab() {
   const prayerPhrases = getPhrasesByTopic('prayer_speaking');
@@ -152,7 +131,9 @@ function PrayerTab() {
         </p>
       </div>
       {PRAYER_FALLBACK_SECTIONS.map(section => (
-        <CollapsibleSection key={section.title} title={section.title} phrases={section.phrases} />
+        <CollapsibleSection key={section.title} title={section.title}>
+          <PhraseList phrases={section.phrases} />
+        </CollapsibleSection>
       ))}
     </div>
   );
@@ -174,16 +155,14 @@ function TopicTab({ topic }: { topic: string }) {
   return (
     <div className="space-y-3">
       {phrases.length > 0 && (
-        <CollapsibleSection
-          title="Key Phrases"
-          phrases={phrases.map(p => p.phrase)}
-        />
+        <CollapsibleSection title="Key Phrases">
+          <PhraseList phrases={phrases.map(p => p.phrase)} />
+        </CollapsibleSection>
       )}
       {vocab.length > 0 && (
-        <CollapsibleSection
-          title="Vocabulary"
-          phrases={vocab.map(v => `${v.word} — ${v.meaning}`)}
-        />
+        <CollapsibleSection title="Vocabulary">
+          <PhraseList phrases={vocab.map(v => `${v.word} — ${v.meaning}`)} />
+        </CollapsibleSection>
       )}
     </div>
   );

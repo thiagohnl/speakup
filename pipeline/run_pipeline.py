@@ -14,9 +14,10 @@ from pathlib import Path
 
 PIPELINE_DIR = Path(__file__).parent
 STEPS = [
-    ('Fetch Channel Videos', PIPELINE_DIR / 'execution' / 'fetch_channel_videos.py'),
-    ('Fetch Transcripts',    PIPELINE_DIR / 'execution' / 'fetch_transcripts.py'),
-    ('Extract Insights',     PIPELINE_DIR / 'execution' / 'extract_insights.py'),
+    ('Fetch Channel Videos',      PIPELINE_DIR / 'execution' / 'fetch_channel_videos.py'),
+    ('Fetch Transcripts',         PIPELINE_DIR / 'execution' / 'fetch_transcripts.py'),
+    ('Extract Insights',          PIPELINE_DIR / 'execution' / 'extract_insights.py'),
+    ('Generate Context Content',  PIPELINE_DIR / 'execution' / 'generate_context_content.py'),
 ]
 
 

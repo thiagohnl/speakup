@@ -105,6 +105,17 @@ export interface ExampleSentence {
   video_id?: string;
 }
 
+export interface PhraseSection {
+  title: string;
+  phrases: KeyPhrase[];
+}
+
+export interface ContextContent {
+  phrase_sections: PhraseSection[];
+  vocabulary: VocabularyItem[];
+  example_sentences: ExampleSentence[];
+}
+
 export interface SentenceVersion {
   level: 'Simple' | 'Clear' | 'Confident' | 'Polished' | 'Powerful';
   sentence: string;
