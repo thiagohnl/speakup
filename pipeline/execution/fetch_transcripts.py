@@ -51,7 +51,33 @@ def main():
     transcripts_dir.mkdir(exist_ok=True)
 
     # Instantiate API (v1.x style)
-    api = YouTubeTranscriptApi()
+    # If pipeline/cookies.txt exists, load it into a requests session to bypass IP blocks
+    import requests
+    session = requests.Session()
+    cookies_path = next(
+        (p for p in [
+            Path(__file__).parent.parent / 'cookies.txt',
+            ROOT / 'pipeline_cookies.txt',
+            ROOT / 'cookies.txt',
+        ] if p.exists()),
+        None
+    )
+    if cookies_path:
+        print(f'Loading cookies from {cookies_path}')
+        import http.cookiejar
+        jar = http.cookiejar.MozillaCookieJar(str(cookies_path))
+        jar.load(ignore_discard=True, ignore_expires=True)
+        # Add each cookie explicitly into the requests session cookie jar
+        for cookie in jar:
+            session.cookies.set(
+                cookie.name, cookie.value,
+                domain=cookie.domain, path=cookie.path
+            )
+        print(f'Loaded {len(session.cookies)} cookies')
+        api = YouTubeTranscriptApi(http_client=session)
+        print('Using cookie-authenticated session')
+    else:
+        api = YouTubeTranscriptApi()
 
     saved = 0
     skipped = []
@@ -69,7 +95,10 @@ def main():
             # Try English first (handles both manual and auto-generated)
             try:
                 fetched = api.fetch(video_id, languages=['en'])
-                text = ' '.join(entry.get('text', '') for entry in fetched)
+                text = ' '.join(
+                    (entry.text if hasattr(entry, 'text') else entry.get('text', ''))
+                    for entry in fetched
+                )
             except (NoTranscriptFound, CouldNotRetrieveTranscript):
                 # Fallback: list all transcripts and take the first available
                 transcript_list = api.list(video_id)
@@ -77,7 +106,10 @@ def main():
                 if transcript is None:
                     raise NoTranscriptFound(video_id, ['en'], {})
                 fetched = transcript.fetch()
-                text = ' '.join(entry.get('text', '') for entry in fetched)
+                text = ' '.join(
+                    (entry.text if hasattr(entry, 'text') else entry.get('text', ''))
+                    for entry in fetched
+                )
 
             out_path.write_text(text, encoding='utf-8')
             saved += 1

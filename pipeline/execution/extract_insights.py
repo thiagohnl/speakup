@@ -165,8 +165,12 @@ def main():
     tmp_dir = Path(__file__).parent.parent / '.tmp'
     transcripts_dir = tmp_dir / 'raw_transcripts'
     progress_path = tmp_dir / 'insights_progress.json'
-    out_path = ROOT / 'data' / 'vinh_giang.json'
+    # Write to frontend/data/ so Next.js webpack can bundle it directly
+    out_path = ROOT / 'frontend' / 'data' / 'vinh_giang.json'
     out_path.parent.mkdir(exist_ok=True)
+    # Also write a copy to project root data/ for reference
+    root_copy = ROOT / 'data' / 'vinh_giang.json'
+    root_copy.parent.mkdir(exist_ok=True)
 
     if not transcripts_dir.exists():
         print(f'ERROR: {transcripts_dir} not found. Run fetch_transcripts.py first.')
@@ -225,7 +229,9 @@ def main():
         print(f'  Done ({len(result.get("key_phrases", []))} phrases, {len(result.get("frameworks", []))} frameworks)')
 
     output = build_output(all_results)
-    out_path.write_text(json.dumps(output, indent=2, ensure_ascii=False))
+    json_str = json.dumps(output, indent=2, ensure_ascii=False)
+    out_path.write_text(json_str)
+    root_copy.write_text(json_str)
 
     total_insights = (
         len(output['all_phrases']) +

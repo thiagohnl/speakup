@@ -1,5 +1,5 @@
 """
-Fetch all public video IDs from Vinh Giang's YouTube channel (@askvinh).
+Fetch top 100 videos from Vinh Giang's YouTube channel (@askvinh) sorted by view count.
 Output: pipeline/.tmp/video_ids.json
 """
 import json
@@ -9,7 +9,6 @@ import urllib.request
 import urllib.parse
 from pathlib import Path
 
-# Load .env from project root (two levels up from this file)
 ROOT = Path(__file__).parent.parent.parent
 ENV_FILE = ROOT / '.env'
 
@@ -27,6 +26,28 @@ def load_env():
 def api_get(url):
     with urllib.request.urlopen(url) as resp:
         return json.loads(resp.read())
+
+def fetch_video_details(video_ids: list[str], api_key: str) -> list[dict]:
+    """Batch fetch title + viewCount for a list of video IDs (max 50 per call)."""
+    results = []
+    for i in range(0, len(video_ids), 50):
+        batch = video_ids[i:i + 50]
+        params = {
+            'part': 'snippet,statistics',
+            'id': ','.join(batch),
+            'key': api_key,
+        }
+        url = 'https://www.googleapis.com/youtube/v3/videos?' + urllib.parse.urlencode(params)
+        data = api_get(url)
+        for item in data.get('items', []):
+            results.append({
+                'video_id': item['id'],
+                'title': item['snippet']['title'],
+                'published_at': item['snippet']['publishedAt'],
+                'view_count': int(item['statistics'].get('viewCount', 0)),
+            })
+        print(f'  Fetched details for batch {i // 50 + 1} ({len(batch)} videos)...')
+    return results
 
 def main():
     load_env()
@@ -54,7 +75,7 @@ def main():
     print(f'Uploads playlist: {uploads_playlist}')
 
     # Step 2: Paginate through playlist to get all video IDs
-    video_ids = []
+    all_ids = []
     page_token = None
     page = 1
 
@@ -73,27 +94,42 @@ def main():
         print(f'Fetched page {page}...')
 
         for item in data.get('items', []):
-            vid_id = item['contentDetails']['videoId']
-            video_ids.append(vid_id)
+            all_ids.append(item['contentDetails']['videoId'])
 
         page_token = data.get('nextPageToken')
         if not page_token:
             break
         page += 1
 
-    print(f'Total: {len(video_ids)} videos found')
+    print(f'Total: {len(all_ids)} videos found')
 
-    # Step 3: Save output
+    # Step 3: Fetch view counts for all videos (batched, 50 per request)
+    print(f'\nFetching view counts...')
+    videos = fetch_video_details(all_ids, api_key)
+
+    # Step 4: Sort by view count, take top 100
+    videos.sort(key=lambda v: v['view_count'], reverse=True)
+    top_100 = videos[:100]
+
+    # Step 5: Print top 10 for verification
+    print(f'\nTop 10 videos by view count:')
+    for i, v in enumerate(top_100[:10], 1):
+        count = f"{v['view_count']:,}"
+        title = v['title'].encode('ascii', errors='replace').decode('ascii')
+        print(f"  {i:2}. {count:>12} views - {title}")
+
+    # Step 6: Save output
     out_dir = Path(__file__).parent.parent / '.tmp'
     out_dir.mkdir(exist_ok=True)
     out_path = out_dir / 'video_ids.json'
     out_path.write_text(json.dumps({
         'channel_id': channel_id,
         'channel_title': channel_title,
-        'total_videos': len(video_ids),
-        'video_ids': video_ids,
+        'total_videos': len(top_100),
+        'video_ids': [v['video_id'] for v in top_100],
+        'videos': top_100,
     }, indent=2))
-    print(f'Saved to {out_path}')
+    print(f'\nSaved top {len(top_100)} videos to {out_path}')
 
 if __name__ == '__main__':
     main()

@@ -4,31 +4,25 @@
  */
 import type { KeyPhrase, VocabularyItem, Framework, Principle, ExampleSentence } from '@/types';
 
-// data/vinh_giang.json lives at project root (two levels up from frontend/)
-// Next.js resolves this via tsconfig paths or relative import at build time.
-// We use a dynamic require with a fallback so the app works before the pipeline runs.
-let data: {
+// data/vinh_giang.json lives inside frontend/data/ so webpack can bundle it.
+// Static import ensures webpack always bundles the latest file.
+import rawData from '../data/vinh_giang.json';
+
+const data: {
   all_phrases: KeyPhrase[];
   all_vocabulary: VocabularyItem[];
   all_frameworks: Framework[];
   all_principles: Principle[];
   all_example_sentences: ExampleSentence[];
   topics_index: Record<string, unknown[]>;
+} = {
+  all_phrases: rawData.all_phrases ?? [],
+  all_vocabulary: rawData.all_vocabulary ?? [],
+  all_frameworks: rawData.all_frameworks ?? [],
+  all_principles: rawData.all_principles ?? [],
+  all_example_sentences: rawData.all_example_sentences ?? [],
+  topics_index: rawData.topics_index ?? {},
 };
-
-try {
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  data = require('../../data/vinh_giang.json');
-} catch {
-  data = {
-    all_phrases: [],
-    all_vocabulary: [],
-    all_frameworks: [],
-    all_principles: [],
-    all_example_sentences: [],
-    topics_index: {},
-  };
-}
 
 // Normalise data — pipeline may omit id/topic fields
 data.all_phrases.forEach((p, i) => {
@@ -86,14 +80,16 @@ export function getVocabCount(topic: string): number {
   return data.all_vocabulary.filter(v => v.topic === topic).length;
 }
 
-// Maps UI context slugs to JSON topic keys
+// Maps UI context slugs to JSON topic keys.
+// Topics present in the data: confidence, vocal_variety, structure, presence,
+// vocabulary, communication, connection, other
 export const CONTEXT_TO_TOPIC: Record<string, string[]> = {
-  'job-interviews':       ['confidence', 'structure', 'vocabulary'],
-  'church-prayer':        ['prayer_speaking'],
-  'church-announcements': ['structure', 'presence'],
-  'presentations':        ['storytelling', 'vocal_variety', 'structure'],
-  'storytelling':         ['storytelling', 'presence'],
-  'general':              ['confidence', 'vocal_variety', 'presence'],
+  'job-interviews':       ['confidence', 'structure', 'vocabulary', 'communication'],
+  'church-prayer':        ['presence', 'confidence', 'communication', 'connection'],
+  'church-announcements': ['structure', 'presence', 'communication'],
+  'presentations':        ['vocal_variety', 'structure', 'presence'],
+  'storytelling':         ['vocal_variety', 'presence', 'connection', 'communication'],
+  'general':              ['confidence', 'vocal_variety', 'presence', 'other'],
 };
 
 export function getPhrasesByContext(context: string): KeyPhrase[] {

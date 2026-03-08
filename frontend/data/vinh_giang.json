@@ -1,0 +1,3887 @@
+{
+  "source": "Vinh Giang (@askvinh)",
+  "generated_at": "2026-03-08T09:30:14.935439+00:00",
+  "total_videos_processed": 22,
+  "topics_index": {
+    "confidence": [
+      {
+        "type": "phrase",
+        "phrase": "it's not fake it's just unfamiliar",
+        "context": "reassuring someone who feels awkward when practicing new speaking techniques",
+        "topic": "confidence",
+        "video_id": "00BeMJbHplQ",
+        "id": "phrase-0"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you becoming the future version of you",
+        "context": "encouraging persistence when new behaviors feel uncomfortable",
+        "topic": "confidence",
+        "video_id": "00BeMJbHplQ",
+        "id": "phrase-1"
+      },
+      {
+        "type": "phrase",
+        "phrase": "learning how to play with your voice",
+        "context": "explaining that vocal techniques require practice like any instrument",
+        "topic": "vocal_variety",
+        "video_id": "00BeMJbHplQ",
+        "id": "phrase-2"
+      },
+      {
+        "type": "principle",
+        "title": "Practice Creates Familiarity",
+        "explanation": "Current communication behaviors feel natural because they've been practiced for decades, while new techniques feel fake simply because they're new and unfamiliar",
+        "topic": "confidence",
+        "video_id": "00BeMJbHplQ"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when we're ashamed we play small with our voice",
+        "context": "explaining how shame affects vocal presence and confidence",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-3"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when you increase volume and you step into courage no one sees shame",
+        "context": "demonstrating how vocal power can overcome self-consciousness",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-4"
+      },
+      {
+        "type": "phrase",
+        "phrase": "your accent is never a problem it's your articulation and your pronunciation",
+        "context": "reframing accent concerns to focus on technical speaking skills",
+        "topic": "vocal_variety",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-5"
+      },
+      {
+        "type": "principle",
+        "title": "Volume Overcomes Shame",
+        "explanation": "Increasing your vocal volume and stepping into courage makes shame invisible to your audience",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Your brain hits the panic button",
+        "context": "Describing what happens when unprepared for questions",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-6"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Open a dozen browser tabs in your head",
+        "context": "Metaphor for mental confusion under pressure",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-7"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Fall back on the framework",
+        "context": "Using structure instead of rambling when unprepared",
+        "topic": "structure",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-8"
+      },
+      {
+        "type": "phrase",
+        "phrase": "You leaned into it",
+        "context": "Describing confident body language when prepared",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-9"
+      },
+      {
+        "type": "principle",
+        "title": "Preparation Builds Confidence",
+        "explanation": "Having frameworks makes you excited to communicate rather than scared, improving both content and body language",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU"
+      },
+      {
+        "type": "principle",
+        "title": "Delayed Self-Review",
+        "explanation": "Don't review your recording immediately as you are too self-critical; wait until the next day for objective analysis",
+        "topic": "confidence",
+        "video_id": "759ltCNvZNM"
+      },
+      {
+        "type": "phrase",
+        "phrase": "auditory review",
+        "context": "listening to your recorded speech with sound only to analyze vocal foundations",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-15"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual review",
+        "context": "watching your recorded speech on mute to analyze body language and presence",
+        "topic": "presence",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-16"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal foundations",
+        "context": "analyzing the basic elements of your voice like volume and emotion",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-17"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nonwords and fill words",
+        "context": "identifying words that diminish your credibility in speech",
+        "topic": "vocabulary",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-18"
+      },
+      {
+        "type": "principle",
+        "title": "Self-Awareness Through Recording",
+        "explanation": "Recording yourself speaking and reviewing it builds awareness of how others perceive you, which changes how you come across",
+        "topic": "confidence",
+        "video_id": "b0MyTOcfDsE"
+      },
+      {
+        "type": "phrase",
+        "phrase": "oh hi hi how you going sorry to bother you",
+        "context": "Using humorous energy to introduce yourself when joining a conversation",
+        "topic": "confidence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-22"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I'm so sorry I just what you were talking about was so interesting I just really want to be a part of it do you mind",
+        "context": "Politely inserting yourself into a group conversation at networking events",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-23"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I can tell this is sensitive it's okay",
+        "context": "Gracefully exiting when you sense you're not welcome in a conversation",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-24"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I'm out of water be right back",
+        "context": "Polite exit strategy from boring conversations at networking events",
+        "topic": "other",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-25"
+      },
+      {
+        "type": "principle",
+        "title": "Always hold something when networking",
+        "explanation": "Holding a drink gives you something to do with your hands and provides an easy exit strategy from conversations",
+        "topic": "confidence",
+        "video_id": "eG-2T6naq5w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal variety is key",
+        "context": "emphasizing the importance of changing speech patterns to maintain engagement",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-29"
+      },
+      {
+        "type": "phrase",
+        "phrase": "default rate of speech",
+        "context": "describing the common mistake of speaking at one consistent pace throughout a presentation",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-30"
+      },
+      {
+        "type": "phrase",
+        "phrase": "what started out as being really engaging after a while becomes monotonous",
+        "context": "explaining how even initially engaging speech patterns become boring without variation",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-31"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Be formless, shapeless like water",
+        "context": "Use when emphasizing the need to adapt your communication style to connect with different personality types",
+        "topic": "communication",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-32"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Communication is the tide that lifts all boats",
+        "context": "Use when explaining how mastering communication skills benefits all areas of life",
+        "topic": "communication",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-33"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Meet people where they are",
+        "context": "Use when describing how to adapt your communication style to others rather than expecting them to adapt to you",
+        "topic": "connection",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-34"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Skip the fluff and focus on the outcome",
+        "context": "Use when communicating with results-driven, direct people who value efficiency",
+        "topic": "structure",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-35"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause before you talk",
+        "context": "Used when you need time to organize your thoughts before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-36"
+      },
+      {
+        "type": "phrase",
+        "phrase": "give yourself a moment to think",
+        "context": "Used to prevent losing your trail of thought mid-sentence",
+        "topic": "confidence",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-37"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when you don't see the path clearly",
+        "context": "Used to describe the importance of mental preparation before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-38"
+      },
+      {
+        "type": "phrase",
+        "phrase": "don't just make it up as you go",
+        "context": "Used to emphasize the importance of thinking before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-39"
+      },
+      {
+        "type": "principle",
+        "title": "Embrace Strategic Pauses",
+        "explanation": "Don't be afraid to pause before answering - it's better than scrambling for words while speaking",
+        "topic": "confidence",
+        "video_id": "k4yENpxBI9w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "get rid of the adrenaline backstage",
+        "context": "Use this when preparing for a presentation to manage pre-speech nerves",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU",
+        "id": "phrase-40"
+      },
+      {
+        "type": "phrase",
+        "phrase": "forces you to take deep breaths",
+        "context": "Explain the physiological benefit of physical exercises before speaking",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU",
+        "id": "phrase-41"
+      },
+      {
+        "type": "principle",
+        "title": "Address the Root Cause",
+        "explanation": "Instead of trying to manage symptoms on stage, eliminate the excess adrenaline that causes shaking before you speak",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU"
+      },
+      {
+        "type": "principle",
+        "title": "Physical Preparation for Mental Performance",
+        "explanation": "Use physical exercises backstage to burn off nervous energy and regulate your physiological state",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause more",
+        "context": "Use pauses to sound more confident, intelligent, and trustworthy",
+        "topic": "confidence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-42"
+      },
+      {
+        "type": "phrase",
+        "phrase": "slow down to highlight",
+        "context": "Use slower speech combined with pauses to make important points land",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-43"
+      },
+      {
+        "type": "phrase",
+        "phrase": "declarative statements",
+        "context": "Use short, concise sentences with full stops to reduce rambling",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-44"
+      },
+      {
+        "type": "phrase",
+        "phrase": "finish one thought at a time",
+        "context": "Complete each idea before moving to the next to avoid confusing listeners",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-45"
+      },
+      {
+        "type": "phrase",
+        "phrase": "warm up your voice",
+        "context": "Prepare your vocal muscles before extended speaking to prevent strain",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-46"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nose breathing",
+        "context": "Breathe through your nose when not speaking to protect your vocal cords",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-47"
+      },
+      {
+        "type": "phrase",
+        "phrase": "use more volume",
+        "context": "Speak with presence and vitality to transfer energy, not just information",
+        "topic": "presence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-48"
+      },
+      {
+        "type": "phrase",
+        "phrase": "explain it differently with an analogy",
+        "context": "Use analogies to make complex ideas simple and relatable",
+        "topic": "vocabulary",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-49"
+      },
+      {
+        "type": "principle",
+        "title": "Pauses create confidence",
+        "explanation": "People who pause more are perceived as being more confident, not less. Pauses give your ideas space to land.",
+        "topic": "confidence",
+        "video_id": "PiNN-HmHu7A"
+      },
+      {
+        "type": "phrase",
+        "phrase": "add melody to that",
+        "context": "When increasing volume to avoid sounding angry or harsh",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-50"
+      },
+      {
+        "type": "phrase",
+        "phrase": "end on a low pitch",
+        "context": "To maintain credibility and authority when speaking",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-51"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you lose credibility with that",
+        "context": "When explaining why ending on a high pitch reduces authority",
+        "topic": "presence",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-52"
+      },
+      {
+        "type": "phrase",
+        "phrase": "don't leave this to chance",
+        "context": "emphasizing the importance of deliberately developing your vocal image",
+        "topic": "vocal_variety",
+        "video_id": "rALD3K1RJME",
+        "id": "phrase-53"
+      },
+      {
+        "type": "phrase",
+        "phrase": "only when we connect with people do we deserve to influence their decision",
+        "context": "explaining the prerequisite for ethical influence in professional settings",
+        "topic": "presence",
+        "video_id": "rALD3K1RJME",
+        "id": "phrase-54"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Could I pull you aside for a quick chat",
+        "context": "Use when initiating private feedback conversations to create a safe space",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-55"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I want to help every single student succeed",
+        "context": "Frame feedback with supportive intent before delivering criticism",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-56"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Can I share with you a few thoughts to help you crush your next dive",
+        "context": "Ask permission before giving feedback to increase receptiveness",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-57"
+      },
+      {
+        "type": "phrase",
+        "phrase": "computer gesture",
+        "context": "Place fingertips together while someone is talking to show you're processing and listening",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ",
+        "id": "phrase-58"
+      },
+      {
+        "type": "phrase",
+        "phrase": "triangle technique",
+        "context": "Shift eye contact between left eye, right eye, and nose bridge every 4-5 seconds for better connection",
+        "topic": "confidence",
+        "video_id": "TAkaIDmnzAQ",
+        "id": "phrase-59"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Power Sphere",
+        "context": "Keep hand gestures between belly button and eyes for maximum charismatic impact",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ",
+        "id": "phrase-60"
+      },
+      {
+        "type": "phrase",
+        "phrase": "conversational threading",
+        "context": "Use when you want to give others multiple topics to continue a conversation",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-61"
+      },
+      {
+        "type": "phrase",
+        "phrase": "create multiple threads",
+        "context": "Include several different topics in your response to give conversation partners options",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-62"
+      },
+      {
+        "type": "phrase",
+        "phrase": "latch onto whatever you find interesting",
+        "context": "Allow others to choose which part of your response they want to explore further",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-63"
+      },
+      {
+        "type": "principle",
+        "title": "Practice Prepared Responses",
+        "explanation": "Anticipate common questions and prepare responses that naturally include multiple conversational threads",
+        "topic": "confidence",
+        "video_id": "UefHuE41N4w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "weak mind and mouth connection",
+        "context": "When you think well but struggle to verbalize thoughts quickly",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-64"
+      },
+      {
+        "type": "phrase",
+        "phrase": "speak your mind at a moment's notice",
+        "context": "The goal of improving spontaneous speaking ability",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-65"
+      },
+      {
+        "type": "phrase",
+        "phrase": "speak on the spot in the moment",
+        "context": "Describing the ability to talk spontaneously without preparation",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-66"
+      },
+      {
+        "type": "principle",
+        "title": "Mind and Mouth Connection",
+        "explanation": "The ability to quickly translate thoughts into spoken words - when weak, you think well but struggle to verbalize spontaneously",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc"
+      },
+      {
+        "type": "principle",
+        "title": "Progressive Practice Tolerance",
+        "explanation": "Accept that initial attempts will feel awkward and clunky as part of the natural learning process",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are not stuck with the way you sound",
+        "context": "encouraging people that their voice can be changed and improved",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-74"
+      },
+      {
+        "type": "phrase",
+        "phrase": "your voice is your personality",
+        "context": "explaining how vocal tone affects how others perceive you",
+        "topic": "presence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-75"
+      },
+      {
+        "type": "phrase",
+        "phrase": "stop just speaking like this with one key",
+        "context": "encouraging vocal variety instead of monotone delivery",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-76"
+      },
+      {
+        "type": "phrase",
+        "phrase": "not fake and phony, it's just unfamiliar",
+        "context": "reframing discomfort when trying new vocal techniques",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-77"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are only as good as you can communicate",
+        "context": "emphasizing that communication skills determine how others perceive your abilities",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-78"
+      },
+      {
+        "type": "principle",
+        "title": "Unfamiliarity vs Fakeness",
+        "explanation": "When developing new vocal skills, discomfort comes from unfamiliarity, not from being fake or phony",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs"
+      }
+    ],
+    "storytelling": [],
+    "vocal_variety": [
+      {
+        "type": "phrase",
+        "phrase": "it's not fake it's just unfamiliar",
+        "context": "reassuring someone who feels awkward when practicing new speaking techniques",
+        "topic": "confidence",
+        "video_id": "00BeMJbHplQ",
+        "id": "phrase-0"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you becoming the future version of you",
+        "context": "encouraging persistence when new behaviors feel uncomfortable",
+        "topic": "confidence",
+        "video_id": "00BeMJbHplQ",
+        "id": "phrase-1"
+      },
+      {
+        "type": "phrase",
+        "phrase": "learning how to play with your voice",
+        "context": "explaining that vocal techniques require practice like any instrument",
+        "topic": "vocal_variety",
+        "video_id": "00BeMJbHplQ",
+        "id": "phrase-2"
+      },
+      {
+        "type": "principle",
+        "title": "The Saxophone Analogy",
+        "explanation": "Just as learning a musical instrument feels awkward at first but improves with practice, new vocal and speaking techniques will feel unfamiliar initially but become natural over time",
+        "topic": "vocal_variety",
+        "video_id": "00BeMJbHplQ"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when we're ashamed we play small with our voice",
+        "context": "explaining how shame affects vocal presence and confidence",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-3"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when you increase volume and you step into courage no one sees shame",
+        "context": "demonstrating how vocal power can overcome self-consciousness",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-4"
+      },
+      {
+        "type": "phrase",
+        "phrase": "your accent is never a problem it's your articulation and your pronunciation",
+        "context": "reframing accent concerns to focus on technical speaking skills",
+        "topic": "vocal_variety",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-5"
+      },
+      {
+        "type": "principle",
+        "title": "Overdo Mouth Movements",
+        "explanation": "Exaggerate your mouth movements when speaking to improve articulation and pronunciation clarity",
+        "topic": "vocal_variety",
+        "video_id": "3Z2OuuFxVLc"
+      },
+      {
+        "type": "principle",
+        "title": "Link Words Together",
+        "explanation": "Use legato style speaking to connect words smoothly rather than speaking in a choppy, disconnected manner",
+        "topic": "vocal_variety",
+        "video_id": "3Z2OuuFxVLc"
+      },
+      {
+        "type": "phrase",
+        "phrase": "record and review",
+        "context": "A process for self-improvement by recording and analyzing your speaking",
+        "topic": "structure",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-10"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are too damn self-critical",
+        "context": "Explaining why to wait before reviewing your recording",
+        "topic": "confidence",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-11"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal image",
+        "context": "The auditory component of how you sound when speaking",
+        "topic": "vocal_variety",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-12"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual image",
+        "context": "The visual component including body language and facial expressions",
+        "topic": "presence",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-13"
+      },
+      {
+        "type": "phrase",
+        "phrase": "filler words",
+        "context": "Non-words that rob you of clarity when speaking",
+        "topic": "vocabulary",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-14"
+      },
+      {
+        "type": "phrase",
+        "phrase": "auditory review",
+        "context": "listening to your recorded speech with sound only to analyze vocal foundations",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-15"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual review",
+        "context": "watching your recorded speech on mute to analyze body language and presence",
+        "topic": "presence",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-16"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal foundations",
+        "context": "analyzing the basic elements of your voice like volume and emotion",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-17"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nonwords and fill words",
+        "context": "identifying words that diminish your credibility in speech",
+        "topic": "vocabulary",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-18"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal variety is key",
+        "context": "emphasizing the importance of changing speech patterns to maintain engagement",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-29"
+      },
+      {
+        "type": "phrase",
+        "phrase": "default rate of speech",
+        "context": "describing the common mistake of speaking at one consistent pace throughout a presentation",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-30"
+      },
+      {
+        "type": "phrase",
+        "phrase": "what started out as being really engaging after a while becomes monotonous",
+        "context": "explaining how even initially engaging speech patterns become boring without variation",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-31"
+      },
+      {
+        "type": "principle",
+        "title": "Vocal Variety Prevention",
+        "explanation": "Avoid getting stuck in a default rate of speech by consciously varying your pace, as consistent pacing leads to disengagement regardless of whether it's too slow or too fast",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI"
+      },
+      {
+        "type": "principle",
+        "title": "Engagement Through Variation",
+        "explanation": "What initially seems engaging becomes monotonous over time without variety, making vocal variation essential for sustained audience attention",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI"
+      },
+      {
+        "type": "phrase",
+        "phrase": "get rid of the adrenaline backstage",
+        "context": "Use this when preparing for a presentation to manage pre-speech nerves",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU",
+        "id": "phrase-40"
+      },
+      {
+        "type": "phrase",
+        "phrase": "forces you to take deep breaths",
+        "context": "Explain the physiological benefit of physical exercises before speaking",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU",
+        "id": "phrase-41"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause more",
+        "context": "Use pauses to sound more confident, intelligent, and trustworthy",
+        "topic": "confidence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-42"
+      },
+      {
+        "type": "phrase",
+        "phrase": "slow down to highlight",
+        "context": "Use slower speech combined with pauses to make important points land",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-43"
+      },
+      {
+        "type": "phrase",
+        "phrase": "declarative statements",
+        "context": "Use short, concise sentences with full stops to reduce rambling",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-44"
+      },
+      {
+        "type": "phrase",
+        "phrase": "finish one thought at a time",
+        "context": "Complete each idea before moving to the next to avoid confusing listeners",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-45"
+      },
+      {
+        "type": "phrase",
+        "phrase": "warm up your voice",
+        "context": "Prepare your vocal muscles before extended speaking to prevent strain",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-46"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nose breathing",
+        "context": "Breathe through your nose when not speaking to protect your vocal cords",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-47"
+      },
+      {
+        "type": "phrase",
+        "phrase": "use more volume",
+        "context": "Speak with presence and vitality to transfer energy, not just information",
+        "topic": "presence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-48"
+      },
+      {
+        "type": "phrase",
+        "phrase": "explain it differently with an analogy",
+        "context": "Use analogies to make complex ideas simple and relatable",
+        "topic": "vocabulary",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-49"
+      },
+      {
+        "type": "principle",
+        "title": "Your voice is a muscle system",
+        "explanation": "Like any muscle, if you go from cold to full exertion without warming up, you'll strain it and it will underperform.",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A"
+      },
+      {
+        "type": "phrase",
+        "phrase": "add melody to that",
+        "context": "When increasing volume to avoid sounding angry or harsh",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-50"
+      },
+      {
+        "type": "phrase",
+        "phrase": "end on a low pitch",
+        "context": "To maintain credibility and authority when speaking",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-51"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you lose credibility with that",
+        "context": "When explaining why ending on a high pitch reduces authority",
+        "topic": "presence",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-52"
+      },
+      {
+        "type": "principle",
+        "title": "Melody Prevents Harshness",
+        "explanation": "Adding vocal melody and variation when increasing volume prevents sounding angry or aggressive",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4"
+      },
+      {
+        "type": "phrase",
+        "phrase": "don't leave this to chance",
+        "context": "emphasizing the importance of deliberately developing your vocal image",
+        "topic": "vocal_variety",
+        "video_id": "rALD3K1RJME",
+        "id": "phrase-53"
+      },
+      {
+        "type": "phrase",
+        "phrase": "only when we connect with people do we deserve to influence their decision",
+        "context": "explaining the prerequisite for ethical influence in professional settings",
+        "topic": "presence",
+        "video_id": "rALD3K1RJME",
+        "id": "phrase-54"
+      },
+      {
+        "type": "principle",
+        "title": "Vocal Image Creates First Impressions",
+        "explanation": "People make assumptions about your personality traits like friendliness and intelligence based on how you sound, not just how you look",
+        "topic": "vocal_variety",
+        "video_id": "rALD3K1RJME"
+      },
+      {
+        "type": "principle",
+        "title": "Deliberate Vocal Development",
+        "explanation": "Just as we consciously manage our visual appearance for professional settings, we must intentionally develop our vocal presentation",
+        "topic": "vocal_variety",
+        "video_id": "rALD3K1RJME"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Could I pull you aside for a quick chat",
+        "context": "Use when initiating private feedback conversations to create a safe space",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-55"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I want to help every single student succeed",
+        "context": "Frame feedback with supportive intent before delivering criticism",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-56"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Can I share with you a few thoughts to help you crush your next dive",
+        "context": "Ask permission before giving feedback to increase receptiveness",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-57"
+      },
+      {
+        "type": "principle",
+        "title": "Maintain caring tonality throughout",
+        "explanation": "Keep the same supportive vocal tone from beginning to end, don't switch to harsh criticism mid-conversation",
+        "topic": "vocal_variety",
+        "video_id": "rDHzMk2yTvM"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vary your rate of speech",
+        "context": "Essential principle for effective speaking to maintain audience engagement",
+        "topic": "vocal_variety",
+        "video_id": "xVRXIQowDY0",
+        "id": "phrase-67"
+      },
+      {
+        "type": "phrase",
+        "phrase": "any default rate of speech is bad",
+        "context": "Core concept explaining why maintaining one speed throughout is ineffective",
+        "topic": "vocal_variety",
+        "video_id": "xVRXIQowDY0",
+        "id": "phrase-68"
+      },
+      {
+        "type": "phrase",
+        "phrase": "people naturally lean in when you move your rate back and forth",
+        "context": "Describing the natural audience response to vocal variety",
+        "topic": "vocal_variety",
+        "video_id": "xVRXIQowDY0",
+        "id": "phrase-69"
+      },
+      {
+        "type": "principle",
+        "title": "Strategic Speech Pacing",
+        "explanation": "Speaking too quickly or too slowly both cause problems - the key is to strategically vary your rate based on content and desired emotional impact",
+        "topic": "vocal_variety",
+        "video_id": "xVRXIQowDY0"
+      },
+      {
+        "type": "phrase",
+        "phrase": "wake up all the facial expression muscles",
+        "context": "explaining the purpose of doing facial warmup exercises before speaking",
+        "topic": "presence",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-70"
+      },
+      {
+        "type": "phrase",
+        "phrase": "unlock your jaw",
+        "context": "describing why jaw movement exercises prevent mumbling in speech",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-71"
+      },
+      {
+        "type": "phrase",
+        "phrase": "drop my jaw",
+        "context": "explaining how proper jaw movement allows voice to come out clearly",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-72"
+      },
+      {
+        "type": "phrase",
+        "phrase": "get rid of the morning voice",
+        "context": "describing how lip trills help prepare your voice for speaking",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-73"
+      },
+      {
+        "type": "principle",
+        "title": "Facial Muscle Activation",
+        "explanation": "Warming up facial muscles before speaking helps prevent mumbling and improves vocal clarity by engaging all the muscles needed for clear articulation",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8"
+      },
+      {
+        "type": "principle",
+        "title": "Jaw Movement for Clarity",
+        "explanation": "Dropping and moving the jaw properly is essential for clear speech - without jaw movement, speech becomes mumbled and unclear",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are not stuck with the way you sound",
+        "context": "encouraging people that their voice can be changed and improved",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-74"
+      },
+      {
+        "type": "phrase",
+        "phrase": "your voice is your personality",
+        "context": "explaining how vocal tone affects how others perceive you",
+        "topic": "presence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-75"
+      },
+      {
+        "type": "phrase",
+        "phrase": "stop just speaking like this with one key",
+        "context": "encouraging vocal variety instead of monotone delivery",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-76"
+      },
+      {
+        "type": "phrase",
+        "phrase": "not fake and phony, it's just unfamiliar",
+        "context": "reframing discomfort when trying new vocal techniques",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-77"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are only as good as you can communicate",
+        "context": "emphasizing that communication skills determine how others perceive your abilities",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-78"
+      },
+      {
+        "type": "principle",
+        "title": "Voice as Behavior",
+        "explanation": "Your voice is not fixed but consists of behaviors that can be modified and improved through practice",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs"
+      },
+      {
+        "type": "principle",
+        "title": "Voice as Instrument",
+        "explanation": "Like a piano, your voice has full range of keys to explore rather than using just one monotone note",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs"
+      }
+    ],
+    "presence": [
+      {
+        "type": "phrase",
+        "phrase": "record and review",
+        "context": "A process for self-improvement by recording and analyzing your speaking",
+        "topic": "structure",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-10"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are too damn self-critical",
+        "context": "Explaining why to wait before reviewing your recording",
+        "topic": "confidence",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-11"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal image",
+        "context": "The auditory component of how you sound when speaking",
+        "topic": "vocal_variety",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-12"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual image",
+        "context": "The visual component including body language and facial expressions",
+        "topic": "presence",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-13"
+      },
+      {
+        "type": "phrase",
+        "phrase": "filler words",
+        "context": "Non-words that rob you of clarity when speaking",
+        "topic": "vocabulary",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-14"
+      },
+      {
+        "type": "phrase",
+        "phrase": "auditory review",
+        "context": "listening to your recorded speech with sound only to analyze vocal foundations",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-15"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual review",
+        "context": "watching your recorded speech on mute to analyze body language and presence",
+        "topic": "presence",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-16"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal foundations",
+        "context": "analyzing the basic elements of your voice like volume and emotion",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-17"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nonwords and fill words",
+        "context": "identifying words that diminish your credibility in speech",
+        "topic": "vocabulary",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-18"
+      },
+      {
+        "type": "principle",
+        "title": "Separate Audio and Visual Analysis",
+        "explanation": "Analyzing vocal elements separately from visual elements provides clearer feedback on specific areas for improvement",
+        "topic": "presence",
+        "video_id": "b0MyTOcfDsE"
+      },
+      {
+        "type": "phrase",
+        "phrase": "oh hi hi how you going sorry to bother you",
+        "context": "Using humorous energy to introduce yourself when joining a conversation",
+        "topic": "confidence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-22"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I'm so sorry I just what you were talking about was so interesting I just really want to be a part of it do you mind",
+        "context": "Politely inserting yourself into a group conversation at networking events",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-23"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I can tell this is sensitive it's okay",
+        "context": "Gracefully exiting when you sense you're not welcome in a conversation",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-24"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I'm out of water be right back",
+        "context": "Polite exit strategy from boring conversations at networking events",
+        "topic": "other",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-25"
+      },
+      {
+        "type": "principle",
+        "title": "Read the room before entering",
+        "explanation": "Pay attention to facial expressions and body language to determine if you're welcome in a conversation",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "proxemic is the study of distances",
+        "context": "explaining the concept when teaching about spatial awareness in virtual presentations",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU",
+        "id": "phrase-26"
+      },
+      {
+        "type": "phrase",
+        "phrase": "appear in the social space",
+        "context": "advising on optimal positioning for video calls to create comfort",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU",
+        "id": "phrase-27"
+      },
+      {
+        "type": "phrase",
+        "phrase": "my hand gestures are now present",
+        "context": "explaining why proper distance allows for more effective visual communication",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU",
+        "id": "phrase-28"
+      },
+      {
+        "type": "principle",
+        "title": "Social Space Positioning",
+        "explanation": "Position yourself in social space during video calls to make others comfortable and allow your hand gestures to be visible, creating more influential and engaging communication",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal variety is key",
+        "context": "emphasizing the importance of changing speech patterns to maintain engagement",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-29"
+      },
+      {
+        "type": "phrase",
+        "phrase": "default rate of speech",
+        "context": "describing the common mistake of speaking at one consistent pace throughout a presentation",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-30"
+      },
+      {
+        "type": "phrase",
+        "phrase": "what started out as being really engaging after a while becomes monotonous",
+        "context": "explaining how even initially engaging speech patterns become boring without variation",
+        "topic": "vocal_variety",
+        "video_id": "i1rmvL0GKAI",
+        "id": "phrase-31"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause before you talk",
+        "context": "Used when you need time to organize your thoughts before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-36"
+      },
+      {
+        "type": "phrase",
+        "phrase": "give yourself a moment to think",
+        "context": "Used to prevent losing your trail of thought mid-sentence",
+        "topic": "confidence",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-37"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when you don't see the path clearly",
+        "context": "Used to describe the importance of mental preparation before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-38"
+      },
+      {
+        "type": "phrase",
+        "phrase": "don't just make it up as you go",
+        "context": "Used to emphasize the importance of thinking before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-39"
+      },
+      {
+        "type": "phrase",
+        "phrase": "get rid of the adrenaline backstage",
+        "context": "Use this when preparing for a presentation to manage pre-speech nerves",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU",
+        "id": "phrase-40"
+      },
+      {
+        "type": "phrase",
+        "phrase": "forces you to take deep breaths",
+        "context": "Explain the physiological benefit of physical exercises before speaking",
+        "topic": "confidence",
+        "video_id": "LizhmZyRNSU",
+        "id": "phrase-41"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause more",
+        "context": "Use pauses to sound more confident, intelligent, and trustworthy",
+        "topic": "confidence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-42"
+      },
+      {
+        "type": "phrase",
+        "phrase": "slow down to highlight",
+        "context": "Use slower speech combined with pauses to make important points land",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-43"
+      },
+      {
+        "type": "phrase",
+        "phrase": "declarative statements",
+        "context": "Use short, concise sentences with full stops to reduce rambling",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-44"
+      },
+      {
+        "type": "phrase",
+        "phrase": "finish one thought at a time",
+        "context": "Complete each idea before moving to the next to avoid confusing listeners",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-45"
+      },
+      {
+        "type": "phrase",
+        "phrase": "warm up your voice",
+        "context": "Prepare your vocal muscles before extended speaking to prevent strain",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-46"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nose breathing",
+        "context": "Breathe through your nose when not speaking to protect your vocal cords",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-47"
+      },
+      {
+        "type": "phrase",
+        "phrase": "use more volume",
+        "context": "Speak with presence and vitality to transfer energy, not just information",
+        "topic": "presence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-48"
+      },
+      {
+        "type": "phrase",
+        "phrase": "explain it differently with an analogy",
+        "context": "Use analogies to make complex ideas simple and relatable",
+        "topic": "vocabulary",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-49"
+      },
+      {
+        "type": "principle",
+        "title": "Volume equals energy transfer",
+        "explanation": "When you speak with healthy volume, you're not just sharing information, you're transferring energy. People feel your conviction.",
+        "topic": "presence",
+        "video_id": "PiNN-HmHu7A"
+      },
+      {
+        "type": "phrase",
+        "phrase": "add melody to that",
+        "context": "When increasing volume to avoid sounding angry or harsh",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-50"
+      },
+      {
+        "type": "phrase",
+        "phrase": "end on a low pitch",
+        "context": "To maintain credibility and authority when speaking",
+        "topic": "vocal_variety",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-51"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you lose credibility with that",
+        "context": "When explaining why ending on a high pitch reduces authority",
+        "topic": "presence",
+        "video_id": "PMJnlL1aRe4",
+        "id": "phrase-52"
+      },
+      {
+        "type": "principle",
+        "title": "Gender Dynamics in Speaking",
+        "explanation": "Women face different challenges than men when projecting authority - men can get away with forceful delivery while women may be perceived negatively for the same approach",
+        "topic": "presence",
+        "video_id": "PMJnlL1aRe4"
+      },
+      {
+        "type": "principle",
+        "title": "Low Pitch for Authority",
+        "explanation": "Ending statements on a low pitch rather than high pitch maintains credibility and authority",
+        "topic": "presence",
+        "video_id": "PMJnlL1aRe4"
+      },
+      {
+        "type": "phrase",
+        "phrase": "don't leave this to chance",
+        "context": "emphasizing the importance of deliberately developing your vocal image",
+        "topic": "vocal_variety",
+        "video_id": "rALD3K1RJME",
+        "id": "phrase-53"
+      },
+      {
+        "type": "phrase",
+        "phrase": "only when we connect with people do we deserve to influence their decision",
+        "context": "explaining the prerequisite for ethical influence in professional settings",
+        "topic": "presence",
+        "video_id": "rALD3K1RJME",
+        "id": "phrase-54"
+      },
+      {
+        "type": "principle",
+        "title": "Connection Before Influence",
+        "explanation": "You must first establish genuine connection with people before you have earned the right to influence their decisions",
+        "topic": "presence",
+        "video_id": "rALD3K1RJME"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Could I pull you aside for a quick chat",
+        "context": "Use when initiating private feedback conversations to create a safe space",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-55"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I want to help every single student succeed",
+        "context": "Frame feedback with supportive intent before delivering criticism",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-56"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Can I share with you a few thoughts to help you crush your next dive",
+        "context": "Ask permission before giving feedback to increase receptiveness",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-57"
+      },
+      {
+        "type": "principle",
+        "title": "Never give feedback in public",
+        "explanation": "Always pull someone aside for private conversations to avoid hitting their ego in front of peers",
+        "topic": "presence",
+        "video_id": "rDHzMk2yTvM"
+      },
+      {
+        "type": "phrase",
+        "phrase": "computer gesture",
+        "context": "Place fingertips together while someone is talking to show you're processing and listening",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ",
+        "id": "phrase-58"
+      },
+      {
+        "type": "phrase",
+        "phrase": "triangle technique",
+        "context": "Shift eye contact between left eye, right eye, and nose bridge every 4-5 seconds for better connection",
+        "topic": "confidence",
+        "video_id": "TAkaIDmnzAQ",
+        "id": "phrase-59"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Power Sphere",
+        "context": "Keep hand gestures between belly button and eyes for maximum charismatic impact",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ",
+        "id": "phrase-60"
+      },
+      {
+        "type": "principle",
+        "title": "Facial Expression Congruence",
+        "explanation": "Your facial expressions must match the emotional content of your words to maintain authenticity and trust",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ"
+      },
+      {
+        "type": "principle",
+        "title": "Power Sphere Positioning",
+        "explanation": "Gesturing between the belly button and eyes creates higher levels of charisma and influence compared to lower positioning",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ"
+      },
+      {
+        "type": "principle",
+        "title": "Active Listening Through Body Language",
+        "explanation": "The computer gesture demonstrates engagement and care when someone else is speaking",
+        "topic": "presence",
+        "video_id": "TAkaIDmnzAQ"
+      },
+      {
+        "type": "phrase",
+        "phrase": "wake up all the facial expression muscles",
+        "context": "explaining the purpose of doing facial warmup exercises before speaking",
+        "topic": "presence",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-70"
+      },
+      {
+        "type": "phrase",
+        "phrase": "unlock your jaw",
+        "context": "describing why jaw movement exercises prevent mumbling in speech",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-71"
+      },
+      {
+        "type": "phrase",
+        "phrase": "drop my jaw",
+        "context": "explaining how proper jaw movement allows voice to come out clearly",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-72"
+      },
+      {
+        "type": "phrase",
+        "phrase": "get rid of the morning voice",
+        "context": "describing how lip trills help prepare your voice for speaking",
+        "topic": "vocal_variety",
+        "video_id": "Y85-IT2vab8",
+        "id": "phrase-73"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are not stuck with the way you sound",
+        "context": "encouraging people that their voice can be changed and improved",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-74"
+      },
+      {
+        "type": "phrase",
+        "phrase": "your voice is your personality",
+        "context": "explaining how vocal tone affects how others perceive you",
+        "topic": "presence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-75"
+      },
+      {
+        "type": "phrase",
+        "phrase": "stop just speaking like this with one key",
+        "context": "encouraging vocal variety instead of monotone delivery",
+        "topic": "vocal_variety",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-76"
+      },
+      {
+        "type": "phrase",
+        "phrase": "not fake and phony, it's just unfamiliar",
+        "context": "reframing discomfort when trying new vocal techniques",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-77"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are only as good as you can communicate",
+        "context": "emphasizing that communication skills determine how others perceive your abilities",
+        "topic": "confidence",
+        "video_id": "ZW4CfKuumUs",
+        "id": "phrase-78"
+      },
+      {
+        "type": "principle",
+        "title": "Communication Determines Perception",
+        "explanation": "People perceive your competence based on your communication skills, not your technical abilities alone",
+        "topic": "presence",
+        "video_id": "ZW4CfKuumUs"
+      }
+    ],
+    "structure": [
+      {
+        "type": "phrase",
+        "phrase": "Your brain hits the panic button",
+        "context": "Describing what happens when unprepared for questions",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-6"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Open a dozen browser tabs in your head",
+        "context": "Metaphor for mental confusion under pressure",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-7"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Fall back on the framework",
+        "context": "Using structure instead of rambling when unprepared",
+        "topic": "structure",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-8"
+      },
+      {
+        "type": "phrase",
+        "phrase": "You leaned into it",
+        "context": "Describing confident body language when prepared",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-9"
+      },
+      {
+        "type": "principle",
+        "title": "Framework Over Panic",
+        "explanation": "When unprepared, rely on communication frameworks instead of letting your brain scramble and cause rambling",
+        "topic": "structure",
+        "video_id": "5m-C5mwpmxU"
+      },
+      {
+        "type": "principle",
+        "title": "Mental Organization Under Pressure",
+        "explanation": "Frameworks prevent your brain from opening multiple thought processes simultaneously, keeping you focused",
+        "topic": "structure",
+        "video_id": "5m-C5mwpmxU"
+      },
+      {
+        "type": "phrase",
+        "phrase": "record and review",
+        "context": "A process for self-improvement by recording and analyzing your speaking",
+        "topic": "structure",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-10"
+      },
+      {
+        "type": "phrase",
+        "phrase": "you are too damn self-critical",
+        "context": "Explaining why to wait before reviewing your recording",
+        "topic": "confidence",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-11"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal image",
+        "context": "The auditory component of how you sound when speaking",
+        "topic": "vocal_variety",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-12"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual image",
+        "context": "The visual component including body language and facial expressions",
+        "topic": "presence",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-13"
+      },
+      {
+        "type": "phrase",
+        "phrase": "filler words",
+        "context": "Non-words that rob you of clarity when speaking",
+        "topic": "vocabulary",
+        "video_id": "759ltCNvZNM",
+        "id": "phrase-14"
+      },
+      {
+        "type": "principle",
+        "title": "Three-Part Analysis",
+        "explanation": "Analyze your speaking performance through three separate lenses: auditory (vocal image), visual (body language), and verbal (word choice and filler words)",
+        "topic": "structure",
+        "video_id": "759ltCNvZNM"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Be formless, shapeless like water",
+        "context": "Use when emphasizing the need to adapt your communication style to connect with different personality types",
+        "topic": "communication",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-32"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Communication is the tide that lifts all boats",
+        "context": "Use when explaining how mastering communication skills benefits all areas of life",
+        "topic": "communication",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-33"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Meet people where they are",
+        "context": "Use when describing how to adapt your communication style to others rather than expecting them to adapt to you",
+        "topic": "connection",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-34"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Skip the fluff and focus on the outcome",
+        "context": "Use when communicating with results-driven, direct people who value efficiency",
+        "topic": "structure",
+        "video_id": "ikbcrpowlIs",
+        "id": "phrase-35"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause before you talk",
+        "context": "Used when you need time to organize your thoughts before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-36"
+      },
+      {
+        "type": "phrase",
+        "phrase": "give yourself a moment to think",
+        "context": "Used to prevent losing your trail of thought mid-sentence",
+        "topic": "confidence",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-37"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when you don't see the path clearly",
+        "context": "Used to describe the importance of mental preparation before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-38"
+      },
+      {
+        "type": "phrase",
+        "phrase": "don't just make it up as you go",
+        "context": "Used to emphasize the importance of thinking before speaking",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w",
+        "id": "phrase-39"
+      },
+      {
+        "type": "principle",
+        "title": "Think Before You Speak",
+        "explanation": "Instead of pausing mid-sentence when lost, pause before speaking to organize your thoughts and see the path clearly",
+        "topic": "structure",
+        "video_id": "k4yENpxBI9w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause more",
+        "context": "Use pauses to sound more confident, intelligent, and trustworthy",
+        "topic": "confidence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-42"
+      },
+      {
+        "type": "phrase",
+        "phrase": "slow down to highlight",
+        "context": "Use slower speech combined with pauses to make important points land",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-43"
+      },
+      {
+        "type": "phrase",
+        "phrase": "declarative statements",
+        "context": "Use short, concise sentences with full stops to reduce rambling",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-44"
+      },
+      {
+        "type": "phrase",
+        "phrase": "finish one thought at a time",
+        "context": "Complete each idea before moving to the next to avoid confusing listeners",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-45"
+      },
+      {
+        "type": "phrase",
+        "phrase": "warm up your voice",
+        "context": "Prepare your vocal muscles before extended speaking to prevent strain",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-46"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nose breathing",
+        "context": "Breathe through your nose when not speaking to protect your vocal cords",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-47"
+      },
+      {
+        "type": "phrase",
+        "phrase": "use more volume",
+        "context": "Speak with presence and vitality to transfer energy, not just information",
+        "topic": "presence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-48"
+      },
+      {
+        "type": "phrase",
+        "phrase": "explain it differently with an analogy",
+        "context": "Use analogies to make complex ideas simple and relatable",
+        "topic": "vocabulary",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-49"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Could I pull you aside for a quick chat",
+        "context": "Use when initiating private feedback conversations to create a safe space",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-55"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I want to help every single student succeed",
+        "context": "Frame feedback with supportive intent before delivering criticism",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-56"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Can I share with you a few thoughts to help you crush your next dive",
+        "context": "Ask permission before giving feedback to increase receptiveness",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM",
+        "id": "phrase-57"
+      },
+      {
+        "type": "principle",
+        "title": "Frame feedback with supportive intent",
+        "explanation": "Explain that your goal is to help them succeed before delivering critical observations",
+        "topic": "structure",
+        "video_id": "rDHzMk2yTvM"
+      },
+      {
+        "type": "phrase",
+        "phrase": "conversational threading",
+        "context": "Use when you want to give others multiple topics to continue a conversation",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-61"
+      },
+      {
+        "type": "phrase",
+        "phrase": "create multiple threads",
+        "context": "Include several different topics in your response to give conversation partners options",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-62"
+      },
+      {
+        "type": "phrase",
+        "phrase": "latch onto whatever you find interesting",
+        "context": "Allow others to choose which part of your response they want to explore further",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-63"
+      },
+      {
+        "type": "principle",
+        "title": "Give Multiple Conversation Options",
+        "explanation": "Instead of giving short, dead-end answers, include several different topics in your response so others have multiple directions to take the conversation",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "weak mind and mouth connection",
+        "context": "When you think well but struggle to verbalize thoughts quickly",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-64"
+      },
+      {
+        "type": "phrase",
+        "phrase": "speak your mind at a moment's notice",
+        "context": "The goal of improving spontaneous speaking ability",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-65"
+      },
+      {
+        "type": "phrase",
+        "phrase": "speak on the spot in the moment",
+        "context": "Describing the ability to talk spontaneously without preparation",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-66"
+      }
+    ],
+    "vocabulary": [
+      {
+        "type": "phrase",
+        "phrase": "when we're ashamed we play small with our voice",
+        "context": "explaining how shame affects vocal presence and confidence",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-3"
+      },
+      {
+        "type": "phrase",
+        "phrase": "when you increase volume and you step into courage no one sees shame",
+        "context": "demonstrating how vocal power can overcome self-consciousness",
+        "topic": "confidence",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-4"
+      },
+      {
+        "type": "phrase",
+        "phrase": "your accent is never a problem it's your articulation and your pronunciation",
+        "context": "reframing accent concerns to focus on technical speaking skills",
+        "topic": "vocal_variety",
+        "video_id": "3Z2OuuFxVLc",
+        "id": "phrase-5"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Your brain hits the panic button",
+        "context": "Describing what happens when unprepared for questions",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-6"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Open a dozen browser tabs in your head",
+        "context": "Metaphor for mental confusion under pressure",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-7"
+      },
+      {
+        "type": "phrase",
+        "phrase": "Fall back on the framework",
+        "context": "Using structure instead of rambling when unprepared",
+        "topic": "structure",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-8"
+      },
+      {
+        "type": "phrase",
+        "phrase": "You leaned into it",
+        "context": "Describing confident body language when prepared",
+        "topic": "confidence",
+        "video_id": "5m-C5mwpmxU",
+        "id": "phrase-9"
+      },
+      {
+        "type": "phrase",
+        "phrase": "auditory review",
+        "context": "listening to your recorded speech with sound only to analyze vocal foundations",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-15"
+      },
+      {
+        "type": "phrase",
+        "phrase": "visual review",
+        "context": "watching your recorded speech on mute to analyze body language and presence",
+        "topic": "presence",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-16"
+      },
+      {
+        "type": "phrase",
+        "phrase": "vocal foundations",
+        "context": "analyzing the basic elements of your voice like volume and emotion",
+        "topic": "vocal_variety",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-17"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nonwords and fill words",
+        "context": "identifying words that diminish your credibility in speech",
+        "topic": "vocabulary",
+        "video_id": "b0MyTOcfDsE",
+        "id": "phrase-18"
+      },
+      {
+        "type": "phrase",
+        "phrase": "pause more",
+        "context": "Use pauses to sound more confident, intelligent, and trustworthy",
+        "topic": "confidence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-42"
+      },
+      {
+        "type": "phrase",
+        "phrase": "slow down to highlight",
+        "context": "Use slower speech combined with pauses to make important points land",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-43"
+      },
+      {
+        "type": "phrase",
+        "phrase": "declarative statements",
+        "context": "Use short, concise sentences with full stops to reduce rambling",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-44"
+      },
+      {
+        "type": "phrase",
+        "phrase": "finish one thought at a time",
+        "context": "Complete each idea before moving to the next to avoid confusing listeners",
+        "topic": "structure",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-45"
+      },
+      {
+        "type": "phrase",
+        "phrase": "warm up your voice",
+        "context": "Prepare your vocal muscles before extended speaking to prevent strain",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-46"
+      },
+      {
+        "type": "phrase",
+        "phrase": "nose breathing",
+        "context": "Breathe through your nose when not speaking to protect your vocal cords",
+        "topic": "vocal_variety",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-47"
+      },
+      {
+        "type": "phrase",
+        "phrase": "use more volume",
+        "context": "Speak with presence and vitality to transfer energy, not just information",
+        "topic": "presence",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-48"
+      },
+      {
+        "type": "phrase",
+        "phrase": "explain it differently with an analogy",
+        "context": "Use analogies to make complex ideas simple and relatable",
+        "topic": "vocabulary",
+        "video_id": "PiNN-HmHu7A",
+        "id": "phrase-49"
+      },
+      {
+        "type": "principle",
+        "title": "Analogies are shortcuts to understanding",
+        "explanation": "They connect the unknown to the known by taking something complex and tying it to something simple and familiar.",
+        "topic": "vocabulary",
+        "video_id": "PiNN-HmHu7A"
+      },
+      {
+        "type": "phrase",
+        "phrase": "conversational threading",
+        "context": "Use when you want to give others multiple topics to continue a conversation",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-61"
+      },
+      {
+        "type": "phrase",
+        "phrase": "create multiple threads",
+        "context": "Include several different topics in your response to give conversation partners options",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-62"
+      },
+      {
+        "type": "phrase",
+        "phrase": "latch onto whatever you find interesting",
+        "context": "Allow others to choose which part of your response they want to explore further",
+        "topic": "structure",
+        "video_id": "UefHuE41N4w",
+        "id": "phrase-63"
+      },
+      {
+        "type": "phrase",
+        "phrase": "weak mind and mouth connection",
+        "context": "When you think well but struggle to verbalize thoughts quickly",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-64"
+      },
+      {
+        "type": "phrase",
+        "phrase": "speak your mind at a moment's notice",
+        "context": "The goal of improving spontaneous speaking ability",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-65"
+      },
+      {
+        "type": "phrase",
+        "phrase": "speak on the spot in the moment",
+        "context": "Describing the ability to talk spontaneously without preparation",
+        "topic": "confidence",
+        "video_id": "wuyh2LkaErc",
+        "id": "phrase-66"
+      }
+    ],
+    "prayer_speaking": [],
+    "other": [
+      {
+        "type": "phrase",
+        "phrase": "liquid gold",
+        "context": "Describing distilled, high-value knowledge gained from experts",
+        "topic": "other",
+        "video_id": "c0-dFnGlh2c",
+        "id": "phrase-19"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I respect your time",
+        "context": "Showing appreciation when negotiating with experts for their knowledge",
+        "topic": "other",
+        "video_id": "c0-dFnGlh2c",
+        "id": "phrase-20"
+      },
+      {
+        "type": "phrase",
+        "phrase": "done my due diligence",
+        "context": "Demonstrating research and preparation when approaching experts",
+        "topic": "other",
+        "video_id": "c0-dFnGlh2c",
+        "id": "phrase-21"
+      },
+      {
+        "type": "principle",
+        "title": "Value Expert Time Appropriately",
+        "explanation": "Pay professionals their worth to gain access to years of distilled experience in a condensed format",
+        "topic": "other",
+        "video_id": "c0-dFnGlh2c"
+      },
+      {
+        "type": "principle",
+        "title": "Seek Shortcuts Through Expertise",
+        "explanation": "Instead of learning through trial and error over decades, invest in learning from those who have already mastered the field",
+        "topic": "other",
+        "video_id": "c0-dFnGlh2c"
+      },
+      {
+        "type": "phrase",
+        "phrase": "oh hi hi how you going sorry to bother you",
+        "context": "Using humorous energy to introduce yourself when joining a conversation",
+        "topic": "confidence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-22"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I'm so sorry I just what you were talking about was so interesting I just really want to be a part of it do you mind",
+        "context": "Politely inserting yourself into a group conversation at networking events",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-23"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I can tell this is sensitive it's okay",
+        "context": "Gracefully exiting when you sense you're not welcome in a conversation",
+        "topic": "presence",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-24"
+      },
+      {
+        "type": "phrase",
+        "phrase": "I'm out of water be right back",
+        "context": "Polite exit strategy from boring conversations at networking events",
+        "topic": "other",
+        "video_id": "eG-2T6naq5w",
+        "id": "phrase-25"
+      },
+      {
+        "type": "principle",
+        "title": "Have graceful exit strategies",
+        "explanation": "Prepare polite ways to leave conversations, whether they reject you or become boring",
+        "topic": "other",
+        "video_id": "eG-2T6naq5w"
+      },
+      {
+        "type": "phrase",
+        "phrase": "proxemic is the study of distances",
+        "context": "explaining the concept when teaching about spatial awareness in virtual presentations",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU",
+        "id": "phrase-26"
+      },
+      {
+        "type": "phrase",
+        "phrase": "appear in the social space",
+        "context": "advising on optimal positioning for video calls to create comfort",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU",
+        "id": "phrase-27"
+      },
+      {
+        "type": "phrase",
+        "phrase": "my hand gestures are now present",
+        "context": "explaining why proper distance allows for more effective visual communication",
+        "topic": "presence",
+        "video_id": "HgUvbPMvCwU",
+        "id": "phrase-28"
+      }
+    ]
+  },
+  "all_phrases": [
+    {
+      "phrase": "it's not fake it's just unfamiliar",
+      "context": "reassuring someone who feels awkward when practicing new speaking techniques",
+      "topic": "confidence",
+      "video_id": "00BeMJbHplQ",
+      "id": "phrase-0"
+    },
+    {
+      "phrase": "you becoming the future version of you",
+      "context": "encouraging persistence when new behaviors feel uncomfortable",
+      "topic": "confidence",
+      "video_id": "00BeMJbHplQ",
+      "id": "phrase-1"
+    },
+    {
+      "phrase": "learning how to play with your voice",
+      "context": "explaining that vocal techniques require practice like any instrument",
+      "topic": "vocal_variety",
+      "video_id": "00BeMJbHplQ",
+      "id": "phrase-2"
+    },
+    {
+      "phrase": "when we're ashamed we play small with our voice",
+      "context": "explaining how shame affects vocal presence and confidence",
+      "topic": "confidence",
+      "video_id": "3Z2OuuFxVLc",
+      "id": "phrase-3"
+    },
+    {
+      "phrase": "when you increase volume and you step into courage no one sees shame",
+      "context": "demonstrating how vocal power can overcome self-consciousness",
+      "topic": "confidence",
+      "video_id": "3Z2OuuFxVLc",
+      "id": "phrase-4"
+    },
+    {
+      "phrase": "your accent is never a problem it's your articulation and your pronunciation",
+      "context": "reframing accent concerns to focus on technical speaking skills",
+      "topic": "vocal_variety",
+      "video_id": "3Z2OuuFxVLc",
+      "id": "phrase-5"
+    },
+    {
+      "phrase": "Your brain hits the panic button",
+      "context": "Describing what happens when unprepared for questions",
+      "topic": "confidence",
+      "video_id": "5m-C5mwpmxU",
+      "id": "phrase-6"
+    },
+    {
+      "phrase": "Open a dozen browser tabs in your head",
+      "context": "Metaphor for mental confusion under pressure",
+      "topic": "confidence",
+      "video_id": "5m-C5mwpmxU",
+      "id": "phrase-7"
+    },
+    {
+      "phrase": "Fall back on the framework",
+      "context": "Using structure instead of rambling when unprepared",
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU",
+      "id": "phrase-8"
+    },
+    {
+      "phrase": "You leaned into it",
+      "context": "Describing confident body language when prepared",
+      "topic": "confidence",
+      "video_id": "5m-C5mwpmxU",
+      "id": "phrase-9"
+    },
+    {
+      "phrase": "record and review",
+      "context": "A process for self-improvement by recording and analyzing your speaking",
+      "topic": "structure",
+      "video_id": "759ltCNvZNM",
+      "id": "phrase-10"
+    },
+    {
+      "phrase": "you are too damn self-critical",
+      "context": "Explaining why to wait before reviewing your recording",
+      "topic": "confidence",
+      "video_id": "759ltCNvZNM",
+      "id": "phrase-11"
+    },
+    {
+      "phrase": "vocal image",
+      "context": "The auditory component of how you sound when speaking",
+      "topic": "vocal_variety",
+      "video_id": "759ltCNvZNM",
+      "id": "phrase-12"
+    },
+    {
+      "phrase": "visual image",
+      "context": "The visual component including body language and facial expressions",
+      "topic": "presence",
+      "video_id": "759ltCNvZNM",
+      "id": "phrase-13"
+    },
+    {
+      "phrase": "filler words",
+      "context": "Non-words that rob you of clarity when speaking",
+      "topic": "vocabulary",
+      "video_id": "759ltCNvZNM",
+      "id": "phrase-14"
+    },
+    {
+      "phrase": "auditory review",
+      "context": "listening to your recorded speech with sound only to analyze vocal foundations",
+      "topic": "vocal_variety",
+      "video_id": "b0MyTOcfDsE",
+      "id": "phrase-15"
+    },
+    {
+      "phrase": "visual review",
+      "context": "watching your recorded speech on mute to analyze body language and presence",
+      "topic": "presence",
+      "video_id": "b0MyTOcfDsE",
+      "id": "phrase-16"
+    },
+    {
+      "phrase": "vocal foundations",
+      "context": "analyzing the basic elements of your voice like volume and emotion",
+      "topic": "vocal_variety",
+      "video_id": "b0MyTOcfDsE",
+      "id": "phrase-17"
+    },
+    {
+      "phrase": "nonwords and fill words",
+      "context": "identifying words that diminish your credibility in speech",
+      "topic": "vocabulary",
+      "video_id": "b0MyTOcfDsE",
+      "id": "phrase-18"
+    },
+    {
+      "phrase": "liquid gold",
+      "context": "Describing distilled, high-value knowledge gained from experts",
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c",
+      "id": "phrase-19"
+    },
+    {
+      "phrase": "I respect your time",
+      "context": "Showing appreciation when negotiating with experts for their knowledge",
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c",
+      "id": "phrase-20"
+    },
+    {
+      "phrase": "done my due diligence",
+      "context": "Demonstrating research and preparation when approaching experts",
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c",
+      "id": "phrase-21"
+    },
+    {
+      "phrase": "oh hi hi how you going sorry to bother you",
+      "context": "Using humorous energy to introduce yourself when joining a conversation",
+      "topic": "confidence",
+      "video_id": "eG-2T6naq5w",
+      "id": "phrase-22"
+    },
+    {
+      "phrase": "I'm so sorry I just what you were talking about was so interesting I just really want to be a part of it do you mind",
+      "context": "Politely inserting yourself into a group conversation at networking events",
+      "topic": "presence",
+      "video_id": "eG-2T6naq5w",
+      "id": "phrase-23"
+    },
+    {
+      "phrase": "I can tell this is sensitive it's okay",
+      "context": "Gracefully exiting when you sense you're not welcome in a conversation",
+      "topic": "presence",
+      "video_id": "eG-2T6naq5w",
+      "id": "phrase-24"
+    },
+    {
+      "phrase": "I'm out of water be right back",
+      "context": "Polite exit strategy from boring conversations at networking events",
+      "topic": "other",
+      "video_id": "eG-2T6naq5w",
+      "id": "phrase-25"
+    },
+    {
+      "phrase": "proxemic is the study of distances",
+      "context": "explaining the concept when teaching about spatial awareness in virtual presentations",
+      "topic": "presence",
+      "video_id": "HgUvbPMvCwU",
+      "id": "phrase-26"
+    },
+    {
+      "phrase": "appear in the social space",
+      "context": "advising on optimal positioning for video calls to create comfort",
+      "topic": "presence",
+      "video_id": "HgUvbPMvCwU",
+      "id": "phrase-27"
+    },
+    {
+      "phrase": "my hand gestures are now present",
+      "context": "explaining why proper distance allows for more effective visual communication",
+      "topic": "presence",
+      "video_id": "HgUvbPMvCwU",
+      "id": "phrase-28"
+    },
+    {
+      "phrase": "vocal variety is key",
+      "context": "emphasizing the importance of changing speech patterns to maintain engagement",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI",
+      "id": "phrase-29"
+    },
+    {
+      "phrase": "default rate of speech",
+      "context": "describing the common mistake of speaking at one consistent pace throughout a presentation",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI",
+      "id": "phrase-30"
+    },
+    {
+      "phrase": "what started out as being really engaging after a while becomes monotonous",
+      "context": "explaining how even initially engaging speech patterns become boring without variation",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI",
+      "id": "phrase-31"
+    },
+    {
+      "phrase": "Be formless, shapeless like water",
+      "context": "Use when emphasizing the need to adapt your communication style to connect with different personality types",
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs",
+      "id": "phrase-32"
+    },
+    {
+      "phrase": "Communication is the tide that lifts all boats",
+      "context": "Use when explaining how mastering communication skills benefits all areas of life",
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs",
+      "id": "phrase-33"
+    },
+    {
+      "phrase": "Meet people where they are",
+      "context": "Use when describing how to adapt your communication style to others rather than expecting them to adapt to you",
+      "topic": "connection",
+      "video_id": "ikbcrpowlIs",
+      "id": "phrase-34"
+    },
+    {
+      "phrase": "Skip the fluff and focus on the outcome",
+      "context": "Use when communicating with results-driven, direct people who value efficiency",
+      "topic": "structure",
+      "video_id": "ikbcrpowlIs",
+      "id": "phrase-35"
+    },
+    {
+      "phrase": "pause before you talk",
+      "context": "Used when you need time to organize your thoughts before speaking",
+      "topic": "structure",
+      "video_id": "k4yENpxBI9w",
+      "id": "phrase-36"
+    },
+    {
+      "phrase": "give yourself a moment to think",
+      "context": "Used to prevent losing your trail of thought mid-sentence",
+      "topic": "confidence",
+      "video_id": "k4yENpxBI9w",
+      "id": "phrase-37"
+    },
+    {
+      "phrase": "when you don't see the path clearly",
+      "context": "Used to describe the importance of mental preparation before speaking",
+      "topic": "structure",
+      "video_id": "k4yENpxBI9w",
+      "id": "phrase-38"
+    },
+    {
+      "phrase": "don't just make it up as you go",
+      "context": "Used to emphasize the importance of thinking before speaking",
+      "topic": "structure",
+      "video_id": "k4yENpxBI9w",
+      "id": "phrase-39"
+    },
+    {
+      "phrase": "get rid of the adrenaline backstage",
+      "context": "Use this when preparing for a presentation to manage pre-speech nerves",
+      "topic": "confidence",
+      "video_id": "LizhmZyRNSU",
+      "id": "phrase-40"
+    },
+    {
+      "phrase": "forces you to take deep breaths",
+      "context": "Explain the physiological benefit of physical exercises before speaking",
+      "topic": "confidence",
+      "video_id": "LizhmZyRNSU",
+      "id": "phrase-41"
+    },
+    {
+      "phrase": "pause more",
+      "context": "Use pauses to sound more confident, intelligent, and trustworthy",
+      "topic": "confidence",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-42"
+    },
+    {
+      "phrase": "slow down to highlight",
+      "context": "Use slower speech combined with pauses to make important points land",
+      "topic": "vocal_variety",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-43"
+    },
+    {
+      "phrase": "declarative statements",
+      "context": "Use short, concise sentences with full stops to reduce rambling",
+      "topic": "structure",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-44"
+    },
+    {
+      "phrase": "finish one thought at a time",
+      "context": "Complete each idea before moving to the next to avoid confusing listeners",
+      "topic": "structure",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-45"
+    },
+    {
+      "phrase": "warm up your voice",
+      "context": "Prepare your vocal muscles before extended speaking to prevent strain",
+      "topic": "vocal_variety",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-46"
+    },
+    {
+      "phrase": "nose breathing",
+      "context": "Breathe through your nose when not speaking to protect your vocal cords",
+      "topic": "vocal_variety",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-47"
+    },
+    {
+      "phrase": "use more volume",
+      "context": "Speak with presence and vitality to transfer energy, not just information",
+      "topic": "presence",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-48"
+    },
+    {
+      "phrase": "explain it differently with an analogy",
+      "context": "Use analogies to make complex ideas simple and relatable",
+      "topic": "vocabulary",
+      "video_id": "PiNN-HmHu7A",
+      "id": "phrase-49"
+    },
+    {
+      "phrase": "add melody to that",
+      "context": "When increasing volume to avoid sounding angry or harsh",
+      "topic": "vocal_variety",
+      "video_id": "PMJnlL1aRe4",
+      "id": "phrase-50"
+    },
+    {
+      "phrase": "end on a low pitch",
+      "context": "To maintain credibility and authority when speaking",
+      "topic": "vocal_variety",
+      "video_id": "PMJnlL1aRe4",
+      "id": "phrase-51"
+    },
+    {
+      "phrase": "you lose credibility with that",
+      "context": "When explaining why ending on a high pitch reduces authority",
+      "topic": "presence",
+      "video_id": "PMJnlL1aRe4",
+      "id": "phrase-52"
+    },
+    {
+      "phrase": "don't leave this to chance",
+      "context": "emphasizing the importance of deliberately developing your vocal image",
+      "topic": "vocal_variety",
+      "video_id": "rALD3K1RJME",
+      "id": "phrase-53"
+    },
+    {
+      "phrase": "only when we connect with people do we deserve to influence their decision",
+      "context": "explaining the prerequisite for ethical influence in professional settings",
+      "topic": "presence",
+      "video_id": "rALD3K1RJME",
+      "id": "phrase-54"
+    },
+    {
+      "phrase": "Could I pull you aside for a quick chat",
+      "context": "Use when initiating private feedback conversations to create a safe space",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM",
+      "id": "phrase-55"
+    },
+    {
+      "phrase": "I want to help every single student succeed",
+      "context": "Frame feedback with supportive intent before delivering criticism",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM",
+      "id": "phrase-56"
+    },
+    {
+      "phrase": "Can I share with you a few thoughts to help you crush your next dive",
+      "context": "Ask permission before giving feedback to increase receptiveness",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM",
+      "id": "phrase-57"
+    },
+    {
+      "phrase": "computer gesture",
+      "context": "Place fingertips together while someone is talking to show you're processing and listening",
+      "topic": "presence",
+      "video_id": "TAkaIDmnzAQ",
+      "id": "phrase-58"
+    },
+    {
+      "phrase": "triangle technique",
+      "context": "Shift eye contact between left eye, right eye, and nose bridge every 4-5 seconds for better connection",
+      "topic": "confidence",
+      "video_id": "TAkaIDmnzAQ",
+      "id": "phrase-59"
+    },
+    {
+      "phrase": "Power Sphere",
+      "context": "Keep hand gestures between belly button and eyes for maximum charismatic impact",
+      "topic": "presence",
+      "video_id": "TAkaIDmnzAQ",
+      "id": "phrase-60"
+    },
+    {
+      "phrase": "conversational threading",
+      "context": "Use when you want to give others multiple topics to continue a conversation",
+      "topic": "structure",
+      "video_id": "UefHuE41N4w",
+      "id": "phrase-61"
+    },
+    {
+      "phrase": "create multiple threads",
+      "context": "Include several different topics in your response to give conversation partners options",
+      "topic": "structure",
+      "video_id": "UefHuE41N4w",
+      "id": "phrase-62"
+    },
+    {
+      "phrase": "latch onto whatever you find interesting",
+      "context": "Allow others to choose which part of your response they want to explore further",
+      "topic": "structure",
+      "video_id": "UefHuE41N4w",
+      "id": "phrase-63"
+    },
+    {
+      "phrase": "weak mind and mouth connection",
+      "context": "When you think well but struggle to verbalize thoughts quickly",
+      "topic": "confidence",
+      "video_id": "wuyh2LkaErc",
+      "id": "phrase-64"
+    },
+    {
+      "phrase": "speak your mind at a moment's notice",
+      "context": "The goal of improving spontaneous speaking ability",
+      "topic": "confidence",
+      "video_id": "wuyh2LkaErc",
+      "id": "phrase-65"
+    },
+    {
+      "phrase": "speak on the spot in the moment",
+      "context": "Describing the ability to talk spontaneously without preparation",
+      "topic": "confidence",
+      "video_id": "wuyh2LkaErc",
+      "id": "phrase-66"
+    },
+    {
+      "phrase": "vary your rate of speech",
+      "context": "Essential principle for effective speaking to maintain audience engagement",
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0",
+      "id": "phrase-67"
+    },
+    {
+      "phrase": "any default rate of speech is bad",
+      "context": "Core concept explaining why maintaining one speed throughout is ineffective",
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0",
+      "id": "phrase-68"
+    },
+    {
+      "phrase": "people naturally lean in when you move your rate back and forth",
+      "context": "Describing the natural audience response to vocal variety",
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0",
+      "id": "phrase-69"
+    },
+    {
+      "phrase": "wake up all the facial expression muscles",
+      "context": "explaining the purpose of doing facial warmup exercises before speaking",
+      "topic": "presence",
+      "video_id": "Y85-IT2vab8",
+      "id": "phrase-70"
+    },
+    {
+      "phrase": "unlock your jaw",
+      "context": "describing why jaw movement exercises prevent mumbling in speech",
+      "topic": "vocal_variety",
+      "video_id": "Y85-IT2vab8",
+      "id": "phrase-71"
+    },
+    {
+      "phrase": "drop my jaw",
+      "context": "explaining how proper jaw movement allows voice to come out clearly",
+      "topic": "vocal_variety",
+      "video_id": "Y85-IT2vab8",
+      "id": "phrase-72"
+    },
+    {
+      "phrase": "get rid of the morning voice",
+      "context": "describing how lip trills help prepare your voice for speaking",
+      "topic": "vocal_variety",
+      "video_id": "Y85-IT2vab8",
+      "id": "phrase-73"
+    },
+    {
+      "phrase": "you are not stuck with the way you sound",
+      "context": "encouraging people that their voice can be changed and improved",
+      "topic": "vocal_variety",
+      "video_id": "ZW4CfKuumUs",
+      "id": "phrase-74"
+    },
+    {
+      "phrase": "your voice is your personality",
+      "context": "explaining how vocal tone affects how others perceive you",
+      "topic": "presence",
+      "video_id": "ZW4CfKuumUs",
+      "id": "phrase-75"
+    },
+    {
+      "phrase": "stop just speaking like this with one key",
+      "context": "encouraging vocal variety instead of monotone delivery",
+      "topic": "vocal_variety",
+      "video_id": "ZW4CfKuumUs",
+      "id": "phrase-76"
+    },
+    {
+      "phrase": "not fake and phony, it's just unfamiliar",
+      "context": "reframing discomfort when trying new vocal techniques",
+      "topic": "confidence",
+      "video_id": "ZW4CfKuumUs",
+      "id": "phrase-77"
+    },
+    {
+      "phrase": "you are only as good as you can communicate",
+      "context": "emphasizing that communication skills determine how others perceive your abilities",
+      "topic": "confidence",
+      "video_id": "ZW4CfKuumUs",
+      "id": "phrase-78"
+    }
+  ],
+  "all_vocabulary": [
+    {
+      "word": "staccato",
+      "meaning": "a speaking style where words are delivered in a choppy, disconnected manner",
+      "example_sentence": "She was falling victim to staccato style speaking when she spoke like this.",
+      "video_id": "3Z2OuuFxVLc",
+      "id": "vocab-0",
+      "topic": "confidence"
+    },
+    {
+      "word": "legato",
+      "meaning": "a speaking style where words flow smoothly and are connected together",
+      "example_sentence": "Use legato style speaking which means all of the words are linked together.",
+      "video_id": "3Z2OuuFxVLc",
+      "id": "vocab-1",
+      "topic": "confidence"
+    },
+    {
+      "word": "articulation",
+      "meaning": "the clear and distinct pronunciation of words and sounds",
+      "example_sentence": "There is nothing wrong with your accent but there's a lot wrong with pronunciation and articulation.",
+      "video_id": "3Z2OuuFxVLc",
+      "id": "vocab-2",
+      "topic": "confidence"
+    },
+    {
+      "word": "rambling",
+      "meaning": "Speaking in a confused or lengthy way without clear direction",
+      "example_sentence": "Instead of rambling when asked questions, use a framework to structure your response",
+      "video_id": "5m-C5mwpmxU",
+      "id": "vocab-3",
+      "topic": "confidence"
+    },
+    {
+      "word": "framework",
+      "meaning": "A structured approach or template for organizing thoughts and responses",
+      "example_sentence": "When you have a framework, you fall back on the framework instead of panicking",
+      "video_id": "5m-C5mwpmxU",
+      "id": "vocab-4",
+      "topic": "confidence"
+    },
+    {
+      "word": "off the cuff",
+      "meaning": "Speaking spontaneously without preparation",
+      "example_sentence": "If I have to speak off the cuff, I'm much less confident than with prepared content",
+      "video_id": "5m-C5mwpmxU",
+      "id": "vocab-5",
+      "topic": "confidence"
+    },
+    {
+      "word": "vocal image",
+      "meaning": "The auditory component of your voice and how it sounds to others",
+      "example_sentence": "Audit the auditory component of your voice known as your vocal image.",
+      "video_id": "759ltCNvZNM",
+      "id": "vocab-6",
+      "topic": "structure"
+    },
+    {
+      "word": "filler words",
+      "meaning": "Non-words like 'um', 'ah', 'you know' that interrupt speech clarity",
+      "example_sentence": "Bring all your non-words and filler words to the forefront of your mind.",
+      "video_id": "759ltCNvZNM",
+      "id": "vocab-7",
+      "topic": "structure"
+    },
+    {
+      "word": "impromptu",
+      "meaning": "done without being planned or rehearsed",
+      "example_sentence": "The speech must be impromptu, not planned or rehearsed.",
+      "video_id": "b0MyTOcfDsE",
+      "id": "vocab-8",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "excruciating",
+      "meaning": "extremely painful or unpleasant",
+      "example_sentence": "This is an excruciating process when you watch yourself on video.",
+      "video_id": "b0MyTOcfDsE",
+      "id": "vocab-9",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "credibility",
+      "meaning": "the quality of being trusted and believed in",
+      "example_sentence": "Fill words rob you of credibility and authority.",
+      "video_id": "b0MyTOcfDsE",
+      "id": "vocab-10",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "pragmatic",
+      "meaning": "practical and realistic",
+      "example_sentence": "Share with me the most pragmatic lessons you've learned",
+      "video_id": "c0-dFnGlh2c",
+      "id": "vocab-11",
+      "topic": "other"
+    },
+    {
+      "word": "distilled",
+      "meaning": "concentrated the essence of something",
+      "example_sentence": "She distilled for me liquid gold that took her 20 years to learn",
+      "video_id": "c0-dFnGlh2c",
+      "id": "vocab-12",
+      "topic": "other"
+    },
+    {
+      "word": "due diligence",
+      "meaning": "thorough research and investigation",
+      "example_sentence": "I've researched you and done my due diligence",
+      "video_id": "c0-dFnGlh2c",
+      "id": "vocab-13",
+      "topic": "other"
+    },
+    {
+      "word": "melody",
+      "meaning": "The rhythm or flow of speech energy",
+      "example_sentence": "Wrong melody, wrong sequence of energy when introducing yourself.",
+      "video_id": "eG-2T6naq5w",
+      "id": "vocab-14",
+      "topic": "confidence"
+    },
+    {
+      "word": "sequence",
+      "meaning": "The order or pattern of energy in communication",
+      "example_sentence": "Getting the right sequence of energy is crucial for successful introductions.",
+      "video_id": "eG-2T6naq5w",
+      "id": "vocab-15",
+      "topic": "confidence"
+    },
+    {
+      "word": "proxemic",
+      "meaning": "the study of personal space and distances in human interaction",
+      "example_sentence": "Understanding proxemic helps you position yourself correctly on video calls.",
+      "video_id": "HgUvbPMvCwU",
+      "id": "vocab-16",
+      "topic": "presence"
+    },
+    {
+      "word": "intimate space",
+      "meaning": "the closest personal distance zone, reserved for very close relationships",
+      "example_sentence": "Being too close to the camera puts you in someone's intimate space, making them uncomfortable.",
+      "video_id": "HgUvbPMvCwU",
+      "id": "vocab-17",
+      "topic": "presence"
+    },
+    {
+      "word": "personal space",
+      "meaning": "the distance zone for close friends and family interactions",
+      "example_sentence": "Personal space is still within arm's reach but feels less invasive than intimate space.",
+      "video_id": "HgUvbPMvCwU",
+      "id": "vocab-18",
+      "topic": "presence"
+    },
+    {
+      "word": "social space",
+      "meaning": "the appropriate distance zone for professional and social interactions",
+      "example_sentence": "Position yourself in social space on video calls so your hand gestures are visible and effective.",
+      "video_id": "HgUvbPMvCwU",
+      "id": "vocab-19",
+      "topic": "presence"
+    },
+    {
+      "word": "monotonous",
+      "meaning": "lacking in variety and interest; tediously uniform",
+      "example_sentence": "Even engaging speech becomes monotonous without vocal variety.",
+      "video_id": "i1rmvL0GKAI",
+      "id": "vocab-20",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "impactful",
+      "meaning": "having a strong effect or influence",
+      "example_sentence": "Slow default speech is neither influential nor impactful.",
+      "video_id": "i1rmvL0GKAI",
+      "id": "vocab-21",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "decisive",
+      "meaning": "Having the ability to make decisions quickly and effectively",
+      "example_sentence": "Reds are decisive communicators who prefer clear, direct outcomes.",
+      "video_id": "ikbcrpowlIs",
+      "id": "vocab-22",
+      "topic": "communication"
+    },
+    {
+      "word": "multilingual",
+      "meaning": "In communication context, being able to speak multiple communication styles or 'colors'",
+      "example_sentence": "Masterful communicators are multilingual without losing their identity.",
+      "video_id": "ikbcrpowlIs",
+      "id": "vocab-23",
+      "topic": "communication"
+    },
+    {
+      "word": "harmonious",
+      "meaning": "Characterized by agreement, peace, and avoiding conflict",
+      "example_sentence": "Greens prefer harmonious environments and resist sudden changes.",
+      "video_id": "ikbcrpowlIs",
+      "id": "vocab-24",
+      "topic": "communication"
+    },
+    {
+      "word": "frazzled",
+      "meaning": "mentally exhausted or confused",
+      "example_sentence": "Your brain becomes frazzled when you try to think and speak simultaneously",
+      "video_id": "k4yENpxBI9w",
+      "id": "vocab-25",
+      "topic": "confidence"
+    },
+    {
+      "word": "scatter brain",
+      "meaning": "a state of mental confusion or disorganization",
+      "example_sentence": "Making it up as you go causes scatter brain",
+      "video_id": "k4yENpxBI9w",
+      "id": "vocab-26",
+      "topic": "confidence"
+    },
+    {
+      "word": "adrenaline",
+      "meaning": "A hormone released during stress that causes physical symptoms like shaking",
+      "example_sentence": "Excess adrenaline is the main physiological reason why we shake when nervous.",
+      "video_id": "LizhmZyRNSU",
+      "id": "vocab-27",
+      "topic": "confidence"
+    },
+    {
+      "word": "fight or flight",
+      "meaning": "The body's natural stress response that prepares you to either face a threat or escape from it",
+      "example_sentence": "The body is preparing for fight or flight when you're about to speak publicly.",
+      "video_id": "LizhmZyRNSU",
+      "id": "vocab-28",
+      "topic": "confidence"
+    },
+    {
+      "word": "declarative",
+      "meaning": "A clear, definitive statement that expresses something directly",
+      "example_sentence": "Timing and consistency with our social media content will directly impact engagement.",
+      "video_id": "PiNN-HmHu7A",
+      "id": "vocab-29",
+      "topic": "confidence"
+    },
+    {
+      "word": "compounding",
+      "meaning": "Growing exponentially where gains build upon previous gains",
+      "example_sentence": "Compounding interest is like rolling a snowball downhill - it gets bigger and faster as it goes.",
+      "video_id": "PiNN-HmHu7A",
+      "id": "vocab-30",
+      "topic": "confidence"
+    },
+    {
+      "word": "resonating",
+      "meaning": "Creating a deep connection or meaningful impact with your audience",
+      "example_sentence": "You go from rambling to resonating when you use clear frameworks.",
+      "video_id": "PiNN-HmHu7A",
+      "id": "vocab-31",
+      "topic": "confidence"
+    },
+    {
+      "word": "visual image",
+      "meaning": "the impression people form based on your physical appearance and presentation",
+      "example_sentence": "We focus on our visual image when we wear a suit or beautiful dress to meet clients",
+      "video_id": "rALD3K1RJME",
+      "id": "vocab-32",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "diaphragmatic",
+      "meaning": "relating to deep breathing using the diaphragm muscle",
+      "example_sentence": "We want to take diaphragmatic breaths otherwise we can waste a lot of the oxygen",
+      "video_id": "rDHzMk2yTvM",
+      "id": "vocab-33",
+      "topic": "confidence"
+    },
+    {
+      "word": "camaraderie",
+      "meaning": "mutual trust and friendship among people",
+      "example_sentence": "It's been amazing to see the camaraderie that you have with the team",
+      "video_id": "rDHzMk2yTvM",
+      "id": "vocab-34",
+      "topic": "confidence"
+    },
+    {
+      "word": "tonality",
+      "meaning": "the vocal quality expressing emotion and attitude",
+      "example_sentence": "You must keep that caring tonality moving forward when giving feedback",
+      "video_id": "rDHzMk2yTvM",
+      "id": "vocab-35",
+      "topic": "confidence"
+    },
+    {
+      "word": "charismatic",
+      "meaning": "having compelling charm or appeal that inspires devotion in others",
+      "example_sentence": "Using proper body language can make you more charismatic when speaking.",
+      "video_id": "TAkaIDmnzAQ",
+      "id": "vocab-36",
+      "topic": "presence"
+    },
+    {
+      "word": "gesture vocabulary",
+      "meaning": "the range of hand and body movements you use to communicate",
+      "example_sentence": "Playing charades helps increase your gesture vocabulary for more expressive communication.",
+      "video_id": "TAkaIDmnzAQ",
+      "id": "vocab-37",
+      "topic": "presence"
+    },
+    {
+      "word": "threading",
+      "meaning": "Creating multiple conversation paths or topics within a single response",
+      "example_sentence": "Conversational threading helps keep discussions flowing naturally.",
+      "video_id": "UefHuE41N4w",
+      "id": "vocab-38",
+      "topic": "vocabulary"
+    },
+    {
+      "word": "secluded",
+      "meaning": "Away from others; isolated or private",
+      "example_sentence": "I prefer secluded areas because they help me focus on creative work.",
+      "video_id": "UefHuE41N4w",
+      "id": "vocab-39",
+      "topic": "vocabulary"
+    },
+    {
+      "word": "clunky",
+      "meaning": "awkward or ungraceful in movement or expression",
+      "example_sentence": "In the beginning when you do this it's going to feel really clunky",
+      "video_id": "wuyh2LkaErc",
+      "id": "vocab-40",
+      "topic": "confidence"
+    },
+    {
+      "word": "default",
+      "meaning": "a standard or usual way of doing something",
+      "example_sentence": "Any default rate of speech is bad for maintaining audience attention",
+      "video_id": "xVRXIQowDY0",
+      "id": "vocab-41",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "mumbling",
+      "meaning": "speaking in a way that is not clear because the mouth is not opened properly",
+      "example_sentence": "When we don't move our jaw then all time seems like we're mumbling",
+      "video_id": "Y85-IT2vab8",
+      "id": "vocab-42",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "lip trills",
+      "meaning": "a vocal exercise where you vibrate your lips together",
+      "example_sentence": "Lip trills helps you get rid of the morning voice",
+      "video_id": "Y85-IT2vab8",
+      "id": "vocab-43",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "wanker",
+      "meaning": "British slang for an unpleasant or obnoxious person",
+      "example_sentence": "If I spoke to you like this you'd think I'm a bit of a wanker",
+      "video_id": "ZW4CfKuumUs",
+      "id": "vocab-44",
+      "topic": "vocal_variety"
+    },
+    {
+      "word": "reframe",
+      "meaning": "to change how you think about or approach a situation",
+      "example_sentence": "Stop reframe not fake and phony it's just unfamiliar",
+      "video_id": "ZW4CfKuumUs",
+      "id": "vocab-45",
+      "topic": "vocal_variety"
+    }
+  ],
+  "all_frameworks": [
+    {
+      "name": "Accent Improvement Method",
+      "steps": [
+        "Record a 20-minute video of yourself speaking",
+        "Use ChatGPT to get top 20 questions to ask someone you've just met",
+        "Answer those questions on camera",
+        "Send video to speech pathologist",
+        "Get feedback on specific sounds you're making incorrectly",
+        "Practice the 10 actionable sounds and mouth movements"
+      ],
+      "topic": "vocal_variety",
+      "video_id": "3Z2OuuFxVLc"
+    },
+    {
+      "name": "3-2-1 Framework",
+      "steps": [
+        "Three steps (give three steps to do something)",
+        "Two types (identify two categories or ways)",
+        "One thing (share the most important point)"
+      ],
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "name": "Record and Review Process",
+      "steps": [
+        "Record a 5-minute improvised video",
+        "Wait until the next day to review",
+        "First review: audio only - evaluate vocal image",
+        "Second review: video with sound off - evaluate body language and facial expressions",
+        "Third review: get transcription including filler words - evaluate verbal clarity"
+      ],
+      "topic": "structure",
+      "video_id": "759ltCNvZNM"
+    },
+    {
+      "name": "Three-Step Video Review Process",
+      "steps": [
+        "Record 5-minute impromptu video",
+        "Auditory review - listen with sound up, take notes on vocal foundations",
+        "Visual review - watch on mute, observe body language",
+        "Get transcript and highlight nonwords/fill words with red highlighter"
+      ],
+      "topic": "confidence",
+      "video_id": "b0MyTOcfDsE"
+    },
+    {
+      "name": "Expert Knowledge Acquisition Method",
+      "steps": [
+        "Research the best experts in your field",
+        "Email them politely with context",
+        "Offer to pay their monthly rate for intensive learning",
+        "Ask for distilled lessons from their years of experience",
+        "Prepare for concentrated knowledge transfer"
+      ],
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c"
+    },
+    {
+      "name": "Networking Conversation Entry",
+      "steps": [
+        "Use humorous, apologetic energy",
+        "Express genuine interest in their conversation",
+        "Ask permission to join",
+        "Read their facial expressions for welcome",
+        "Exit gracefully if unwelcome"
+      ],
+      "topic": "presence",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "name": "Proxemic Zones for Video Calls",
+      "steps": [
+        "Avoid intimate space (too close to camera)",
+        "Don't position in personal space (within arm's reach)",
+        "Position in social space for optimal presence",
+        "Ensure hand gestures are visible"
+      ],
+      "topic": "presence",
+      "video_id": "HgUvbPMvCwU"
+    },
+    {
+      "name": "Four Color Communication System",
+      "steps": [
+        "Identify if person is introverted or extroverted",
+        "Determine if they are logical or emotional",
+        "Observe if they speak deliberately or quickly",
+        "Categorize into Red, Yellow, Green, or Blue",
+        "Adapt communication style accordingly"
+      ],
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "name": "Red Communication Framework",
+      "steps": [
+        "Be direct and decisive",
+        "Skip background details",
+        "Present top 3 key points",
+        "Recommend clear next steps",
+        "Ask for questions"
+      ],
+      "topic": "structure",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "name": "Pause Before Speaking",
+      "steps": [
+        "Pause before you start talking",
+        "Give yourself a moment to think",
+        "Visualize the path of your response",
+        "Then speak with clarity"
+      ],
+      "topic": "structure",
+      "video_id": "k4yENpxBI9w"
+    },
+    {
+      "name": "Pre-Speech Adrenaline Management",
+      "steps": [
+        "Go for a brisk walk for 3-5 minutes backstage",
+        "Do Wim Hof breathing exercises",
+        "Perform 20 star jumps",
+        "Do 5 push-ups",
+        "Take deep breaths"
+      ],
+      "topic": "confidence",
+      "video_id": "LizhmZyRNSU"
+    },
+    {
+      "name": "CCC Framework",
+      "steps": [
+        "Context - Set the scene and give the why before the what",
+        "Core - Deliver one clear main idea",
+        "Connect - Show why it matters to them"
+      ],
+      "topic": "structure",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "name": "Vocal Warm-up Routine",
+      "steps": [
+        "Do lip trills on one note for a full minute",
+        "Lip trill your favorite song",
+        "Do lip trills in short bursts for a minute"
+      ],
+      "topic": "vocal_variety",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "name": "Volume and Melody Technique",
+      "steps": [
+        "Increase volume as needed",
+        "Add melodic variation to avoid harshness",
+        "End statements on a low pitch for authority"
+      ],
+      "topic": "vocal_variety",
+      "video_id": "PMJnlL1aRe4"
+    },
+    {
+      "name": "Sandwich Technique",
+      "steps": [
+        "Start with something positive",
+        "Frame the feedback with care",
+        "Give the specific feedback",
+        "End with something positive"
+      ],
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "name": "Five Body Language Hacks for Charisma",
+      "steps": [
+        "Use computer gesture while listening",
+        "Match facial expressions to words",
+        "Practice charades to expand gesture vocabulary",
+        "Apply triangle technique for eye contact",
+        "Keep gestures in the Power Sphere"
+      ],
+      "topic": "presence",
+      "video_id": "TAkaIDmnzAQ"
+    },
+    {
+      "name": "Triangle Technique",
+      "steps": [
+        "Look at left eye for 4-5 seconds",
+        "Shift to right eye for 4-5 seconds",
+        "Move focus to nose bridge",
+        "Return to original eye"
+      ],
+      "topic": "confidence",
+      "video_id": "TAkaIDmnzAQ"
+    },
+    {
+      "name": "Conversational Threading",
+      "steps": [
+        "Receive a question",
+        "Prepare response with multiple topics/threads",
+        "Include personal details that spark different interests",
+        "Allow the other person to choose which thread to pursue"
+      ],
+      "topic": "structure",
+      "video_id": "UefHuE41N4w"
+    },
+    {
+      "name": "Random Word Speaking Exercise",
+      "steps": [
+        "Go to a random word generator",
+        "Generate a random word",
+        "Talk about that word for 1-2 minutes",
+        "Practice this 1-4 times per day",
+        "Accept that it will feel clunky initially",
+        "Continue practicing to strengthen mind-mouth connection"
+      ],
+      "topic": "confidence",
+      "video_id": "wuyh2LkaErc"
+    },
+    {
+      "name": "Speech Rate Variation",
+      "steps": [
+        "Go quickly when showing passion",
+        "Slow down when explaining something new",
+        "Vary rate back and forth to maintain engagement"
+      ],
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0"
+    },
+    {
+      "name": "Five Facial Warmup Exercises",
+      "steps": [
+        "Make your face big and small for 30 seconds",
+        "Pretend to chew a really big piece of gum",
+        "Move your eyebrows up and down",
+        "Do lip trills",
+        "Move your jaw from side to side"
+      ],
+      "topic": "vocal_variety",
+      "video_id": "Y85-IT2vab8"
+    },
+    {
+      "name": "Voice Development Process",
+      "steps": [
+        "Recognize your voice can change",
+        "Understand voice reflects personality",
+        "Explore vocal range like an instrument",
+        "Accept unfamiliarity as growth",
+        "Practice consistently"
+      ],
+      "topic": "vocal_variety",
+      "video_id": "ZW4CfKuumUs"
+    }
+  ],
+  "all_principles": [
+    {
+      "title": "The Saxophone Analogy",
+      "explanation": "Just as learning a musical instrument feels awkward at first but improves with practice, new vocal and speaking techniques will feel unfamiliar initially but become natural over time",
+      "topic": "vocal_variety",
+      "video_id": "00BeMJbHplQ"
+    },
+    {
+      "title": "Practice Creates Familiarity",
+      "explanation": "Current communication behaviors feel natural because they've been practiced for decades, while new techniques feel fake simply because they're new and unfamiliar",
+      "topic": "confidence",
+      "video_id": "00BeMJbHplQ"
+    },
+    {
+      "title": "Overdo Mouth Movements",
+      "explanation": "Exaggerate your mouth movements when speaking to improve articulation and pronunciation clarity",
+      "topic": "vocal_variety",
+      "video_id": "3Z2OuuFxVLc"
+    },
+    {
+      "title": "Volume Overcomes Shame",
+      "explanation": "Increasing your vocal volume and stepping into courage makes shame invisible to your audience",
+      "topic": "confidence",
+      "video_id": "3Z2OuuFxVLc"
+    },
+    {
+      "title": "Link Words Together",
+      "explanation": "Use legato style speaking to connect words smoothly rather than speaking in a choppy, disconnected manner",
+      "topic": "vocal_variety",
+      "video_id": "3Z2OuuFxVLc"
+    },
+    {
+      "title": "Framework Over Panic",
+      "explanation": "When unprepared, rely on communication frameworks instead of letting your brain scramble and cause rambling",
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "title": "Preparation Builds Confidence",
+      "explanation": "Having frameworks makes you excited to communicate rather than scared, improving both content and body language",
+      "topic": "confidence",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "title": "Mental Organization Under Pressure",
+      "explanation": "Frameworks prevent your brain from opening multiple thought processes simultaneously, keeping you focused",
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "title": "Three-Part Analysis",
+      "explanation": "Analyze your speaking performance through three separate lenses: auditory (vocal image), visual (body language), and verbal (word choice and filler words)",
+      "topic": "structure",
+      "video_id": "759ltCNvZNM"
+    },
+    {
+      "title": "Delayed Self-Review",
+      "explanation": "Don't review your recording immediately as you are too self-critical; wait until the next day for objective analysis",
+      "topic": "confidence",
+      "video_id": "759ltCNvZNM"
+    },
+    {
+      "title": "Self-Awareness Through Recording",
+      "explanation": "Recording yourself speaking and reviewing it builds awareness of how others perceive you, which changes how you come across",
+      "topic": "confidence",
+      "video_id": "b0MyTOcfDsE"
+    },
+    {
+      "title": "Separate Audio and Visual Analysis",
+      "explanation": "Analyzing vocal elements separately from visual elements provides clearer feedback on specific areas for improvement",
+      "topic": "presence",
+      "video_id": "b0MyTOcfDsE"
+    },
+    {
+      "title": "Value Expert Time Appropriately",
+      "explanation": "Pay professionals their worth to gain access to years of distilled experience in a condensed format",
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c"
+    },
+    {
+      "title": "Seek Shortcuts Through Expertise",
+      "explanation": "Instead of learning through trial and error over decades, invest in learning from those who have already mastered the field",
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c"
+    },
+    {
+      "title": "Always hold something when networking",
+      "explanation": "Holding a drink gives you something to do with your hands and provides an easy exit strategy from conversations",
+      "topic": "confidence",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "title": "Read the room before entering",
+      "explanation": "Pay attention to facial expressions and body language to determine if you're welcome in a conversation",
+      "topic": "presence",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "title": "Have graceful exit strategies",
+      "explanation": "Prepare polite ways to leave conversations, whether they reject you or become boring",
+      "topic": "other",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "title": "Social Space Positioning",
+      "explanation": "Position yourself in social space during video calls to make others comfortable and allow your hand gestures to be visible, creating more influential and engaging communication",
+      "topic": "presence",
+      "video_id": "HgUvbPMvCwU"
+    },
+    {
+      "title": "Vocal Variety Prevention",
+      "explanation": "Avoid getting stuck in a default rate of speech by consciously varying your pace, as consistent pacing leads to disengagement regardless of whether it's too slow or too fast",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI"
+    },
+    {
+      "title": "Engagement Through Variation",
+      "explanation": "What initially seems engaging becomes monotonous over time without variety, making vocal variation essential for sustained audience attention",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI"
+    },
+    {
+      "title": "Adapt Your Communication Style",
+      "explanation": "Most people communicate in their own color, but effective communicators learn to speak all four colors to connect with different personality types",
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "title": "Dynamic Like Water",
+      "explanation": "Be adaptable in your communication approach while maintaining your core identity, adjusting to fit the communication vessel you're poured into",
+      "topic": "connection",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "title": "Everyone Has All Colors",
+      "explanation": "We all possess aspects of each communication color but tend to default to one primary style",
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "title": "Think Before You Speak",
+      "explanation": "Instead of pausing mid-sentence when lost, pause before speaking to organize your thoughts and see the path clearly",
+      "topic": "structure",
+      "video_id": "k4yENpxBI9w"
+    },
+    {
+      "title": "Embrace Strategic Pauses",
+      "explanation": "Don't be afraid to pause before answering - it's better than scrambling for words while speaking",
+      "topic": "confidence",
+      "video_id": "k4yENpxBI9w"
+    },
+    {
+      "title": "Address the Root Cause",
+      "explanation": "Instead of trying to manage symptoms on stage, eliminate the excess adrenaline that causes shaking before you speak",
+      "topic": "confidence",
+      "video_id": "LizhmZyRNSU"
+    },
+    {
+      "title": "Physical Preparation for Mental Performance",
+      "explanation": "Use physical exercises backstage to burn off nervous energy and regulate your physiological state",
+      "topic": "confidence",
+      "video_id": "LizhmZyRNSU"
+    },
+    {
+      "title": "Pauses create confidence",
+      "explanation": "People who pause more are perceived as being more confident, not less. Pauses give your ideas space to land.",
+      "topic": "confidence",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "title": "Volume equals energy transfer",
+      "explanation": "When you speak with healthy volume, you're not just sharing information, you're transferring energy. People feel your conviction.",
+      "topic": "presence",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "title": "Analogies are shortcuts to understanding",
+      "explanation": "They connect the unknown to the known by taking something complex and tying it to something simple and familiar.",
+      "topic": "vocabulary",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "title": "Your voice is a muscle system",
+      "explanation": "Like any muscle, if you go from cold to full exertion without warming up, you'll strain it and it will underperform.",
+      "topic": "vocal_variety",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "title": "Gender Dynamics in Speaking",
+      "explanation": "Women face different challenges than men when projecting authority - men can get away with forceful delivery while women may be perceived negatively for the same approach",
+      "topic": "presence",
+      "video_id": "PMJnlL1aRe4"
+    },
+    {
+      "title": "Melody Prevents Harshness",
+      "explanation": "Adding vocal melody and variation when increasing volume prevents sounding angry or aggressive",
+      "topic": "vocal_variety",
+      "video_id": "PMJnlL1aRe4"
+    },
+    {
+      "title": "Low Pitch for Authority",
+      "explanation": "Ending statements on a low pitch rather than high pitch maintains credibility and authority",
+      "topic": "presence",
+      "video_id": "PMJnlL1aRe4"
+    },
+    {
+      "title": "Vocal Image Creates First Impressions",
+      "explanation": "People make assumptions about your personality traits like friendliness and intelligence based on how you sound, not just how you look",
+      "topic": "vocal_variety",
+      "video_id": "rALD3K1RJME"
+    },
+    {
+      "title": "Connection Before Influence",
+      "explanation": "You must first establish genuine connection with people before you have earned the right to influence their decisions",
+      "topic": "presence",
+      "video_id": "rALD3K1RJME"
+    },
+    {
+      "title": "Deliberate Vocal Development",
+      "explanation": "Just as we consciously manage our visual appearance for professional settings, we must intentionally develop our vocal presentation",
+      "topic": "vocal_variety",
+      "video_id": "rALD3K1RJME"
+    },
+    {
+      "title": "Never give feedback in public",
+      "explanation": "Always pull someone aside for private conversations to avoid hitting their ego in front of peers",
+      "topic": "presence",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "title": "Maintain caring tonality throughout",
+      "explanation": "Keep the same supportive vocal tone from beginning to end, don't switch to harsh criticism mid-conversation",
+      "topic": "vocal_variety",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "title": "Frame feedback with supportive intent",
+      "explanation": "Explain that your goal is to help them succeed before delivering critical observations",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "title": "Facial Expression Congruence",
+      "explanation": "Your facial expressions must match the emotional content of your words to maintain authenticity and trust",
+      "topic": "presence",
+      "video_id": "TAkaIDmnzAQ"
+    },
+    {
+      "title": "Power Sphere Positioning",
+      "explanation": "Gesturing between the belly button and eyes creates higher levels of charisma and influence compared to lower positioning",
+      "topic": "presence",
+      "video_id": "TAkaIDmnzAQ"
+    },
+    {
+      "title": "Active Listening Through Body Language",
+      "explanation": "The computer gesture demonstrates engagement and care when someone else is speaking",
+      "topic": "presence",
+      "video_id": "TAkaIDmnzAQ"
+    },
+    {
+      "title": "Give Multiple Conversation Options",
+      "explanation": "Instead of giving short, dead-end answers, include several different topics in your response so others have multiple directions to take the conversation",
+      "topic": "structure",
+      "video_id": "UefHuE41N4w"
+    },
+    {
+      "title": "Practice Prepared Responses",
+      "explanation": "Anticipate common questions and prepare responses that naturally include multiple conversational threads",
+      "topic": "confidence",
+      "video_id": "UefHuE41N4w"
+    },
+    {
+      "title": "Mind and Mouth Connection",
+      "explanation": "The ability to quickly translate thoughts into spoken words - when weak, you think well but struggle to verbalize spontaneously",
+      "topic": "confidence",
+      "video_id": "wuyh2LkaErc"
+    },
+    {
+      "title": "Progressive Practice Tolerance",
+      "explanation": "Accept that initial attempts will feel awkward and clunky as part of the natural learning process",
+      "topic": "confidence",
+      "video_id": "wuyh2LkaErc"
+    },
+    {
+      "title": "Strategic Speech Pacing",
+      "explanation": "Speaking too quickly or too slowly both cause problems - the key is to strategically vary your rate based on content and desired emotional impact",
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0"
+    },
+    {
+      "title": "Facial Muscle Activation",
+      "explanation": "Warming up facial muscles before speaking helps prevent mumbling and improves vocal clarity by engaging all the muscles needed for clear articulation",
+      "topic": "vocal_variety",
+      "video_id": "Y85-IT2vab8"
+    },
+    {
+      "title": "Jaw Movement for Clarity",
+      "explanation": "Dropping and moving the jaw properly is essential for clear speech - without jaw movement, speech becomes mumbled and unclear",
+      "topic": "vocal_variety",
+      "video_id": "Y85-IT2vab8"
+    },
+    {
+      "title": "Voice as Behavior",
+      "explanation": "Your voice is not fixed but consists of behaviors that can be modified and improved through practice",
+      "topic": "vocal_variety",
+      "video_id": "ZW4CfKuumUs"
+    },
+    {
+      "title": "Voice as Instrument",
+      "explanation": "Like a piano, your voice has full range of keys to explore rather than using just one monotone note",
+      "topic": "vocal_variety",
+      "video_id": "ZW4CfKuumUs"
+    },
+    {
+      "title": "Unfamiliarity vs Fakeness",
+      "explanation": "When developing new vocal skills, discomfort comes from unfamiliarity, not from being fake or phony",
+      "topic": "confidence",
+      "video_id": "ZW4CfKuumUs"
+    },
+    {
+      "title": "Communication Determines Perception",
+      "explanation": "People perceive your competence based on your communication skills, not your technical abilities alone",
+      "topic": "presence",
+      "video_id": "ZW4CfKuumUs"
+    }
+  ],
+  "all_example_sentences": [
+    {
+      "situation": "answering unexpected questions",
+      "sentence": "The one thing about [topic] is [key point]",
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "situation": "providing categories",
+      "sentence": "There are two types/ways: [option 1] and [option 2]",
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "situation": "giving instructions",
+      "sentence": "Three steps to [topic]: first [step 1], second [step 2], third [step 3]",
+      "topic": "structure",
+      "video_id": "5m-C5mwpmxU"
+    },
+    {
+      "situation": "approaching an expert for learning",
+      "sentence": "My name's Vinh, I'd love to learn from you, I know you've been in this industry for 20 years and I've done my due diligence, you're one of the best",
+      "topic": "other",
+      "video_id": "c0-dFnGlh2c"
+    },
+    {
+      "situation": "joining a networking conversation",
+      "sentence": "Oh hi hi how you going sorry to bother you I'm Vin great to meet you all",
+      "topic": "confidence",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "situation": "exiting an unwelcoming group",
+      "sentence": "I can tell this is sensitive it's okay",
+      "topic": "presence",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "situation": "leaving a boring conversation",
+      "sentence": "I'm out of water be right back",
+      "topic": "other",
+      "video_id": "eG-2T6naq5w"
+    },
+    {
+      "situation": "video call greeting",
+      "sentence": "Oh hey oh my goodness so good to see you",
+      "topic": "presence",
+      "video_id": "HgUvbPMvCwU"
+    },
+    {
+      "situation": "demonstrating slow speech",
+      "sentence": "Hi everyone it's great to be here",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI"
+    },
+    {
+      "situation": "demonstrating fast speech",
+      "sentence": "Really good to be here can't wait to take you through vocal foundations it's going to be amazing",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI"
+    },
+    {
+      "situation": "demonstrating moderate pace",
+      "sentence": "Really excited to be here to take you through the vocal foundations for the next couple of days",
+      "topic": "vocal_variety",
+      "video_id": "i1rmvL0GKAI"
+    },
+    {
+      "situation": "communicating with results-driven people",
+      "sentence": "The report's finished. I've gone through all the data and summarized the top three points and here's what I recommend the next steps be.",
+      "topic": "structure",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "situation": "speaking to creative, energetic people",
+      "sentence": "Just hit the record button. Go have some fun. Go work it out as you go. You're going to love it.",
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "situation": "addressing peace-loving, patient people",
+      "sentence": "I know this is a shift, but we'll move at a pace that feels comfortable for you, and I'm going to support you all the way through it.",
+      "topic": "communication",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "situation": "talking to detail-oriented, precise people",
+      "sentence": "Here's all the data, and here's the step-by-step plan that I've created from the data, and I want to give it to you so you can do a quick double check if you want.",
+      "topic": "structure",
+      "video_id": "ikbcrpowlIs"
+    },
+    {
+      "situation": "when asked a difficult question",
+      "sentence": "When I think about spirituality I really believe that there are different chapters in life",
+      "topic": "structure",
+      "video_id": "k4yENpxBI9w"
+    },
+    {
+      "situation": "making an important point",
+      "sentence": "Your voice, it matters. Communication, it's not just a skill, it's a superpower.",
+      "topic": "vocal_variety",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "situation": "giving business update",
+      "sentence": "Hey boss, as you know, we're about to release the new online course and the timing is tight.",
+      "topic": "structure",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "situation": "explaining complex concept",
+      "sentence": "Compounding interest is like rolling a snowball downhill - at first it's small, but as it rolls, it picks up more snow.",
+      "topic": "vocabulary",
+      "video_id": "PiNN-HmHu7A"
+    },
+    {
+      "situation": "opening a speech with authority",
+      "sentence": "Hi everyone, are you ready to start day one?",
+      "topic": "vocal_variety",
+      "video_id": "PMJnlL1aRe4"
+    },
+    {
+      "situation": "opening difficult feedback",
+      "sentence": "It's been amazing to see the camaraderie that you have, I love that you're checking everybody",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "situation": "framing critical feedback",
+      "sentence": "I want to help every single student in this diving team succeed, could I share with you a few thoughts",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "situation": "ending feedback positively",
+      "sentence": "Someone like yourself is doing amazing, you're really contributing to the team",
+      "topic": "structure",
+      "video_id": "rDHzMk2yTvM"
+    },
+    {
+      "situation": "answering where you're from",
+      "sentence": "I'm from Adelaide, I live up in Golfview Heights - it's kind of a hilly area because I love the greenery and it just inspires me to be creative, I create a lot of content online",
+      "topic": "structure",
+      "video_id": "UefHuE41N4w"
+    },
+    {
+      "situation": "showing excitement",
+      "sentence": "Good morning I'm so excited to be here I can't wait to talk about perspective influence and beliefs",
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0"
+    },
+    {
+      "situation": "slow opening",
+      "sentence": "Good morning everyone... I'm so excited... to spend the next hour...",
+      "topic": "vocal_variety",
+      "video_id": "xVRXIQowDY0"
+    }
+  ]
+}
