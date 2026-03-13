@@ -1,5 +1,5 @@
 import { DrillCard, DeckMeta } from '@/types';
-import { getDeckLastPlayed } from './userProgress';
+import { getDeckLastPlayed, getDeckMasteryPercent, getDeckCrownTier, getSmartMixPhraseIds, getProgress } from './userProgress';
 
 import jobInterviews from '../../data/decks/job-interviews.json';
 import churchPrayer from '../../data/decks/church-prayer.json';
@@ -17,7 +17,7 @@ const DECKS: Record<string, DrillCard[]> = {
   'general-confidence': generalConfidence as DrillCard[],
 };
 
-const DECK_META_LIST: Omit<DeckMeta, 'phraseCount' | 'lastPlayed'>[] = [
+const DECK_META_BASE: { id: string; name: string; emoji: string; accentColour: string }[] = [
   { id: 'job-interviews', name: 'Job Interviews', emoji: '💼', accentColour: '#00E5CC' },
   { id: 'church-prayer', name: 'Church Prayer', emoji: '🙏', accentColour: '#C9922A' },
   { id: 'church-announcements', name: 'Church Announcements', emoji: '📢', accentColour: '#C9922A' },
@@ -27,11 +27,16 @@ const DECK_META_LIST: Omit<DeckMeta, 'phraseCount' | 'lastPlayed'>[] = [
 ];
 
 export function getDeckMeta(): DeckMeta[] {
-  return DECK_META_LIST.map(m => ({
-    ...m,
-    phraseCount: (DECKS[m.id] || []).length,
-    lastPlayed: getDeckLastPlayed(m.id),
-  }));
+  return DECK_META_BASE.map(m => {
+    const phraseCount = (DECKS[m.id] || []).length;
+    return {
+      ...m,
+      phraseCount,
+      lastPlayed: getDeckLastPlayed(m.id),
+      masteryPercent: getDeckMasteryPercent(m.id, phraseCount),
+      crownTier: getDeckCrownTier(m.id, phraseCount),
+    };
+  });
 }
 
 export function getDeck(deckId: string): DrillCard[] {
@@ -40,10 +45,39 @@ export function getDeck(deckId: string): DrillCard[] {
 
 export function getShuffledDeck(deckId: string): DrillCard[] {
   const cards = [...getDeck(deckId)];
-  // Fisher-Yates shuffle
   for (let i = cards.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [cards[i], cards[j]] = [cards[j], cards[i]];
   }
   return cards;
+}
+
+export function getAllPhraseIds(): string[] {
+  return Object.values(DECKS).flatMap(cards => cards.map(c => c.id));
+}
+
+export function getSmartMixDeck(): DrillCard[] {
+  const progress = getProgress();
+  const allIds = getAllPhraseIds();
+  const selectedIds = getSmartMixPhraseIds(progress.phraseRecords, allIds);
+
+  // Look up the actual cards
+  const allCards: Record<string, DrillCard> = {};
+  for (const cards of Object.values(DECKS)) {
+    for (const card of cards) {
+      allCards[card.id] = card;
+    }
+  }
+
+  const result = selectedIds
+    .map(id => allCards[id])
+    .filter(Boolean);
+
+  // Shuffle
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+
+  return result;
 }

@@ -6,10 +6,12 @@ import { DrillCard as DrillCardType, DrillState, MatchResult, SessionResult } fr
 import { checkPhrase } from '@/lib/phraseMatch';
 import { speakPhrase, stopSpeaking } from '@/lib/speechSynthesis';
 import { isSupported, listenForPhrase } from '@/lib/speechRecognition';
+import { calculatePhraseXP } from '@/lib/userProgress';
 import DrillCard from '@/components/DrillCard';
 import MicButton from '@/components/MicButton';
 import ResultBadge from '@/components/ResultBadge';
 import ProgressBar from '@/components/ProgressBar';
+import XPPopup from '@/components/XPPopup';
 import { Volume2, SkipForward } from 'lucide-react';
 
 const MAX_RETRIES = 2;
@@ -39,6 +41,7 @@ function DrillContent() {
   const [sessionResults, setSessionResults] = useState<SessionResult[]>([]);
   const [animating, setAnimating] = useState(false);
   const [typedText, setTypedText] = useState('');
+  const [lastXP, setLastXP] = useState(0);
 
   const stopListenRef = useRef<(() => void) | null>(null);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
@@ -153,23 +156,24 @@ function DrillContent() {
   const moveToNext = useCallback(() => {
     if (!card || !lastResult) return;
 
-    // Record result for this card
-    setSessionResults(prev => [...prev, {
+    const xp = calculatePhraseXP(lastResult.score, lastResult.passed, currentAttempts, card.level);
+    setLastXP(xp);
+
+    const result: SessionResult = {
       phraseId: card.id,
       passed: lastResult.passed,
       score: lastResult.score,
       attempts: currentAttempts,
-    }]);
+      xpEarned: xp,
+    };
+
+    // Record result for this card
+    setSessionResults(prev => [...prev, result]);
 
     const nextIndex = currentIndex + 1;
     if (nextIndex >= cards.length || elapsed >= totalSeconds) {
       // Need to include current result in session save
-      const allResults = [...sessionResults, {
-        phraseId: card.id,
-        passed: lastResult.passed,
-        score: lastResult.score,
-        attempts: currentAttempts,
-      }];
+      const allResults = [...sessionResults, result];
       sessionStorage.setItem('session_results', JSON.stringify(allResults));
       sessionStorage.setItem('session_deck', deck);
       setDrillState('COMPLETE');
@@ -294,6 +298,7 @@ function DrillContent() {
         {/* Result */}
         {drillState === 'RESULT' && lastResult && (
           <div className="flex flex-col items-center gap-4">
+            {lastXP > 0 && <XPPopup xp={lastXP} accentColour={accentColour} />}
             <ResultBadge result={lastResult} attempts={currentAttempts} maxRetries={MAX_RETRIES} />
 
             {/* Action buttons based on result */}
