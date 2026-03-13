@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ca-001",
+    "deck": "church-announcements",
+    "situation": "Welcoming visitors",
+    "phrase": "If this is your first time with us, we are so glad you are here. You are not a stranger — you are our guest, and we hope you feel right at home this morning.",
+    "tip": "Make eye contact with different sections of the room as you say this. Visitors will feel personally seen, not just generically acknowledged.",
+    "level": "beginner"
+  },
+  {
+    "id": "ca-002",
+    "deck": "church-announcements",
+    "situation": "Welcoming visitors",
+    "phrase": "Welcome, everyone — and a special hello to anyone joining us for the first time. Grab a welcome card from the seat pocket so we can stay connected with you beyond today.",
+    "tip": "Point to the physical card or location as you mention it. A visual cue turns a passive announcement into a clear call to action.",
+    "level": "beginner"
+  },
+  {
+    "id": "ca-003",
+    "deck": "church-announcements",
+    "situation": "Announcing an event",
+    "phrase": "Mark your calendars — next Saturday at ten in the morning we are hosting a community breakfast right here in the fellowship hall. Bring your family, bring a neighbour, bring your appetite.",
+    "tip": "State the date, time, and place within the first sentence. The playful triple at the end keeps energy high — deliver it with a smile.",
+    "level": "beginner"
+  },
+  {
+    "id": "ca-004",
+    "deck": "church-announcements",
+    "situation": "Announcing an event",
+    "phrase": "Our annual women's retreat is happening March twenty-first through twenty-third at Lake View Conference Centre. Spots are filling fast, so sign up at the table in the lobby before you leave today.",
+    "tip": "Create urgency without pressure. 'Spots are filling fast' motivates action. Pair it with a specific next step — 'sign up at the table' — so people know exactly what to do.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ca-005",
+    "deck": "church-announcements",
+    "situation": "Introducing a guest speaker",
+    "phrase": "This morning we have a special guest. Pastor David Chen has spent twenty years serving communities across Southeast Asia, and he is here to share what God is doing on the ground. Please welcome him warmly.",
+    "tip": "Keep the introduction brief — two facts and a warm handoff. The audience wants to hear the speaker, not a five-minute biography.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ca-006",
+    "deck": "church-announcements",
+    "situation": "Introducing a guest speaker",
+    "phrase": "I have been looking forward to this all week. Our guest today is Dr. Maria Santos, a counsellor who helps families navigate grief with faith and honesty. You are in for a meaningful conversation.",
+    "tip": "Leading with your own enthusiasm — 'I have been looking forward to this' — gives the congregation permission to be excited too. Authentic energy is contagious.",
+    "level": "advanced"
+  },
+  {
+    "id": "ca-007",
+    "deck": "church-announcements",
+    "situation": "Giving multiple announcements",
+    "phrase": "I have three quick announcements, so stay with me. First, youth group moves to Fridays starting this week. Second, the building fund has reached seventy percent of our goal. Third, sign-ups for the men's breakfast close tomorrow.",
+    "tip": "Numbering announcements up front — 'I have three' — sets expectations and keeps attention. Deliver each one as its own sentence with a brief pause between them.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ca-008",
+    "deck": "church-announcements",
+    "situation": "Giving multiple announcements",
+    "phrase": "A few things to keep on your radar this week. Small groups kick off on Wednesday, the food drive bins are in the lobby, and we need two more volunteers for the kids' ministry rotation.",
+    "tip": "Use a conversational opener like 'on your radar' instead of 'I have some announcements.' It feels like a friend sharing news, not a bulletin board.",
+    "level": "beginner"
+  },
+  {
+    "id": "ca-009",
+    "deck": "church-announcements",
+    "situation": "Closing announcements",
+    "phrase": "That is everything for today. If you missed any details, they are all in the bulletin and on our website. Now let us turn our hearts to worship.",
+    "tip": "A clean close prevents the awkward trailing off. 'That is everything' signals confidence. The transition to worship should feel seamless, not abrupt.",
+    "level": "beginner"
+  },
+  {
+    "id": "ca-010",
+    "deck": "church-announcements",
+    "situation": "Closing announcements",
+    "phrase": "Before I hand things over, let me leave you with this — everything we just talked about is an invitation to be part of something bigger. Pick one thing and jump in this week.",
+    "tip": "Ending with a personal challenge — 'pick one thing' — turns passive listeners into active participants. Deliver it with direct eye contact and conviction.",
+    "level": "advanced"
+  },
+  {
+    "id": "ca-011",
+    "deck": "church-announcements",
+    "situation": "Announcing a special offering",
+    "phrase": "Today we are receiving a special offering for our missions team in Guatemala. Every dollar goes directly to building clean water wells in rural communities. Give as the Lord leads you.",
+    "tip": "Connect the offering to a tangible outcome — 'clean water wells' is concrete and compelling. Avoid vague appeals; people give when they can picture the impact.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ca-012",
+    "deck": "church-announcements",
+    "situation": "Announcing a special offering",
+    "phrase": "I want to share something exciting. Because of your generosity last month, three families in our congregation received emergency assistance. Today we have a chance to keep that momentum going with our benevolence fund offering.",
+    "tip": "Leading with a result from past giving builds trust and motivation. People are more generous when they see their previous contributions made a real difference.",
+    "level": "advanced"
+  },
+  {
+    "id": "ca-013",
+    "deck": "church-announcements",
+    "situation": "Volunteer call",
+    "phrase": "We need your help. Our children's ministry is looking for five volunteers to serve one Sunday a month. You do not need experience — just a willing heart and a background check.",
+    "tip": "Be specific about the commitment — 'one Sunday a month' and 'five volunteers' — so people can immediately assess whether they can say yes.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ca-014",
+    "deck": "church-announcements",
+    "situation": "Volunteer call",
+    "phrase": "Here is a question worth sitting with: where can you serve? Whether it is greeting at the door, running sound, or mentoring a teenager, there is a place for you. Talk to me after the service and I will help you find your fit.",
+    "tip": "Offering to personally connect volunteers — 'talk to me' — removes the friction of figuring it out alone. Make yourself approachable and available.",
+    "level": "advanced"
+  },
+  {
+    "id": "ca-015",
+    "deck": "church-announcements",
+    "situation": "Volunteer call",
+    "phrase": "Quick shout-out to our parking team who showed up at seven this morning in the rain. That is what serving looks like. If you want to be part of a team like that, we would love to have you.",
+    "tip": "Celebrating current volunteers before asking for new ones is powerful. It shows that serving is valued, not just needed. Smile when you give the shout-out.",
+    "level": "beginner"
+  }
+]

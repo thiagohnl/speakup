@@ -1,0 +1,202 @@
+[
+  {
+    "id": "pr-001",
+    "deck": "presentations",
+    "situation": "Opening a presentation to a room of executives.",
+    "phrase": "Good morning everyone. Before I share a single slide, I want to ask you a question that will frame everything we discuss today — what would it mean for your team if we solved this problem by next quarter?",
+    "tip": "Start with a question to immediately engage the audience instead of defaulting to 'today I'm going to talk about.'",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-002",
+    "deck": "presentations",
+    "situation": "Transitioning from the problem statement to the proposed solution.",
+    "phrase": "So that's the challenge we're facing. Now let me show you what the path forward looks like — and why I believe we can get there faster than you might expect.",
+    "tip": "Use a brief pause between the problem and the solution to let the weight of the challenge land before offering hope.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-003",
+    "deck": "presentations",
+    "situation": "Handling a tough question you were not expecting.",
+    "phrase": "That's a really sharp question, and I appreciate you raising it. Let me think about that for a moment — I want to give you an honest answer rather than a quick one.",
+    "tip": "Buying yourself a few seconds with honesty projects more confidence than scrambling for an immediate reply.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-004",
+    "deck": "presentations",
+    "situation": "Closing your presentation with a call to action.",
+    "phrase": "If you take one thing from this room today, let it be this: the data is clear, the opportunity is real, and the only thing standing between us and progress is a decision. Let's make it together.",
+    "tip": "End on a forward-looking, action-oriented statement. Never close with 'that's it' or 'any questions.'",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-005",
+    "deck": "presentations",
+    "situation": "Opening a presentation with a personal story.",
+    "phrase": "Three years ago I stood in a room just like this one and made a promise I wasn't sure I could keep. Today I'm here to tell you what happened — because that story is exactly why this project matters.",
+    "tip": "Personal stories build trust fast. Keep the opening hook short and let curiosity do the work.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-006",
+    "deck": "presentations",
+    "situation": "Presenting data on a chart to a non-technical audience.",
+    "phrase": "I know this chart has a lot of numbers, so let me draw your attention to just one thing — this line right here. It tells us that in the last six months, our customer retention has improved by twenty-two percent.",
+    "tip": "Always tell the audience what to look at on a data slide. One insight per chart keeps it memorable.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-007",
+    "deck": "presentations",
+    "situation": "Introducing yourself before a keynote presentation.",
+    "phrase": "My name is — and for the past decade I've been obsessed with one question: how do ordinary teams produce extraordinary results? Everything I'm about to share comes from chasing that answer.",
+    "tip": "Frame your introduction around your passion or mission, not a list of credentials.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-008",
+    "deck": "presentations",
+    "situation": "Transitioning between the first and second major sections.",
+    "phrase": "Now that we've covered the why, I want to shift gears and talk about the how — because understanding the problem is only valuable if we know what to do about it.",
+    "tip": "Signpost your transitions clearly so the audience always knows where they are in your talk.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-009",
+    "deck": "presentations",
+    "situation": "Opening a virtual presentation where cameras are mostly off.",
+    "phrase": "I know we're all staring at screens today, so I'll make you a deal — I'll keep this tight and useful, and in return I'd love your honest reactions in the chat as we go.",
+    "tip": "Acknowledge the virtual format directly. Setting a compact promise raises attention and goodwill.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-010",
+    "deck": "presentations",
+    "situation": "Handling a question that challenges your core argument.",
+    "phrase": "I hear you, and that's a fair pushback. Here's how I'd frame it — the data we looked at suggests a different conclusion, but I'm open to revisiting that assumption if you've seen something I haven't.",
+    "tip": "Validate the challenger, restate your evidence calmly, and invite dialogue. Defensiveness kills credibility.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-011",
+    "deck": "presentations",
+    "situation": "Presenting a surprising or counterintuitive data point.",
+    "phrase": "Now, this next number surprised me when I first saw it, and I think it'll surprise you too. Sixty-three percent of our users never open the app a second time. Let that sink in for a moment.",
+    "tip": "Pause after a surprising stat. Silence amplifies impact far more than rushing to explain it.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-012",
+    "deck": "presentations",
+    "situation": "Closing a presentation by circling back to the opening story.",
+    "phrase": "Remember the story I started with? That team didn't have a bigger budget or better tools — they had clarity and commitment. That's exactly what I'm asking from us today.",
+    "tip": "Bookending your talk with the same story creates a satisfying sense of completeness for the audience.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-013",
+    "deck": "presentations",
+    "situation": "Introducing yourself at a conference panel.",
+    "phrase": "Hi everyone, I'm — . I lead product at — , where we spend every day trying to make complicated technology feel simple. I'm excited to dig into today's topic with this group.",
+    "tip": "Keep panel intros under fifteen seconds. State your name, your role, and one thing that connects you to the topic.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-014",
+    "deck": "presentations",
+    "situation": "Transitioning from a colleague's section to yours in a team presentation.",
+    "phrase": "Thanks, Sarah — that was a great overview of where we've been. I'm going to pick up the thread and walk you through where we're heading next and what it's going to take to get there.",
+    "tip": "Acknowledge the previous speaker briefly, then bridge to your section with a clear preview statement.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-015",
+    "deck": "presentations",
+    "situation": "Opening a presentation with a bold claim to capture attention.",
+    "phrase": "Everything you think you know about customer loyalty is probably wrong. And I say that with respect — because I believed the same things until the research forced me to change my mind.",
+    "tip": "A bold opening claim creates tension. Follow it quickly with humility so you intrigue rather than alienate.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-016",
+    "deck": "presentations",
+    "situation": "Presenting a comparison between two strategies using data.",
+    "phrase": "Let me put these two approaches side by side. Strategy A costs less upfront but plateaus at twelve months. Strategy B requires more investment now, but look at this growth curve — it compounds every single quarter.",
+    "tip": "When comparing options, slow down on the key differentiator. Speed through context, linger on the insight.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-017",
+    "deck": "presentations",
+    "situation": "Handling a question you genuinely do not know the answer to.",
+    "phrase": "Honestly, I don't have that number off the top of my head, and I'd rather get you the right answer than guess. Can I follow up with you directly after this session?",
+    "tip": "Admitting you don't know — confidently and without apology — earns more respect than bluffing.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-018",
+    "deck": "presentations",
+    "situation": "Closing with a memorable one-liner the audience will remember.",
+    "phrase": "We don't need a perfect plan — we need a brave first step. Thank you for your time today, and I look forward to taking that step with you.",
+    "tip": "Craft your closing line in advance and rehearse it. The last sentence is the one people carry out of the room.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-019",
+    "deck": "presentations",
+    "situation": "Introducing yourself before a pitch to potential investors.",
+    "phrase": "I'm — , the founder of — . Two years ago I watched my mother struggle with a problem that shouldn't exist in today's world — and that frustration became the product I'm about to show you.",
+    "tip": "Lead with the human story behind your product. Investors fund people first, ideas second.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-020",
+    "deck": "presentations",
+    "situation": "Transitioning from your demo to the business model slide.",
+    "phrase": "So you've seen what the product does — now let's talk about how it grows. The model is straightforward, and the unit economics tell a clear story.",
+    "tip": "After a demo, pivot with energy. The audience's attention is highest right after seeing something tangible.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-021",
+    "deck": "presentations",
+    "situation": "Opening a training presentation for new employees.",
+    "phrase": "Welcome aboard. I remember my first week here — I had no idea what half the acronyms meant and I was afraid to ask. So today, there are no silly questions. Let's get you comfortable.",
+    "tip": "Relatability removes hierarchy. Sharing your own beginner moment gives new hires permission to be honest.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-022",
+    "deck": "presentations",
+    "situation": "Presenting a timeline or roadmap to stakeholders.",
+    "phrase": "Here's our roadmap for the next twelve months. I want to be transparent — phase one is locked in, phase two is high confidence, and phase three still depends on what we learn along the way.",
+    "tip": "Labeling your confidence level for each phase builds trust and sets realistic expectations.",
+    "level": "intermediate"
+  },
+  {
+    "id": "pr-023",
+    "deck": "presentations",
+    "situation": "Handling multiple questions at once from the audience.",
+    "phrase": "Great — I heard two questions in there. Let me take the first one about pricing, and then I'll come back to the integration question. I want to give both the attention they deserve.",
+    "tip": "Separate compound questions out loud. It shows you're listening carefully and keeps your answers focused.",
+    "level": "advanced"
+  },
+  {
+    "id": "pr-024",
+    "deck": "presentations",
+    "situation": "Closing a presentation by summarizing three key takeaways.",
+    "phrase": "Before we wrap up, here are the three things I'd love you to walk away with: first, the market is shifting faster than we thought. Second, we have a clear plan. And third, the window to act is now.",
+    "tip": "The rule of three works because it's easy to remember. Number your points out loud so they stick.",
+    "level": "beginner"
+  },
+  {
+    "id": "pr-025",
+    "deck": "presentations",
+    "situation": "Opening a presentation after a technical difficulty or delay.",
+    "phrase": "Well, technology keeps us humble. Thank you for your patience — the good news is the content is worth the wait. Let's jump straight in and make the most of our time together.",
+    "tip": "Acknowledge the hiccup with lightness, then move forward immediately. Don't over-apologize for things outside your control.",
+    "level": "advanced"
+  }
+]

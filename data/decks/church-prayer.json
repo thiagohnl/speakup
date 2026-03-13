@@ -1,0 +1,162 @@
+[
+  {
+    "id": "cp-001",
+    "deck": "church-prayer",
+    "situation": "Opening Sunday service prayer",
+    "phrase": "Heavenly Father, we gather in Your presence this morning with grateful hearts. Open our minds to receive Your word and transform us through this time together.",
+    "tip": "Start slowly and let the first sentence settle. A two-second pause after 'grateful hearts' sets a reverent tone for the whole service.",
+    "level": "beginner"
+  },
+  {
+    "id": "cp-002",
+    "deck": "church-prayer",
+    "situation": "Opening Sunday service prayer",
+    "phrase": "God of grace, You have called us out of our busy lives and into this sanctuary. Still our restless thoughts and prepare our hearts to worship You in spirit and truth.",
+    "tip": "Resist the urge to rush through the opening. Lower your volume slightly on 'still our restless thoughts' to draw the congregation inward.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cp-003",
+    "deck": "church-prayer",
+    "situation": "Opening Sunday service prayer",
+    "phrase": "Almighty God, as we cross the threshold from the ordinary into the sacred, remind us that You are already here, waiting. Let every distraction fall away as we turn our full attention to You.",
+    "tip": "Use the contrast between 'ordinary' and 'sacred' deliberately — pause between them. This frames the entire worship experience.",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-004",
+    "deck": "church-prayer",
+    "situation": "Closing service prayer",
+    "phrase": "Lord, as we leave this place, let the truth we heard today take root in our lives. Send us out with courage to love our neighbours and serve our community. Amen.",
+    "tip": "A closing prayer should feel like a gentle push outward. Lift your voice slightly on 'courage' to energise the congregation before they leave.",
+    "level": "beginner"
+  },
+  {
+    "id": "cp-005",
+    "deck": "church-prayer",
+    "situation": "Closing service prayer",
+    "phrase": "Father, we do not leave unchanged. Seal what You have spoken into our hearts and give us the strength to carry it beyond these walls into every conversation and decision this week.",
+    "tip": "Avoid trailing off at the end. Deliver 'every conversation and decision this week' with steady conviction — it is the call to action.",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-006",
+    "deck": "church-prayer",
+    "situation": "Communion / Lord's Supper prayer",
+    "phrase": "Lord Jesus, we come to this table remembering Your sacrifice. As we share this bread and cup, renew our gratitude and deepen our commitment to follow You.",
+    "tip": "Slow your pace for Communion prayers. Let each phrase breathe — the congregation needs time to reflect, not just listen.",
+    "level": "beginner"
+  },
+  {
+    "id": "cp-007",
+    "deck": "church-prayer",
+    "situation": "Communion / Lord's Supper prayer",
+    "phrase": "Father, this bread and this cup tell the story of a love that held nothing back. As we receive them, search our hearts. Where we have wandered, draw us back to the foot of the cross.",
+    "tip": "On 'held nothing back,' pause before continuing. That phrase carries the emotional weight of the entire prayer — give it room.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cp-008",
+    "deck": "church-prayer",
+    "situation": "Communion / Lord's Supper prayer",
+    "phrase": "Jesus, on the night You were betrayed, You broke bread and said, 'This is my body.' We hold that same mystery now. Unite us as one body, broken and poured out for a world in need.",
+    "tip": "When quoting Scripture within prayer, shift your tone slightly — it signals to listeners that these are Christ's own words, not yours.",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-009",
+    "deck": "church-prayer",
+    "situation": "Prayer for the sick",
+    "phrase": "Merciful God, we lift up those among us who are suffering in body or mind. Bring healing where there is pain, comfort where there is fear, and hope where there is uncertainty.",
+    "tip": "Use a triplet structure — pain, fear, uncertainty — and give each one equal weight. Do not rush through the list.",
+    "level": "beginner"
+  },
+  {
+    "id": "cp-010",
+    "deck": "church-prayer",
+    "situation": "Prayer for the sick",
+    "phrase": "Lord, You are close to the brokenhearted. We ask You now to draw near to those battling illness. Strengthen their bodies, steady their spirits, and surround them with people who reflect Your compassion.",
+    "tip": "When praying for the sick, speak with warmth rather than intensity. The goal is comfort, not volume. Let your voice carry empathy.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cp-011",
+    "deck": "church-prayer",
+    "situation": "Prayer for the sick",
+    "phrase": "Great Physician, where medicine reaches its limit, Your power has no boundary. We place the health of our brothers and sisters in Your capable hands and trust Your timing, even when the waiting is hard.",
+    "tip": "The phrase 'even when the waiting is hard' is honest and vulnerable. Do not soften it — authenticity in prayer builds trust with the congregation.",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-012",
+    "deck": "church-prayer",
+    "situation": "Opening a prayer meeting",
+    "phrase": "Father, we come together tonight not because we have the right words, but because You invite us to speak honestly. Teach us to pray with faith and listen for Your voice.",
+    "tip": "Acknowledging 'not because we have the right words' puts everyone at ease. It removes performance pressure and invites genuine participation.",
+    "level": "beginner"
+  },
+  {
+    "id": "cp-013",
+    "deck": "church-prayer",
+    "situation": "Opening a prayer meeting",
+    "phrase": "Holy Spirit, You intercede for us when we cannot find the words. As we open this time of prayer, align our hearts with the Father's will and give us boldness to pray beyond our comfort zone.",
+    "tip": "Pause after 'cannot find the words' — that silence itself becomes a moment of prayer. Then continue with renewed energy on 'align our hearts.'",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-014",
+    "deck": "church-prayer",
+    "situation": "Thanksgiving prayer",
+    "phrase": "Gracious God, we pause to thank You — for breath in our lungs, for the people beside us, and for a faith that sustains us through every season. We do not take Your goodness for granted.",
+    "tip": "Be specific in thanksgiving. 'Breath in our lungs' and 'people beside us' are concrete and grounding — they beat vague gratitude every time.",
+    "level": "beginner"
+  },
+  {
+    "id": "cp-015",
+    "deck": "church-prayer",
+    "situation": "Thanksgiving prayer",
+    "phrase": "Lord, even in seasons of difficulty, Your faithfulness has never wavered. Today we choose gratitude — not because life is easy, but because You are good and Your mercy endures forever.",
+    "tip": "The pivot at 'not because life is easy' is powerful. Lower your voice before it and then build through 'Your mercy endures forever' with growing confidence.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cp-016",
+    "deck": "church-prayer",
+    "situation": "Prayer for the community",
+    "phrase": "God of all people, we pray for our neighbourhood — for families under pressure, for those who feel invisible, and for leaders making hard decisions. Use this church as a light in the darkness.",
+    "tip": "Naming specific groups — families, the invisible, leaders — makes the prayer tangible. The congregation can picture real faces as you speak.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cp-017",
+    "deck": "church-prayer",
+    "situation": "Prayer for the community",
+    "phrase": "Father, open our eyes to the needs on our own doorstep. Give us the humility to serve without recognition and the persistence to show up even when the results are slow.",
+    "tip": "This prayer challenges the congregation gently. Deliver 'without recognition' and 'even when the results are slow' with steady resolve, not apology.",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-018",
+    "deck": "church-prayer",
+    "situation": "Intercessory prayer",
+    "phrase": "Lord, we stand in the gap for those who cannot pray for themselves right now — the exhausted, the grieving, and the lost. Hear our voices on their behalf and meet them where they are.",
+    "tip": "Intercessory prayer carries weight because you are speaking for others. Slow down and enunciate clearly — you are their advocate before God.",
+    "level": "intermediate"
+  },
+  {
+    "id": "cp-019",
+    "deck": "church-prayer",
+    "situation": "Intercessory prayer",
+    "phrase": "Sovereign God, we bring before You the nations in turmoil, leaders who need wisdom, and communities torn by division. Where there is hatred, plant seeds of reconciliation. Where there is despair, breathe hope.",
+    "tip": "The parallel structure — 'where there is hatred... where there is despair' — creates rhythm. Lean into that rhythm; it helps the congregation pray along with you.",
+    "level": "advanced"
+  },
+  {
+    "id": "cp-020",
+    "deck": "church-prayer",
+    "situation": "Thanksgiving prayer",
+    "phrase": "Father, before we ask for anything, we stop to say thank You. Thank You for salvation, for second chances, and for a community that carries each other. You are more than enough.",
+    "tip": "Starting with 'before we ask for anything' reframes the moment. It teaches the congregation to lead with gratitude — model it with your tone.",
+    "level": "beginner"
+  }
+]

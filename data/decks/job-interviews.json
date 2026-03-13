@@ -1,0 +1,242 @@
+[
+  {
+    "id": "ji-001",
+    "deck": "job-interviews",
+    "situation": "The interviewer opens with: Tell me about yourself.",
+    "phrase": "I am an operations and revenue professional with over ten years in B2B SaaS, helping companies scale their go-to-market processes and consistently improve customer outcomes.",
+    "tip": "Pause after 'B2B SaaS' to let the interviewer absorb your background before you deliver the impact.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-002",
+    "deck": "job-interviews",
+    "situation": "You need to give a concise summary of your career for a panel interview.",
+    "phrase": "I started on the front lines in sales, moved into operations, and for the last six years I have been building the systems that connect revenue teams to real results.",
+    "tip": "Use a steady rhythm through the three stages — started, moved, been building — then slow down on 'real results' for emphasis.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-003",
+    "deck": "job-interviews",
+    "situation": "The interviewer wants a quick personal introduction before diving into technical questions.",
+    "phrase": "At my core I am someone who loves making things work better. I find the friction in a process, fix it, and measure the difference — that is what gets me excited every day.",
+    "tip": "Let your genuine enthusiasm come through on 'that is what gets me excited' — smile naturally as you say it.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-004",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks you to walk through your background in under sixty seconds.",
+    "phrase": "I have spent my career at the intersection of operations and revenue. I build repeatable systems that help sales teams close faster and customer teams retain longer — and I track every result.",
+    "tip": "Keep your pacing brisk but not rushed — this is a highlight reel, not a deep dive.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-005",
+    "deck": "job-interviews",
+    "situation": "A senior executive asks: So, who are you and what do you bring to the table?",
+    "phrase": "I am the person who looks at your revenue engine and finds the twenty percent of changes that drive eighty percent of the growth. I have done it at three companies and I bring that playbook with me.",
+    "tip": "Deliver the 'twenty percent / eighty percent' contrast with deliberate emphasis — it is a memorable anchor.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-006",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: What is your greatest strength?",
+    "phrase": "My greatest strength is turning complex problems into simple, repeatable processes that teams actually follow and that produce consistent results month after month.",
+    "tip": "Slow down on 'simple, repeatable processes' — that is the phrase they will remember long after the interview ends.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-007",
+    "deck": "job-interviews",
+    "situation": "You are asked about your strengths and want to tie it to a concrete example.",
+    "phrase": "I am very good at connecting the dots across departments. In my last role I brought sales, marketing, and customer success around one shared dashboard, and alignment went from a buzzword to a daily habit.",
+    "tip": "Pause briefly after listing the three departments — let the interviewer picture the collaboration before you deliver the outcome.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-008",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: What would you say is your biggest weakness?",
+    "phrase": "I tend to over-prepare. I have learned to set a clear deadline for research and then commit to a decision, because waiting for perfect data usually means missing the window.",
+    "tip": "Be honest but controlled — name the weakness quickly, then spend most of your time on the lesson learned.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-009",
+    "deck": "job-interviews",
+    "situation": "A behavioral interviewer presses you on a real weakness with follow-up questions.",
+    "phrase": "Early in my career I struggled to delegate because I wanted every detail to be right. I have since built a habit of setting clear expectations upfront so I can trust my team to deliver without hovering.",
+    "tip": "Keep your tone even and reflective — rushing through a weakness answer sounds like you are trying to hide something.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-010",
+    "deck": "job-interviews",
+    "situation": "The interviewer challenges you: Give me a weakness that actually matters in this role.",
+    "phrase": "I can be too direct when giving feedback. I have worked on framing observations as questions first — asking 'What led to this approach?' before suggesting a change — and it has made my feedback land much better.",
+    "tip": "When you quote yourself, shift your tone slightly to sound conversational — it shows you have actually practiced this skill.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-011",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: Tell me about a challenge you overcame at work.",
+    "phrase": "We inherited a pipeline with a forty percent drop-off rate. I mapped every stage, identified three key bottlenecks, and we cut that drop-off in half within one quarter.",
+    "tip": "Use numbers confidently — 'forty percent' and 'one quarter' anchor your credibility and make the story tangible.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-012",
+    "deck": "job-interviews",
+    "situation": "You are asked to describe a time when a project did not go as planned.",
+    "phrase": "We launched a new onboarding flow and adoption was half of what we expected. I pulled the data, ran five customer interviews in a week, and redesigned the first three steps — adoption doubled the next month.",
+    "tip": "Pace the three actions quickly to show urgency, then slow down on 'adoption doubled' to let the payoff land.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-013",
+    "deck": "job-interviews",
+    "situation": "The interviewer wants to hear about a challenge that tested your resilience.",
+    "phrase": "Midway through a CRM migration the vendor pulled out. I had forty-eight hours to find an alternative, get leadership buy-in, and keep the team calm. We migrated on time and actually improved our data quality in the process.",
+    "tip": "Build tension with 'forty-eight hours' — pause there — then release it with the positive outcome to create a satisfying arc.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-014",
+    "deck": "job-interviews",
+    "situation": "A senior leader asks you to walk through the hardest problem you have solved.",
+    "phrase": "Our renewal rate had dropped three quarters in a row and nobody could agree on the root cause. I built a cross-functional task force, we traced the issue to a handoff gap between sales and onboarding, and within two quarters renewals were back above ninety percent.",
+    "tip": "Lower your pitch slightly on 'nobody could agree' to convey the gravity, then build energy toward the resolution.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-015",
+    "deck": "job-interviews",
+    "situation": "You are asked to describe a challenge that required creative problem-solving.",
+    "phrase": "Our team was asked to cut costs by fifteen percent without reducing headcount. I automated three manual reporting workflows, renegotiated two vendor contracts, and we hit the target with room to spare — while actually improving turnaround time.",
+    "tip": "Emphasize 'without reducing headcount' with a brief pause after it — this sets the constraint that makes the achievement impressive.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-016",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: Why do you want to work at this company?",
+    "phrase": "I have been following your growth in the mid-market segment and I see a real opportunity to bring my experience in revenue operations to help you scale through this next phase.",
+    "tip": "Make it specific — mention something real about the company so it does not sound like a generic answer you give everywhere.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-017",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: Why should we hire you over other candidates?",
+    "phrase": "You need someone who can build systems, not just run them. I have done this three times at companies your size and I am ready to do it again here.",
+    "tip": "End with confidence — 'ready to do it again here' should feel like a firm, friendly close, not arrogance.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-018",
+    "deck": "job-interviews",
+    "situation": "A hiring manager wants to know what drew you to this specific role.",
+    "phrase": "This role sits at the center of sales, customer success, and product — that is exactly where I do my best work. I thrive when I can connect teams around shared outcomes instead of working in silos.",
+    "tip": "Gesture subtly when listing the three teams to create a visual sense of connection — even on video it adds energy.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-019",
+    "deck": "job-interviews",
+    "situation": "You are asked to explain what makes you the right fit for this company's culture.",
+    "phrase": "I read your recent blog post about building in public and it resonated with me. I believe in transparency with data and outcomes — I would rather share an honest dashboard than a polished slide deck.",
+    "tip": "Reference something specific you found in your research — it shows effort and immediately differentiates you from other candidates.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-020",
+    "deck": "job-interviews",
+    "situation": "The CEO asks directly: Convince me to hire you in thirty seconds.",
+    "phrase": "You are scaling fast and your infrastructure needs to keep up. I have built the revenue operations engine at three companies going through exactly this stage. I know what breaks, I know what to build first, and I move fast without cutting corners.",
+    "tip": "Deliver this with calm authority — do not speed up even though the prompt says thirty seconds. Confidence beats speed.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-021",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: Where do you see yourself in five years?",
+    "phrase": "In five years I want to be leading a revenue operations team that is seen as a strategic partner to the business, not just a support function.",
+    "tip": "Emphasize the contrast between 'strategic partner' and 'support function' — pause between them to let the distinction land.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-022",
+    "deck": "job-interviews",
+    "situation": "You are asked about your long-term career goals and how this role fits.",
+    "phrase": "My goal is to grow into a VP of Operations role where I can shape company strategy. This position is the right next step because it gives me the scope to prove I can drive results across the entire business.",
+    "tip": "Say 'the right next step' with intention — it shows you have thought carefully about your path, not just applied randomly.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-023",
+    "deck": "job-interviews",
+    "situation": "An executive asks how your five-year vision aligns with the company's direction.",
+    "phrase": "I want to build a world-class operations function here — one that becomes a competitive advantage. As you expand into new markets I see myself growing with the complexity, turning each new challenge into a scalable system.",
+    "tip": "Use 'here' deliberately — it plants the idea that you are already committed, which is subtly persuasive.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-024",
+    "deck": "job-interviews",
+    "situation": "The interviewer probes: What does career success look like to you personally?",
+    "phrase": "Success to me is looking back and knowing I built something that outlasted me — processes and teams that keep performing long after I have moved to the next challenge. That is the legacy I want to leave at every company I join.",
+    "tip": "Slow down on 'outlasted me' — it is an unexpectedly humble moment that makes you memorable.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-025",
+    "deck": "job-interviews",
+    "situation": "A panel interviewer asks: What is your vision for your career over the next decade?",
+    "phrase": "I want to be someone who has built and led operations at scale across multiple industries. Each role teaches me something new, and I am deliberate about choosing companies where I can grow as fast as the business does.",
+    "tip": "Match your energy to the ambition of the answer — sit up, project your voice slightly, and maintain eye contact through the entire response.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-026",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: Tell me about a time you worked effectively as part of a team.",
+    "phrase": "Last year our sales and marketing teams were misaligned on lead quality. I set up a weekly sync, built a shared scorecard, and within two months both teams were working from the same definition of a qualified lead.",
+    "tip": "Keep your tone collaborative, not heroic — use 'I set up' and 'both teams' to show you led without taking over.",
+    "level": "beginner"
+  },
+  {
+    "id": "ji-027",
+    "deck": "job-interviews",
+    "situation": "You are asked to describe a time you demonstrated leadership without having a formal title.",
+    "phrase": "Nobody owned the post-sale handoff process so deals kept falling through the cracks. I volunteered to map the workflow, proposed a fix to leadership, and trained both teams on the new process — close rates on renewals jumped fifteen percent.",
+    "tip": "Emphasize 'I volunteered' — it signals initiative. Pause before the result to build anticipation.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-028",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: How do you handle conflict with a colleague?",
+    "phrase": "I start by assuming good intent and asking questions before drawing conclusions. In a recent disagreement over forecasting methodology I invited my colleague to walk me through their logic, we found common ground, and we built a hybrid model that outperformed both original approaches.",
+    "tip": "When you say 'asking questions before drawing conclusions,' slow down — it shows this is a genuine principle, not a rehearsed line.",
+    "level": "intermediate"
+  },
+  {
+    "id": "ji-029",
+    "deck": "job-interviews",
+    "situation": "A behavioral interviewer asks: Give me an example of leading through a major change.",
+    "phrase": "When we migrated CRMs I knew the biggest risk was not the technology — it was adoption. I created a champion network across five departments, ran hands-on workshops, and we hit ninety-five percent adoption in the first month instead of the usual six-month drag.",
+    "tip": "Pause after 'it was adoption' — the reframe from tech to people is the insight that makes this answer stand out.",
+    "level": "advanced"
+  },
+  {
+    "id": "ji-030",
+    "deck": "job-interviews",
+    "situation": "The interviewer asks: Describe a time you had to influence someone more senior than you.",
+    "phrase": "Our VP of Sales wanted to hire ten more reps to hit target. I pulled together a data story showing that fixing our lead routing would recover thirty percent more pipeline from the same team. He gave me a quarter to prove it, and the numbers spoke for themselves.",
+    "tip": "Deliver 'the numbers spoke for themselves' with a calm, satisfied tone — do not oversell it. Let the confidence in your voice do the work.",
+    "level": "advanced"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "gc-001",
+    "deck": "general-confidence",
+    "situation": "Introducing yourself at a networking event to a group of strangers.",
+    "phrase": "Hi, I'm — . I work in — , and honestly, I'm still figuring out the best way to describe what I do. But the short version is I help teams communicate better under pressure.",
+    "tip": "A slight self-deprecating admission makes you more approachable. Smile when you say it and maintain eye contact with one person at a time.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-002",
+    "deck": "general-confidence",
+    "situation": "Disagreeing respectfully with a colleague in a meeting.",
+    "phrase": "I see where you're coming from, and I think there's real merit in that approach. I'd like to offer a different angle though — what if we considered the impact on the end user first?",
+    "tip": "Acknowledge before you disagree. Nodding slightly while you listen signals respect before you even open your mouth.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-003",
+    "deck": "general-confidence",
+    "situation": "Asking a question in a large group meeting.",
+    "phrase": "I have a question that I think a few of us might be wondering about. When we talk about the timeline for phase two, are we accounting for the onboarding gap we saw last quarter?",
+    "tip": "Framing your question as something others are also thinking removes the spotlight from you and gives you social cover.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-004",
+    "deck": "general-confidence",
+    "situation": "Giving a genuine compliment to a colleague after their presentation.",
+    "phrase": "I just wanted to say — the way you explained the data in that last section was really clear. I could tell you put a lot of thought into making it accessible, and it landed perfectly.",
+    "tip": "Be specific about what impressed you. Vague compliments feel hollow. Name the exact thing they did well.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-005",
+    "deck": "general-confidence",
+    "situation": "Handling an awkward silence during a one-on-one conversation.",
+    "phrase": "You know what, I think we both just ran out of things to say at the exact same time — which honestly might mean we covered everything important. Or we could talk about something completely different.",
+    "tip": "Name the silence out loud with warmth. Awkwardness only has power when everyone pretends it isn't happening.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-006",
+    "deck": "general-confidence",
+    "situation": "Making small talk with someone at a work event.",
+    "phrase": "So what's been the most interesting part of your week? I always find that question way more fun than 'what do you do' — which is basically asking someone to recite their LinkedIn bio.",
+    "tip": "Ask questions that invite stories, not job titles. Lean in slightly and keep your arms uncrossed to signal genuine interest.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-007",
+    "deck": "general-confidence",
+    "situation": "Expressing an opinion confidently in a team discussion.",
+    "phrase": "I've been thinking about this a lot, and my honest take is that we're overcomplicating it. I think the simpler version works better — and here's why I believe that.",
+    "tip": "Own your opinion with 'I believe' or 'my take is' rather than hedging with 'I might be wrong but.' Conviction is contagious.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-008",
+    "deck": "general-confidence",
+    "situation": "Saying no gracefully to an extra project you don't have capacity for.",
+    "phrase": "I really appreciate you thinking of me for this. Right now, I want to be honest — my plate is full, and if I say yes I won't be able to give it the quality it deserves. Can we revisit this next month?",
+    "tip": "Saying no is a complete sentence, but adding a reason and an alternative softens it. Keep your voice warm and steady, not apologetic.",
+    "level": "advanced"
+  },
+  {
+    "id": "gc-009",
+    "deck": "general-confidence",
+    "situation": "Introducing yourself to a senior leader at a company event.",
+    "phrase": "Hi, I'm — from the — team. I've been following the work you've been leading on — and I'd love to hear more about how that's been going if you have a moment.",
+    "tip": "Reference something specific about their work. It shows preparation and genuine interest, not just ambition.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-010",
+    "deck": "general-confidence",
+    "situation": "Disagreeing with your manager's direction in a private conversation.",
+    "phrase": "I want to share something that's been on my mind. I respect the direction we're heading, but I have a concern about one piece of it — and I think it's worth talking through before we commit.",
+    "tip": "Frame disagreement as care for the outcome, not opposition to the person. Sit up straight and speak at a measured pace.",
+    "level": "advanced"
+  },
+  {
+    "id": "gc-011",
+    "deck": "general-confidence",
+    "situation": "Asking a clarifying question when you don't understand something.",
+    "phrase": "Can I pause us for a second? I want to make sure I'm following correctly — when you say 'scalable,' are we talking about the technology or the team structure? I want to be on the same page.",
+    "tip": "Asking for clarity is a sign of engagement, not ignorance. Project your voice confidently when you ask — don't mumble or trail off.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-012",
+    "deck": "general-confidence",
+    "situation": "Giving a compliment to someone you just met at a social event.",
+    "phrase": "I have to say, the way you just described your work made me genuinely curious. That's rare — most people make their jobs sound boring, and you made yours sound like an adventure.",
+    "tip": "Compliment how someone communicates, not just what they said. It shows you were truly paying attention.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-013",
+    "deck": "general-confidence",
+    "situation": "Handling an awkward silence after a joke that didn't land.",
+    "phrase": "Well — that joke worked a lot better in my head. Let's pretend that didn't happen and move on to something I'm actually good at.",
+    "tip": "Recovering from a flat joke with self-awareness and a grin earns more likability than the joke ever would have.",
+    "level": "advanced"
+  },
+  {
+    "id": "gc-014",
+    "deck": "general-confidence",
+    "situation": "Making small talk in an elevator with a coworker you rarely see.",
+    "phrase": "Hey — I feel like we always end up on the same elevator but never actually talk. I'm — , by the way. What floor are you on, what team?",
+    "tip": "Acknowledge the repeated encounter. It turns an awkward pattern into a connection point. Keep your body language open and relaxed.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-015",
+    "deck": "general-confidence",
+    "situation": "Expressing a strong opinion that you know is unpopular.",
+    "phrase": "I know this might not be the popular take in the room, but I think we need to hear it. I believe we're moving too fast, and speed without alignment is going to cost us later.",
+    "tip": "When you know your opinion is unpopular, name that fact upfront. It shows courage and disarms defensiveness in others.",
+    "level": "advanced"
+  },
+  {
+    "id": "gc-016",
+    "deck": "general-confidence",
+    "situation": "Saying no to a social invitation without guilt.",
+    "phrase": "That sounds like a great time, and I wish I could make it. Tonight I need to recharge though — it's been a long week. Let's definitely do something soon, I'll reach out this weekend.",
+    "tip": "You don't owe anyone a detailed excuse. A short honest reason plus a future commitment keeps the relationship warm.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-017",
+    "deck": "general-confidence",
+    "situation": "Introducing yourself when joining a new team for the first time.",
+    "phrase": "Hey everyone, I'm — and I'm really glad to be here. I come from a background in — , and what excites me most about this team is — . I'm looking forward to learning from all of you.",
+    "tip": "Express enthusiasm about learning, not just contributing. It makes you approachable and signals humility to your new peers.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-018",
+    "deck": "general-confidence",
+    "situation": "Disagreeing respectfully during a casual group conversation.",
+    "phrase": "Hmm, I actually see that differently. I think part of the issue is that we're looking at the same situation from two completely valid angles — but mine leads me to a different conclusion.",
+    "tip": "Use 'I see that differently' instead of 'I disagree.' It's softer, less confrontational, and invites dialogue. Keep your tone curious, not combative.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-019",
+    "deck": "general-confidence",
+    "situation": "Asking a follow-up question after someone shares their idea.",
+    "phrase": "That's an interesting idea. Can you walk me through how you'd see that working in practice? I want to understand the mechanics before I form an opinion.",
+    "tip": "Follow-up questions signal that you're taking someone seriously. Lean forward slightly and maintain eye contact as they answer.",
+    "level": "beginner"
+  },
+  {
+    "id": "gc-020",
+    "deck": "general-confidence",
+    "situation": "Giving feedback to a peer who asked for your honest opinion.",
+    "phrase": "Since you asked for my honest take — I think the core idea is strong, but the way it's structured right now buries the most important point. What if you led with the outcome instead of the process?",
+    "tip": "Start with what works, then redirect. Use 'what if' instead of 'you should' — it feels collaborative rather than corrective.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-021",
+    "deck": "general-confidence",
+    "situation": "Handling an awkward silence when meeting your partner's friends for the first time.",
+    "phrase": "So — I've heard so many good things about all of you, and honestly I'm a little nervous, which probably means I'll either be really funny or really quiet tonight. We'll see which one wins.",
+    "tip": "Naming your nervousness out loud takes away its power. A light tone and open palms signal warmth and approachability.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-022",
+    "deck": "general-confidence",
+    "situation": "Making small talk at a dinner party where you know nobody.",
+    "phrase": "I always find these events a bit like the first day of school — everyone's figuring out who to talk to. So I figured I'd just come say hi and see where the conversation goes.",
+    "tip": "A relatable metaphor breaks the ice faster than a question. Stand with your weight evenly distributed and avoid crossing your arms.",
+    "level": "intermediate"
+  },
+  {
+    "id": "gc-023",
+    "deck": "general-confidence",
+    "situation": "Expressing confidence in your own work during a review.",
+    "phrase": "I'm proud of what I delivered this quarter. The results speak for themselves, and I also want to highlight the process — because the way I got there is something I'd like to keep building on.",
+    "tip": "Owning your success isn't arrogance, it's accuracy. Speak about your work the way you'd speak about a teammate's — with clarity and pride.",
+    "level": "advanced"
+  },
+  {
+    "id": "gc-024",
+    "deck": "general-confidence",
+    "situation": "Saying no to scope creep on a project you're leading.",
+    "phrase": "I love the ambition behind that idea, and I don't want to shut it down. But adding it now would stretch our timeline and our team. Can we capture it for phase two so we protect what we've already committed to?",
+    "tip": "Frame the no as protecting the team's promise, not rejecting the idea. Stand your ground with calm energy and a steady voice.",
+    "level": "advanced"
+  },
+  {
+    "id": "gc-025",
+    "deck": "general-confidence",
+    "situation": "Introducing yourself at the start of a workshop or course.",
+    "phrase": "Hi, I'm — . The reason I signed up for this is simple — I want to get better at something I've been avoiding for too long. I'm here to learn, practice, and probably embarrass myself a little along the way.",
+    "tip": "Admitting you're a learner in a learning environment sets a generous tone for everyone. Smile when you say it and own the room with open posture.",
+    "level": "advanced"
+  }
+]

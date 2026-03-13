@@ -1,77 +1,39 @@
 # Agent Instructions
 
 You operate within a 3-layer architecture that separates responsibilities to maximise reliability.
-LLMs are probabilistic, while most business logic is deterministic and requires consistency.
-This system solves that problem.
+Read STRUCTURE.md and brand-guidelines.md before any frontend work.
+Read the relevant directive in directives/ before running any task.
 
-## 3-Layer Architecture
-
-### Layer 1: Directive (What to do)
-- SOPs written in Markdown, living in `directives/`
-- They define objectives, inputs, scripts to use, outputs, and edge cases
-- Natural-language instructions, like you'd give to a mid-level employee
-- Current directives: transcribe_audio.md, analyse_speech.md, analyse_prayer.md, fetch_youtube_tips.md, live_conversation.md
-
-### Layer 2: Orchestration (Decisions — your job)
-- Read the directives, call execution modules in the right order, handle errors
-- You are the glue between intent and execution
-- The Next.js API routes are Layer 2 — they orchestrate calls to execution modules in lib/
-
-### Layer 3: Execution (Doing the work)
-- TypeScript modules in `frontend/lib/`
-- API keys stored in `.env`
-- Handle API calls (Whisper, Claude, YouTube), data processing
-- Reliable, testable, well-commented
-
-## Operating Principles
-
-### 1. Check existing tools first
-Before writing a module, check `frontend/lib/` for an existing one per the directive.
-Create new modules only if none exist.
-
-### 2. Self-correct when something breaks
-- Read the error and stack trace
-- Fix the module and test again
-- If it uses paid API tokens, ask before retrying
-- Update the directive with what you learned (API limits, timing, edge cases)
-
-### 3. Update directives as you learn
-Directives are living documents. Update them when you discover better approaches or constraints.
-Do NOT overwrite directives without asking unless explicitly instructed.
-
-## Self-Correction Loop
-1. Fix it
-2. Update the tool
-3. Test the tool
-4. Update the directive
-5. The system is now stronger
-
-## Project: SpeakUp
-Personal AI public speaking coach. Four modes: Live Practice, Recording Review, Tips Feed, Prayer Mode.
-Read STRUCTURE.md for full architecture before making any changes.
-
-## Tech Stack
-- Frontend: Next.js 14 + React + Tailwind CSS (App Router)
-- Backend: Next.js API routes calling TypeScript execution modules
-- Transcription: OpenAI Whisper API (`frontend/lib/claude.ts`)
-- AI Analysis: Anthropic Claude API (`frontend/lib/claude.ts`)
-- Video: YouTube Data API v3 (`frontend/lib/youtube.ts`)
-
-## Brand Guidelines
-Before any frontend work, check `brand-guidelines.md` in the project root and follow it exactly.
+## What this app does
+SpeakUp is a speaking drill app. One core loop:
+show situation → speak model phrase → user repeats → fuzzy match check → result → next card.
+Sessions are 3, 5, or 10 minutes. Content from 6 pre-built JSON decks.
 
 ## Architecture Rules
-- API keys (OpenAI, Anthropic) must NEVER be used client-side. Always route through `app/api/` server routes.
-- YouTube API key is acceptable client-side for personal use.
-- ScoreCard.tsx and TranscriptView.tsx are shared — do not duplicate them.
-- PrayerScoreCard.tsx is prayer-specific — do not use it outside Prayer Mode.
-- prayerScenarios.ts is the single source of truth for all scenarios.
-- `.tmp/` is for intermediate files only — never commit, always regenerable.
+- phraseMatch.ts is the ONLY place that compares spoken vs model phrase
+- speechSynthesis.ts is the ONLY place that calls SpeechSynthesis
+- speechRecognition.ts is the ONLY place that calls SpeechRecognition
+- userProgress.ts is the ONLY place that reads/writes localStorage
+- decks.ts is the ONLY place that imports deck JSON files
+- No API calls during the drill session — everything runs client-side
+- data/decks/*.json are read-only in the app — never write to them from frontend
 
-## Prayer-Specific Filler Words
-Detect separately from standard fillers: "Lord just", "Father just", "God just"
-Report these in justFillerCount in PrayerMetrics, not in the standard fillerWordList.
+## Drill Screen State Machine
+IDLE → SHOWING → SPEAKING → LISTENING → RESULT → NEXT → COMPLETE
+Never skip states. Handle each transition explicitly.
+
+## Phrase Matching Rules
+60% key word match = pass. 35–59% = close (offer retry). Under 35% = try again.
+Max 2 retries per card, then force move to next card.
+
+## Brand Rules
+Always check brand-guidelines.md before frontend work.
+Church decks (church-prayer, church-announcements) use GOLD #C9922A.
+All other decks use TEAL #00E5CC.
+
+## Self-Correction Loop
+When something breaks: fix it → update the tool → test → update the directive → system is stronger.
 
 ## When in doubt
-Ask before changing folder structure, adding dependencies, or modifying directives.
-Be pragmatic. Be reliable. Self-correct.
+Ask before adding dependencies or changing the drill state machine.
+Keep it simple. The core loop is the product.

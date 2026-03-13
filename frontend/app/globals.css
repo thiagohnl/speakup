@@ -8,6 +8,7 @@
   --accent-gold: #C9922A;
   --warning-amber: #F59E0B;
   --success-green: #22C55E;
+  --error-red: #EF4444;
   --text-primary: #F1F5F9;
   --text-secondary: #94A3B8;
 }
@@ -22,6 +23,33 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(100%); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulseRing {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
 .animate-fade-in {
   animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slide-in {
+  animation: slideInRight 0.25s ease-out;
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.2s ease-out;
+}
+
+.animate-pulse-ring {
+  animation: pulseRing 1.2s ease-out infinite;
 }

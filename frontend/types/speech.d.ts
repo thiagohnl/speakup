@@ -30,3 +30,8 @@ interface SpeechRecognition extends EventTarget {
   stop(): void;
   abort(): void;
 }
+
+interface Window {
+  SpeechRecognition: new () => SpeechRecognition;
+  webkitSpeechRecognition: new () => SpeechRecognition;
+}
