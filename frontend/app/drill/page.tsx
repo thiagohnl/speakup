@@ -12,7 +12,7 @@ import MicButton from '@/components/MicButton';
 import ResultBadge from '@/components/ResultBadge';
 import ProgressBar from '@/components/ProgressBar';
 import XPPopup from '@/components/XPPopup';
-import { Volume2, SkipForward } from 'lucide-react';
+import { Volume2, SkipForward, X, Mic } from 'lucide-react';
 
 const MAX_RETRIES = 2;
 
@@ -107,15 +107,28 @@ function DrillContent() {
     router.push(`/summary?deck=${deck}`);
   }, [sessionResults, deck, router]);
 
+  const handleExit = useCallback(() => {
+    stopSpeaking();
+    if (stopListenRef.current) stopListenRef.current();
+    if (timerRef.current) clearInterval(timerRef.current);
+    sessionStorage.removeItem('current_deck');
+    sessionStorage.removeItem('session_results');
+    router.push('/');
+  }, [router]);
+
   const handleListen = useCallback(() => {
     if (drillState !== 'SHOWING' || !card) return;
     setDrillState('SPEAKING');
 
     speakPhrase(card.phrase, () => {
-      setTimeout(() => {
-        setDrillState('LISTENING');
-      }, 500);
+      setDrillState('SHOWING');
     });
+  }, [drillState, card]);
+
+  const handleSpeak = useCallback(() => {
+    if (drillState !== 'SHOWING' || !card) return;
+    stopSpeaking();
+    setDrillState('LISTENING');
   }, [drillState, card]);
 
   // Auto-start listening when entering LISTENING state with STT
@@ -223,11 +236,19 @@ function DrillContent() {
       {/* Progress bar */}
       <ProgressBar elapsed={elapsed} total={totalSeconds} accentColour={accentColour} />
 
-      {/* Card counter */}
+      {/* Header: exit + card counter */}
       <div className="flex justify-between items-center mt-3 mb-4">
-        <span className="text-text-secondary text-sm">
-          {currentIndex + 1} / {cards.length}
-        </span>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={handleExit}
+            className="p-2 -ml-2 rounded-full bg-white/5 hover:bg-white/10"
+          >
+            <X size={18} className="text-text-secondary" />
+          </button>
+          <span className="text-text-secondary text-sm">
+            {currentIndex + 1} / {cards.length}
+          </span>
+        </div>
         <span className="text-text-secondary text-sm">
           {Math.max(0, Math.ceil((totalSeconds - elapsed) / 60))} min left
         </span>
@@ -249,16 +270,26 @@ function DrillContent() {
 
       {/* Controls */}
       <div className="flex flex-col items-center gap-4 mt-6">
-        {/* Listen button */}
+        {/* Listen + Speak buttons */}
         {drillState === 'SHOWING' && (
-          <button
-            onClick={handleListen}
-            className="flex items-center gap-2 px-6 py-3 rounded-full text-navy font-semibold transition-all"
-            style={{ backgroundColor: accentColour }}
-          >
-            <Volume2 size={20} />
-            Listen
-          </button>
+          <div className="flex gap-3">
+            <button
+              onClick={handleListen}
+              className="flex items-center gap-2 px-5 py-3 rounded-full font-semibold transition-all border"
+              style={{ borderColor: accentColour, color: accentColour }}
+            >
+              <Volume2 size={20} />
+              Listen
+            </button>
+            <button
+              onClick={handleSpeak}
+              className="flex items-center gap-2 px-5 py-3 rounded-full text-navy font-semibold transition-all"
+              style={{ backgroundColor: accentColour }}
+            >
+              <Mic size={20} />
+              Speak
+            </button>
+          </div>
         )}
 
         {/* Speaking indicator */}
